@@ -1,0 +1,11 @@
+with "gtkada";
+
+project Default is
+
+   for Source_Dirs use ("src/**", "tests");
+   for Object_Dir use "obj";
+   for Main use ("affichages_tests.adb", "evaluations.adb", "main.adb", "run_all_tests.adb", "run_tests_resolutions.adb", "run_tests_TAD_Coordonnee.adb", "run_tests_TAD_Ensemble.adb", "run_tests_TAD_Grille.adb", 
+      "test_resolution_grille_1.adb", "test_resolution_grille_2.adb", "test_resolution_grille_4.adb");
+
+end Default;
+
