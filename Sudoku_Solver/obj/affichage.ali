@@ -1,0 +1,131 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U affichage%b		affichage.adb		ffddc9e7 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U affichage%s		affichage.ads		a165afaf EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W tad_coordonnee%s	tad_coordonnee.adb	tad_coordonnee.ali
+W tad_ensemble%s	tad_ensemble.adb	tad_ensemble.ali
+W tad_grillesudoku%s	tad_grillesudoku.adb	tad_grillesudoku.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D affichage.ads		20220119133542 0b52acff affichage%s
+D affichage.adb		20220119133542 ac3039d1 affichage%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D tad_coordonnee.ads	20220119133542 513dde5c tad_coordonnee%s
+D tad_ensemble.ads	20220119133542 2a870cde tad_ensemble%s
+D tad_grillesudoku.ads	20220119133542 d18dd1d2 tad_grillesudoku%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [affichervaleur affichage 11 14 none]
+G c Z s b [affichercase affichage 14 14 none]
+G c Z s b [afficherensemble affichage 17 14 none]
+G c Z s b [affichergrille affichage 20 14 none]
+G c Z s b [afficherresultat affichage 23 14 none]
+G c Z s b [afficher affichage 30 14 none]
+G c Z b b [afficherligne affichage 51 14 none]
+G r c none [affichercase affichage 14 14 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [affichercase affichage 14 14 none] [obtenirchiffre tad_grillesudoku 25 13 none]
+G r c none [afficherensemble affichage 17 14 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [affichergrille affichage 20 14 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [affichergrille affichage 20 14 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [affichergrille affichage 20 14 none] [obtenirchiffre tad_grillesudoku 25 13 none]
+G r c none [afficherresultat affichage 23 14 none] [nombrechiffres tad_grillesudoku 30 13 none]
+G r c none [afficher affichage 30 14 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [afficher affichage 30 14 none] [obtenircolonne tad_coordonnee 14 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r31 2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 14|2w10 2r35
+X 10 a-textio.ads
+58K13*Text_IO 725e16 14|1w10 1r35
+262U14*New_Line 14|44s7 59s7 65s7 76s10 81s7 105s7
+463U14*Put 14|53s7 56s13 68s10 73s16 95s10 100s10 114s7 116s7 118s7
+506U14*Put_Line 14|97s10 99s10 102s10
+X 11 a-tiinio.ads
+80U14*Put 14|13s7[3|18] 96s10[3|18] 101s10[3|18] 115s7[3|18] 117s7[3|18]
+X 13 affichage.ads
+5K9*affichage 32l5 32e14 14|4b14 121l5 121t14
+7i4*NB_POSITIONS{integer} 14|13r15 54r21
+8i4*NUL{integer} 14|41r29
+11U14*afficherValeur 11>30 14|11b14 14l8 14t22 28s7 39s13 41s13
+11i30 v{integer} 14|11b30 13r12
+14U14*afficherCase 14>28 14>48 14|20b14 29l8 29t20 71s13
+14a28 g{34|6A9} 14|20b28 23r20 26r36
+14r48 c{32|3R9} 14|20b48 23r23 26r39
+17U14*afficherEnsemble 17>32 14|35b14 45l8 45t24
+17a32 e{33|6A9} 14|35b32 38r32
+20U14*afficherGrille 20>30 14|62b14 82l8 82t22
+20a30 g{34|6A9} 14|62b30 71r27
+23U14*afficherResultat 24>7 25>7 26>7 27>6 14|88b14 106l8 106t24
+24a7 g{34|6A9} 14|89b7 101r31
+25b7 trouve{boolean} 14|89b27 93r10
+26i7 nbChiffresDepart{integer} 14|89b48 101r36
+27i6 cpt{integer} 14|90b6 96r14
+30U14*afficher 30>24 14|112b14 119l8 119t16
+30r24 c{32|3R9} 14|112b24 115r26 117r28
+X 14 affichage.adb
+21i7 valeur{integer} 24m10 26m10 28r23
+37i11 i{integer} 38r35 39r29
+51U14 afficherLigne 51b14 60l8 60t21 66s7 78s13
+54i11 k{integer}
+55i14 l{integer}
+63r7 c{32|3R9} 70m13 71r30
+67i11 i{integer} 70r41 77r13
+69i14 j{integer} 70r44 72r16
+X 32 tad_coordonnee.ads
+1K9*TAD_Coordonnee 13|1w6 1r28 32|28e19
+3R9*Type_Coordonnee 13|14r55 30r28 14|20r55 63r11 112r28 32|26e14
+6V13*construireCoordonnees{3R9} 14|70s18
+11V13*obtenirLigne{integer} 14|115s12
+14V13*obtenirColonne{integer} 14|117s12
+X 33 tad_ensemble.ads
+1K9*TAD_ensemble 13|2w6 2r28 33|34e17
+6A9*Type_Ensemble(boolean) 13|17r39 14|35r39
+15V13*appartientChiffre{boolean} 14|38s13
+X 34 tad_grillesudoku.ads
+4K9*TAD_grilleSudoku 13|3w6 3r28 34|67e21
+6A9*Type_Grille(integer) 13|14r35 20r37 24r29 14|20r35 62r37 89r14
+18V13*caseVide{boolean} 14|23s10
+25V13*obtenirChiffre{integer} 14|26s20
+30V13*nombreChiffres{integer} 14|101s15
+
