@@ -1,0 +1,145 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U affichages_tests%b	affichages_tests.adb	7b8e2a1c NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W affichage%s		affichage.adb		affichage.ali
+W remplirgrille%s	remplirgrille.adb	remplirgrille.ali
+W resolutions%s		resolutions.adb		resolutions.ali
+W tad_coordonnee%s	tad_coordonnee.adb	tad_coordonnee.ali
+W tad_ensemble%s	tad_ensemble.adb	tad_ensemble.ali
+W tad_grillesudoku%s	tad_grillesudoku.adb	tad_grillesudoku.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D affichage.ads		20220119133542 0b52acff affichage%s
+D affichages_tests.adb	20220119133542 983497d6 affichages_tests%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D remplirgrille.ads	20220119133542 cd1c0300 remplirgrille%s
+D resolutions.ads	20220119133542 d77c4dac resolutions%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D tad_coordonnee.ads	20220119133542 513dde5c tad_coordonnee%s
+D tad_ensemble.ads	20220119133542 2a870cde tad_ensemble%s
+D tad_grillesudoku.ads	20220119133542 d18dd1d2 tad_grillesudoku%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [affichages_tests standard 16 11 none]
+G r c none [affichages_tests standard 16 11 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [affichages_tests standard 16 11 none] [affichergrille affichage 20 14 none]
+G r c none [affichages_tests standard 16 11 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [affichages_tests standard 16 11 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [affichages_tests standard 16 11 none] [obtenirchiffresduneligne tad_grillesudoku 50 13 none]
+G r c none [affichages_tests standard 16 11 none] [afficherensemble affichage 17 14 none]
+G r c none [affichages_tests standard 16 11 none] [grille1trestresfaciledunouvelan2018 remplirgrille 5 13 none]
+G r c none [affichages_tests standard 16 11 none] [grille2trestresfacile remplirgrille 6 13 none]
+G r c none [affichages_tests standard 16 11 none] [grille3tresfacile remplirgrille 7 13 none]
+G r c none [affichages_tests standard 16 11 none] [grille4facile remplirgrille 8 13 none]
+G r c none [affichages_tests standard 16 11 none] [grille6moyen remplirgrille 10 13 none]
+G r c none [affichages_tests standard 16 11 none] [grille7difficile remplirgrille 11 13 none]
+G r c none [affichages_tests standard 16 11 none] [grille8difficile remplirgrille 12 13 none]
+G r c none [affichages_tests standard 16 11 none] [grille9tresdifficile remplirgrille 13 13 none]
+G r c none [affichages_tests standard 16 11 none] [nombrechiffres tad_grillesudoku 30 13 none]
+G r c none [affichages_tests standard 16 11 none] [resoudresudoku resolutions 40 14 none]
+G r c none [affichages_tests standard 16 11 none] [afficherresultat affichage 23 14 none]
+G r c none [affichages_tests standard 16 11 none] [grille5facile remplirgrille 9 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|13r6 13r31 14r6 14r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 14|14w10 14r35
+X 10 a-textio.ads
+58K13*Text_IO 725e16 14|13w10 13r35
+262U14*New_Line 14|45s4
+506U14*Put_Line 14|63s4 67s4 71s4 75s4 79s4 83s4 87s4 91s4 98s4 110s4 121s4
+. 132s4 143s4 154s4 165s4 176s4 187s4
+X 13 affichage.ads
+5K9*affichage 32e14 14|8w6 8r31
+17U14*afficherEnsemble 14|44s4
+20U14*afficherGrille 14|32s4 65s4 69s4 73s4 77s4 81s4 85s4 89s4 93s4 101s4
+. 113s4 124s4 134s4 145s4 157s4 168s4 179s4 190s4
+23U14*afficherResultat 14|105s4 116s4 127s4 138s4 149s4 160s4 171s4 182s4
+. 193s4
+X 14 affichages_tests.adb
+16U11*affichages_tests 16b11 195l5 195t21
+17a4 g{36|6A9} 31m4 32r20 38m4 41m21 41r21 43r35 64m4 65r20 68m4 69r20 72m4
+. 73r20 76m4 77r20 80m4 81r20 84m4 85r20 88m4 89r20 92m4 93r20 100m4 101r20
+. 103r40 104m21 104r21 105r22 111m4 113r20 114r40 115m21 115r21 116r22 122m4
+. 124r20 125r40 126m21 126r21 127r22 133m4 134r20 136r40 137m21 137r21 138r22
+. 144m4 145r20 147r40 148m21 148r21 149r22 155m4 157r20 158r40 159m21 159r21
+. 160r22 166m4 168r20 169r40 170m21 170r21 171r22 177m4 179r20 180r40 181m21
+. 181r21 182r22 188m4 190r20 191r40 192m21 192r21 193r22
+18r4 c{34|3R9} 40m7 41r24
+19a4 e{35|6A9} 43m4 44r22
+22b4 trouve{boolean} 104m24 105r25 115m24 116r25 126m24 127r25 137m24 138r25
+. 148m24 149r25 159m24 160r25 170m24 171r25 181m24 182r25 192m24 193r25
+23i4 nbChiffresDepart{integer} 103m4 105r33 114m4 116r33 125m4 127r33 136m4
+. 138r33 147m4 149r33 158m4 160r33 169m4 171r33 180m4 182r33 191m4 193r33
+24i4 cpt{integer} 41m30 41r30 102m4 104m32 105r51 112m4 115m32 116r51 123m4
+. 126m32 127r51 135m4 137m32 138r51 146m4 148m32 149r51 156m4 159m32 160r51
+. 167m4 170m32 171r51 178m4 181m32 182r51 189m4 192m32 193r51
+39i8 i{integer} 40r38 41r27
+X 17 remplirgrille.ads
+3K9*remplirGrille 14|10w6 10r31 17|15e18
+5V13*grille1TresTresFacileDuNouvelAn2018{36|6A9} 14|64s9 100s9
+6V13*grille2TresTresFacile{36|6A9} 14|68s9 111s9
+7V13*grille3TresFacile{36|6A9} 14|72s9 122s9
+8V13*grille4Facile{36|6A9} 14|76s9 144s9
+9V13*grille5Facile{36|6A9} 14|133s9
+10V13*grille6Moyen{36|6A9} 14|80s9 155s9
+11V13*grille7Difficile{36|6A9} 14|84s9 166s9
+12V13*grille8Difficile{36|6A9} 14|88s9 177s9
+13V13*grille9TresDifficile{36|6A9} 14|92s9 188s9
+X 18 resolutions.ads
+7K9*resolutions 14|11w6 11r31 18|45e16
+40U14*resoudreSudoku 14|104s4 115s4 126s4 137s4 148s4 159s4 170s4 181s4 192s4
+X 34 tad_coordonnee.ads
+1K9*TAD_Coordonnee 14|2w6 2r28 34|28e19
+3R9*Type_Coordonnee 14|18r13 34|26e14
+6V13*construireCoordonnees{3R9} 14|40s12
+X 35 tad_ensemble.ads
+1K9*TAD_ensemble 14|3w6 3r28 35|34e17
+6A9*Type_Ensemble(boolean) 14|19r9
+X 36 tad_grillesudoku.ads
+4K9*TAD_grilleSudoku 14|4w6 4r28 36|67e21
+6A9*Type_Grille(integer) 14|17r13
+14V13*construireGrille{6A9} 14|31s9 38s9
+30V13*nombreChiffres{integer} 14|103s24 114s24 125s24 136s24 147s24 158s24
+. 169s24 180s24 191s24
+35U14*fixerChiffre 14|41s7
+50V13*obtenirChiffresDUneLigne{35|6A9} 14|43s9
+
