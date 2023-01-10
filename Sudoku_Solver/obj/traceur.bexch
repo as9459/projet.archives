@@ -1,0 +1,24 @@
+[MAPPING FILE]
+C:\Users\Yato\AppData\Local\Temp\GNAT-TEMP-000003.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2021
+[MAIN BASE NAME]
+traceur
+[COMPILER PATH]
+c:\gnat\2021\bin\gcc.exe
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+C:\Users\Yato\Desktop\But informatique\1.01\test\obj\traceur.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+C:\Users\Yato\Desktop\But informatique\1.01\test\default.gpr
+20220118093858 723d1906ee9320ec03d50c0d8d03198c
+C:\GtkAda\lib\gnat\gtkada.gpr
+20210913093922 f0c5f153f2ac559f4e63503c259305fa

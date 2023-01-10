@@ -1,0 +1,65 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tad_ensemble%b	tad_ensemble.adb	c5d7d7ec NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U tad_ensemble%s	tad_ensemble.ads	2a870cde EE OO PK
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D tad_ensemble.ads	20220119133542 2a870cde tad_ensemble%s
+D tad_ensemble.adb	20220119133748 ef50db32 tad_ensemble%b
+G a e
+G c Z s b [construireensemble tad_ensemble 9 13 none]
+G c Z s b [ensemblevide tad_ensemble 12 13 none]
+G c Z s b [appartientchiffre tad_ensemble 15 13 none]
+G c Z s b [nombrechiffres tad_ensemble 19 13 none]
+G c Z s b [ajouterchiffre tad_ensemble 24 14 none]
+G c Z s b [retirerchiffre tad_ensemble 29 14 none]
+G c Z s s [Ttype_ensembleBIP tad_ensemble 32 4 none]
+X 9 tad_ensemble.ads
+1K9*TAD_ensemble 32E9 34l5 34e17 10|2b14 84l5 84t17
+3X4*APPARTIENT_ENSEMBLE 10|67r16
+4X4*NON_APPARTIENT_ENSEMBLE 10|79r16
+6A9*Type_Ensemble(boolean) 9r39 12r34 16r14 19r36 24r41 29r41 32c9 10|8r39
+. 9r18 21r34 36r14 48r36 64r41 76r41
+9V13*construireEnsemble{6A9} 10|8b13 15l8 15t26
+12V13*ensembleVide{boolean} 12>27 10|21b13 29l8 29t20
+12a27 e{6A9} 10|21b27 24r13
+15V13*appartientChiffre{boolean} 16>7 16>29 10|35b13 42l8 42t25 66s10 78s10
+16a7 e{6A9} 10|36b7 38r10
+16i29 v{integer} 10|36b29 38r12
+19V13*nombreChiffres{integer} 19>29 10|48b13 58l8 58t22
+19a29 e{6A9} 10|48b29 53r13
+24U14*ajouterChiffre 24=30 24>56 10|64b14 70l8 70t22
+24a30 e{6A9} 10|64b30 66r28 69m7
+24i56 v{integer} 10|64b56 66r30 69r9
+29U14*retirerChiffre 29=30 29>56 10|76b14 82l8 82t22
+29a30 e{6A9} 10|76b30 78r28 81m7
+29i56 v{integer} 10|76b56 78r30 81r9
+X 10 tad_ensemble.adb
+9a7 ensemble{9|6A9} 12m10 14r14
+11i11 k{integer} 12r19
+23i11 k{integer} 24r15
+49i7 compteur{integer} 51m7 54m13 54r25 57r14
+52i11 k{integer} 53r15
+

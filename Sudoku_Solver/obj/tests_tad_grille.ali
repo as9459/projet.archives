@@ -1,0 +1,416 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tests_tad_grille%b	tests_tad_grille.adb	cd394093 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W affichage%s		affichage.adb		affichage.ali
+W tad_coordonnee%s	tad_coordonnee.adb	tad_coordonnee.ali
+W tad_ensemble%s	tad_ensemble.adb	tad_ensemble.ali
+W tad_grillesudoku%s	tad_grillesudoku.adb	tad_grillesudoku.ali
+
+U tests_tad_grille%s	tests_tad_grille.ads	b07365d8 EE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W tests%s		tests.ads		tests.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D affichage.ads		20220119133542 0b52acff affichage%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finmas.ads		20210520051132 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-memory.ads		20210520051134 597d6634 system.memory%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stalib.adb		20210520051134 977290bf system.standard_library%b
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051134 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D tad_coordonnee.ads	20220119133542 513dde5c tad_coordonnee%s
+D tad_ensemble.ads	20220119133542 2a870cde tad_ensemble%s
+D tad_grillesudoku.ads	20220119133542 d18dd1d2 tad_grillesudoku%s
+D tests.ads		20220119133542 fad4d90b tests%s
+D tests_tad_grille.ads	20220119133544 4995eef4 tests_tad_grille%s
+D tests_tad_grille.adb	20220119133544 7d765d01 tests_tad_grille%b
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [test_grille_p1 tests_tad_grille 7 13 none]
+G c Z s b [test_grille_p2 tests_tad_grille 8 13 none]
+G c Z s b [test_grille_p3 tests_tad_grille 9 13 none]
+G c Z s b [test_grille_p4 tests_tad_grille 10 13 none]
+G c Z s b [test_grille_p5 tests_tad_grille 11 13 none]
+G c Z s b [test_grille_p6 tests_tad_grille 12 13 none]
+G c Z s b [test_grille_p7a tests_tad_grille 13 13 none]
+G c Z s b [test_grille_p7b tests_tad_grille 14 13 none]
+G c Z s b [test_grille_p8 tests_tad_grille 15 13 none]
+G c Z s b [test_grille_p9 tests_tad_grille 16 13 none]
+G c Z s b [test_grille_p10a tests_tad_grille 17 13 none]
+G c Z s b [test_grille_p10b tests_tad_grille 18 13 none]
+G c Z s b [test_grille_p11 tests_tad_grille 19 13 none]
+G c Z s b [test_grille_p12 tests_tad_grille 20 13 none]
+G c Z s b [test_grille_p13 tests_tad_grille 21 13 none]
+G c Z s b [test_grille_p14a tests_tad_grille 22 13 none]
+G c Z s b [test_grille_p14b tests_tad_grille 23 13 none]
+G c Z s b [test_grille_p15 tests_tad_grille 24 13 none]
+G c Z s b [test_grille_p16 tests_tad_grille 25 13 none]
+G c Z s b [test_grille_p17 tests_tad_grille 26 13 none]
+G c Z s b [test_grille_p18 tests_tad_grille 27 13 none]
+G c Z s b [test_grille_p19 tests_tad_grille 28 13 none]
+G c Z s b [test_grille_exception1 tests_tad_grille 29 13 none]
+G c Z s b [test_grille_exception2 tests_tad_grille 30 13 none]
+G c Z s b [test_grille_exception3 tests_tad_grille 31 13 none]
+G c Z s s [Tles_testsT1sDI tests_tad_grille 33 4 none]
+G c Z s s [Tles_testsT1sDF tests_tad_grille 33 4 none]
+G c Z s s [TresultatsBIP tests_tad_grille 85 4 none]
+G r c none [test_grille_p1 tests_tad_grille 7 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p1 tests_tad_grille 7 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p1 tests_tad_grille 7 13 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [test_grille_p2 tests_tad_grille 8 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p2 tests_tad_grille 8 13 none] [nombrechiffres tad_grillesudoku 30 13 none]
+G r c none [test_grille_p3 tests_tad_grille 9 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p3 tests_tad_grille 9 13 none] [estremplie tad_grillesudoku 47 13 none]
+G r c none [test_grille_p4 tests_tad_grille 10 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p4 tests_tad_grille 10 13 none] [obtenirchiffresduneligne tad_grillesudoku 50 13 none]
+G r c none [test_grille_p4 tests_tad_grille 10 13 none] [ensemblevide tad_ensemble 12 13 none]
+G r c none [test_grille_p5 tests_tad_grille 11 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p5 tests_tad_grille 11 13 none] [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none]
+G r c none [test_grille_p5 tests_tad_grille 11 13 none] [ensemblevide tad_ensemble 12 13 none]
+G r c none [test_grille_p6 tests_tad_grille 12 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p6 tests_tad_grille 12 13 none] [obtenirchiffresduncarre tad_grillesudoku 60 13 none]
+G r c none [test_grille_p6 tests_tad_grille 12 13 none] [ensemblevide tad_ensemble 12 13 none]
+G r c none [test_grille_p7a tests_tad_grille 13 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p7a tests_tad_grille 13 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p7a tests_tad_grille 13 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p7a tests_tad_grille 13 13 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [test_grille_p7b tests_tad_grille 14 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p7b tests_tad_grille 14 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p7b tests_tad_grille 14 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p7b tests_tad_grille 14 13 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [test_grille_p8 tests_tad_grille 15 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p8 tests_tad_grille 15 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p8 tests_tad_grille 15 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p8 tests_tad_grille 15 13 none] [obtenirchiffre tad_grillesudoku 25 13 none]
+G r c none [test_grille_p9 tests_tad_grille 16 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p9 tests_tad_grille 16 13 none] [nombrechiffres tad_grillesudoku 30 13 none]
+G r c none [test_grille_p9 tests_tad_grille 16 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p9 tests_tad_grille 16 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p10a tests_tad_grille 17 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p10a tests_tad_grille 17 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p10a tests_tad_grille 17 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p10a tests_tad_grille 17 13 none] [estremplie tad_grillesudoku 47 13 none]
+G r c none [test_grille_p10b tests_tad_grille 18 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p10b tests_tad_grille 18 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p10b tests_tad_grille 18 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p10b tests_tad_grille 18 13 none] [estremplie tad_grillesudoku 47 13 none]
+G r c none [test_grille_p11 tests_tad_grille 19 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p11 tests_tad_grille 19 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p11 tests_tad_grille 19 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p11 tests_tad_grille 19 13 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [test_grille_p11 tests_tad_grille 19 13 none] [obtenirchiffresduneligne tad_grillesudoku 50 13 none]
+G r c none [test_grille_p11 tests_tad_grille 19 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [test_grille_p12 tests_tad_grille 20 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p12 tests_tad_grille 20 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p12 tests_tad_grille 20 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p12 tests_tad_grille 20 13 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [test_grille_p12 tests_tad_grille 20 13 none] [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none]
+G r c none [test_grille_p12 tests_tad_grille 20 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [test_grille_p13 tests_tad_grille 21 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p13 tests_tad_grille 21 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p13 tests_tad_grille 21 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p13 tests_tad_grille 21 13 none] [obtenircarre tad_coordonnee 17 13 none]
+G r c none [test_grille_p13 tests_tad_grille 21 13 none] [obtenirchiffresduncarre tad_grillesudoku 60 13 none]
+G r c none [test_grille_p13 tests_tad_grille 21 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [test_grille_p14a tests_tad_grille 22 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p14a tests_tad_grille 22 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p14a tests_tad_grille 22 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p14a tests_tad_grille 22 13 none] [vidercase tad_grillesudoku 44 14 none]
+G r c none [test_grille_p14a tests_tad_grille 22 13 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [test_grille_p14b tests_tad_grille 23 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p14b tests_tad_grille 23 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p14b tests_tad_grille 23 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p14b tests_tad_grille 23 13 none] [vidercase tad_grillesudoku 44 14 none]
+G r c none [test_grille_p14b tests_tad_grille 23 13 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [test_grille_p15 tests_tad_grille 24 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p15 tests_tad_grille 24 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p15 tests_tad_grille 24 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p15 tests_tad_grille 24 13 none] [vidercase tad_grillesudoku 44 14 none]
+G r c none [test_grille_p15 tests_tad_grille 24 13 none] [estremplie tad_grillesudoku 47 13 none]
+G r c none [test_grille_p16 tests_tad_grille 25 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p16 tests_tad_grille 25 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p16 tests_tad_grille 25 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p16 tests_tad_grille 25 13 none] [nombrechiffres tad_grillesudoku 30 13 none]
+G r c none [test_grille_p16 tests_tad_grille 25 13 none] [vidercase tad_grillesudoku 44 14 none]
+G r c none [test_grille_p17 tests_tad_grille 26 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p17 tests_tad_grille 26 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p17 tests_tad_grille 26 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p17 tests_tad_grille 26 13 none] [vidercase tad_grillesudoku 44 14 none]
+G r c none [test_grille_p17 tests_tad_grille 26 13 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [test_grille_p17 tests_tad_grille 26 13 none] [obtenirchiffresduneligne tad_grillesudoku 50 13 none]
+G r c none [test_grille_p17 tests_tad_grille 26 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [test_grille_p18 tests_tad_grille 27 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p18 tests_tad_grille 27 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p18 tests_tad_grille 27 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p18 tests_tad_grille 27 13 none] [vidercase tad_grillesudoku 44 14 none]
+G r c none [test_grille_p18 tests_tad_grille 27 13 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [test_grille_p18 tests_tad_grille 27 13 none] [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none]
+G r c none [test_grille_p18 tests_tad_grille 27 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [test_grille_p19 tests_tad_grille 28 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_p19 tests_tad_grille 28 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_p19 tests_tad_grille 28 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_p19 tests_tad_grille 28 13 none] [vidercase tad_grillesudoku 44 14 none]
+G r c none [test_grille_p19 tests_tad_grille 28 13 none] [obtenircarre tad_coordonnee 17 13 none]
+G r c none [test_grille_p19 tests_tad_grille 28 13 none] [obtenirchiffresduncarre tad_grillesudoku 60 13 none]
+G r c none [test_grille_p19 tests_tad_grille 28 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [test_grille_exception1 tests_tad_grille 29 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_exception1 tests_tad_grille 29 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_exception1 tests_tad_grille 29 13 none] [obtenirchiffre tad_grillesudoku 25 13 none]
+G r c none [test_grille_exception2 tests_tad_grille 30 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_exception2 tests_tad_grille 30 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_exception2 tests_tad_grille 30 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [test_grille_exception2 tests_tad_grille 30 13 none] [obtenirchiffre tad_grillesudoku 25 13 none]
+G r c none [test_grille_exception3 tests_tad_grille 31 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [test_grille_exception3 tests_tad_grille 31 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [test_grille_exception3 tests_tad_grille 31 13 none] [vidercase tad_grillesudoku 44 14 none]
+G r c none [test_grille_exception3 tests_tad_grille 31 13 none] [casevide tad_grillesudoku 18 13 none]
+G r l test_unitaire [Tles_testsT1sDI tests_tad_grille 33 4 none] [test_unitaireDI tests 7 9 none]
+G r k test_unitaire [Tles_testsT1sDI tests_tad_grille 33 4 none] [test_unitaireDF tests 7 9 none]
+G r k test_unitaire [Tles_testsT1sDF tests_tad_grille 33 4 none] [test_unitaireDF tests 7 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 47|1r6 1r33 48|2r6 2r31 3r6 3r31
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[16|46] 48|3w10 3r35
+X 9 a-string.ads
+16K13*Strings 35e16 47|1r10 1r37
+X 12 a-strunb.ads
+83K21*Unbounded 765e26 47|1w18 1r45
+104V13*To_Unbounded_String{88R9} 47|35s8 37s8 39s8 41s8 43s8 45s8 47s8 49s8
+. 51s8 53s8 55s8 57s8 59s8 61s8 63s8 65s8 67s8 69s8 71s8 73s8 75s8 77s8 79s8
+. 81s8 83s8
+X 15 a-textio.ads
+58K13*Text_IO 725e16 48|2w10 2r35
+X 18 affichage.ads
+5K9*affichage 32e14 48|8w6 8r28
+X 21 system.ads
+67M9*Address
+X 28 s-memory.ads
+53V13*Alloc{21|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{21|67M9} 105i<c,__gnat_realloc>22
+X 35 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+X 43 tad_coordonnee.ads
+1K9*TAD_Coordonnee 28e19 48|5w6 5r28
+3R9*Type_Coordonnee 26e14 48|20r11 123r11 139r12 140r12 164r11 180r23 198r11
+. 214r11 234r15 252r17 270r15 288r11 305r12 306r12 331r11 356r23 375r15 394r17
+. 413r15 431r11 445r11 462r11
+6V13*construireCoordonnees{3R9} 48|25s18 127s12 144s13 148s19 168s12 186s24
+. 202s12 220s18 239s12 257s12 275s12 292s12 310s13 315s19 339s18 344s12 361s12
+. 380s12 399s12 418s12 434s12 449s12 465s12
+11V13*obtenirLigne{integer} 48|241s45 383s45
+14V13*obtenirColonne{integer} 48|259s49 402s49
+17V13*obtenirCarre{integer} 48|277s44 421s44
+X 44 tad_ensemble.ads
+1K9*TAD_ensemble 34e17 48|6w6 6r28
+6A9*Type_Ensemble(boolean) 48|65r15 85r17 104r15 235r15 253r17 271r15 376r15
+. 395r17 414r15
+12V13*ensembleVide{boolean} 48|71s17 90s17 109s17
+15V13*appartientChiffre{boolean} 48|242s14 260s14 278s14 384s18 403s18 422s18
+X 45 tad_grillesudoku.ads
+4K9*TAD_grilleSudoku 67e21 48|7w6 7r28
+6A9*Type_Grille(integer) 48|19r11 40r11 52r11 64r15 84r17 103r15 122r11 138r12
+. 163r11 179r23 197r11 213r11 233r15 251r17 269r15 287r11 304r12 330r11 355r23
+. 374r15 393r17 412r15 430r11 444r11 461r11
+8X4*FIXER_CHIFFRE_NON_NUL 48|454r12
+9X4*OBTENIR_CHIFFRE_NUL 48|437r12
+10X4*VIDER_CASE_VIDE 48|469r12
+14V13*construireGrille{6A9} 48|22s12 42s12 54s12 67s12 87s12 106s12 126s12
+. 143s13 167s12 184s24 201s12 217s12 238s12 256s12 274s12 291s12 309s13 335s12
+. 360s12 379s12 398s12 417s12 433s12 448s12 464s12
+18V13*caseVide{boolean} 48|26s21 129s18 149s33 295s14 316s20 467s14
+25V13*obtenirChiffre{integer} 48|170s14 435s14 452s14
+30V13*nombreChiffres{integer} 48|43s14 185s24 188s30 363s24 365s30
+35U14*fixerChiffre 48|128s7 145s7 169s7 187s7 203s7 221s13 240s7 258s7 276s7
+. 293s7 311s7 340s13 362s7 381s7 400s7 419s7 450s7 451s7
+44U14*viderCase 48|294s7 312s7 345s7 364s7 382s7 401s7 420s7 466s7
+47V13*estRemplie{boolean} 48|55s14 204s18 224s14 346s18
+50V13*obtenirChiffresDUneLigne{44|6A9} 48|69s19 241s16 383s16
+55V13*obtenirChiffresDUneColonne{44|6A9} 48|89s21 259s18 402s18
+60V13*obtenirChiffresDUnCarre{44|6A9} 48|108s19 277s16 421s16
+X 46 tests.ads
+3K9*tests 12e10 47|2w6 2r33
+7R9*Test_Unitaire 10e14 47|33r54
+X 47 tests_tad_grille.ads
+4K9*tests_TAD_Grille 87l5 87e21 48|10b14 475l5 475t21
+7V13*test_Grille_P1{boolean} 34r8 48|18b13 35l8 35t22
+8V13*test_Grille_P2{boolean} 36r8 48|39b13 47l8 47t22
+9V13*test_Grille_P3{boolean} 38r8 48|51b13 59l8 59t22
+10V13*test_Grille_P4{boolean} 40r8 48|63b13 79l8 79t22
+11V13*test_Grille_P5{boolean} 42r8 48|83b13 98l8 98t22
+12V13*test_Grille_P6{boolean} 44r8 48|102b13 117l8 117t22
+13V13*test_Grille_P7a{boolean} 46r8 48|121b13 133l8 133t23
+14V13*test_Grille_P7b{boolean} 48r8 48|137b13 158l8 158t23
+15V13*test_Grille_P8{boolean} 50r8 48|162b13 174l8 174t22
+16V13*test_Grille_P9{boolean} 52r8 48|178b13 192l8 192t22
+17V13*test_Grille_P10a{boolean} 54r8 48|196b13 208l8 208t24
+18V13*test_Grille_P10b{boolean} 56r8 48|212b13 228l8 228t24
+19V13*test_Grille_P11{boolean} 58r8 48|232b13 246l8 246t23
+20V13*test_Grille_P12{boolean} 60r8 48|250b13 264l8 264t23
+21V13*test_Grille_P13{boolean} 62r8 48|268b13 282l8 282t23
+22V13*test_Grille_P14a{boolean} 64r8 48|286b13 299l8 299t24
+23V13*test_Grille_P14b{boolean} 66r8 48|303b13 325l8 325t24
+24V13*test_Grille_P15{boolean} 68r8 48|329b13 350l8 350t23
+25V13*test_Grille_P16{boolean} 70r8 48|354b13 369l8 369t23
+26V13*test_Grille_P17{boolean} 72r8 48|373b13 388l8 388t23
+27V13*test_Grille_P18{boolean} 74r8 48|392b13 407l8 407t23
+28V13*test_Grille_P19{boolean} 76r8 48|411b13 426l8 426t23
+29V13*test_Grille_Exception1{boolean} 78r8 48|429b13 441l8 441t30
+30V13*test_Grille_Exception2{boolean} 80r8 48|443b13 458l8 458t30
+31V13*test_Grille_Exception3{boolean} 82r8 48|460b13 473l8 473t30
+33a4*les_Tests(46|7R9) 85r23
+85a4*resultats(boolean)
+X 48 tests_tad_grille.adb
+19a7 g{45|6A9} 22m7 26r31
+20r7 c{43|3R9} 25m13 26r34
+23i11 i{integer} 25r41
+24i14 j{integer} 25r44
+40a7 g{45|6A9} 42m7 43r30
+52a7 g{45|6A9} 54m7 55r26
+64a7 g{45|6A9} 67m7 69r45
+65a7 ligne{44|6A9} 69m10 71r31
+68i11 i{integer} 69r48
+84a7 g{45|6A9} 87m7 89r49
+85a7 colonne{44|6A9} 89m10 90r31
+88i11 j{integer} 89r52
+103a7 g{45|6A9} 106m7 108r44
+104a7 carre{44|6A9} 108m10 109r31
+107i11 i{integer} 108r47
+122a7 g{45|6A9} 126m7 128m21 128r21 129r28
+123r7 c{43|3R9} 127m7 128r24 129r31
+124i7 cpt{integer} 128m29 128r29
+138a7 g{45|6A9} 143m7 145m21 145r21 149r43
+139r7 c1{43|3R9} 144m7 145r24 149r22
+140r7 c2{43|3R9} 148m13 149r16 149r46
+141i7 cpt{integer} 145m30 145r30
+146i11 i{integer} 148r42
+147i14 j{integer} 148r45
+163a7 g{45|6A9} 167m7 169m21 169r21 170r30
+164r7 c{43|3R9} 168m7 169r24 170r33
+165i7 cpt{integer} 169m30 169r30
+179a7 g{45|6A9} 184m7 185r40 187m21 187r21 188r46
+180r7 c{43|3R9} 186m7 187r24
+181i7 cardinalAvant{integer} 185m7 188r14
+182i7 cpt{integer} 187m30 187r30
+197a7 g{45|6A9} 201m7 203m21 203r21 204r30
+198r7 c{43|3R9} 202m7 203r24
+199i7 cpt{integer} 203m30 203r30
+213a7 g{45|6A9} 217m7 221m27 221r27 224r26
+214r7 c{43|3R9} 220m13 221r30
+215i7 cpt{integer} 221m36 221r36
+218i11 i{integer} 220r41 221r33
+219i14 j{integer} 220r44
+233a7 g{45|6A9} 238m7 240m21 240r21 241r42
+234r7 c{43|3R9} 239m7 240r24 241r59
+235a7 ligne{44|6A9} 241m7 242r33
+236i7 cpt{integer} 240m30 240r30
+251a7 g{45|6A9} 256m7 258m21 258r21 259r46
+252r7 c{43|3R9} 257m7 258r24 259r65
+253a7 colonne{44|6A9} 259m7 260r33
+254i7 cpt{integer} 258m30 258r30
+269a7 g{45|6A9} 274m7 276m21 276r21 277r41
+270r7 c{43|3R9} 275m7 276r24 277r58
+271a7 carre{44|6A9} 277m7 278r33
+272i7 cpt{integer} 276m30 276r30
+287a7 g{45|6A9} 291m7 293m21 293r21 294m18 294r18 295r24
+288r7 c{43|3R9} 292m7 293r24 294m21 294r21 295r27
+289i8 cpt{integer} 293m30 293r30
+304a7 g{45|6A9} 309m7 311m21 311r21 312m18 312r18 316r30
+305r7 c1{43|3R9} 310m7 311r24 312m21 312r21
+306r7 c2{43|3R9} 315m13 316r33
+307i7 cpt{integer} 311m31 311r31
+313i11 i{integer} 315r42
+314i14 j{integer} 315r45
+330a7 g{45|6A9} 335m7 340m27 340r27 345m18 345r18 346r30
+331r7 c{43|3R9} 339m13 340r30 344m7 345m21 345r21
+332i7 cpt{integer} 340m36 340r36
+337i11 i{integer} 339r41
+338i14 j{integer} 339r44
+355a7 g{45|6A9} 360m7 362m21 362r21 363r40 364m18 364r18 365r46
+356r7 c{43|3R9} 361m7 362r24 364m21 364r21
+357i7 cardinalAvant{integer} 363m7 365r14
+358i7 cpt{integer} 362m30 362r30
+374a7 g{45|6A9} 379m7 381m21 381r21 382m18 382r18 383r42
+375r7 c{43|3R9} 380m7 381r24 382m21 382r21 383r59
+376a7 ligne{44|6A9} 383m7 384r37
+377i8 cpt{integer} 381m30 381r30
+393a7 g{45|6A9} 398m7 400m21 400r21 401m18 401r18 402r46
+394r7 c{43|3R9} 399m7 400r24 401m21 401r21 402r65
+395a7 colonne{44|6A9} 402m7 403r37
+396i7 cpt{integer} 400m30 400r30
+412a7 g{45|6A9} 417m7 419m21 419r21 420m18 420r18 421r41
+413r7 c{43|3R9} 418m7 419r24 420m21 420r21 421r58
+414a7 carre{44|6A9} 421m7 422r37
+415i7 cpt{integer} 419m30 419r30
+430a7 g{45|6A9} 433m7 435r30
+431r7 c{43|3R9} 434m7 435r33
+444a7 g{45|6A9} 448m7 450m21 450r21 451m21 451r21 452r30
+445r7 c{43|3R9} 449m7 450r24 451r24 452r33
+446i7 cpt{integer} 450m30 450r30 451m30 451r30
+461a7 g{45|6A9} 464m7 466m18 466r18 467r24
+462r7 c{43|3R9} 465m7 466m21 466r21 467r27
+

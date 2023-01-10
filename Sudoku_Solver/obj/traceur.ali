@@ -1,0 +1,433 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U traceur%b		traceur.adb		ae6d1f85 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+W text_io%s		text_io.ads		text_io.ali
+W traceur%s		traceur.adb		traceur.ali
+W traceur_callbacks%s	traceur_callbacks.ads	traceur_callbacks.ali
+
+U traceur%s		traceur.ads		dd5eccb2 EE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W cairo%s		cairo.adb		cairo.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.window%s		gdk-window.adb		gdk-window.ali
+W glib%s		glib.adb		glib.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.drawing_area%s	gtk-drawing_area.adb	gtk-drawing_area.ali
+W gtk.main%s		gtk-main.adb		gtk-main.ali
+W gtk.widget%s		gtk-widget.adb		gtk-widget.ali
+W gtk.window%s		gtk-window.adb		gtk-window.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nudira.ads		20210520051130 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20210520051130 0bfd6ec4 ada.numerics.discrete_random%b
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051130 c3a8ac65 ada.unchecked_deallocation%s
+D cairo.ads		20200724222222 925d4aaa cairo%s
+D cairo-region.ads	20200724222222 b7133728 cairo.region%s
+D gdk.ads		20200724222222 96d821f3 gdk%s
+D gdk-color.ads		20200724222222 ef57bc34 gdk.color%s
+D gdk-device.ads	20200724222222 04c1ecbd gdk.device%s
+D gdk-display.ads	20200724222222 d91ec37e gdk.display%s
+D gdk-drag_contexts.ads	20200724222222 11b1346e gdk.drag_contexts%s
+D gdk-event.ads		20200724222222 1bda38e2 gdk.event%s
+D gdk-frame_clock.ads	20200724222222 dadfbe52 gdk.frame_clock%s
+D gdk-frame_timings.ads	20200724222222 98b5e7d1 gdk.frame_timings%s
+D gdk-pixbuf.ads	20200724222222 499fe1c7 gdk.pixbuf%s
+D gdk-rectangle.ads	20200724222222 7b900608 gdk.rectangle%s
+D gdk-rgba.ads		20200724222222 2609514a gdk.rgba%s
+D gdk-screen.ads	20200724222222 9fe578a4 gdk.screen%s
+D gdk-types.ads		20200724222222 921dc8b2 gdk.types%s
+D gdk-visual.ads	20200724222222 615e934c gdk.visual%s
+D gdk-window.ads	20200724222222 aa508024 gdk.window%s
+D glib.ads		20200724222222 7d107887 glib%s
+D glib-error.ads	20200724222222 e055fabe glib.error%s
+D glib-generic_properties.ads  20200724222222 f3dc70df glib.generic_properties%s
+D glib-glist.ads	20200724222222 65a6e1be glib.glist%s
+D glib-gslist.ads	20200724222222 953541be glib.gslist%s
+D glib-object.ads	20200724222222 fb5efa0e glib.object%s
+D glib-properties.ads	20200724222222 4118b916 glib.properties%s
+D glib-types.ads	20200724222222 86ac71ae glib.types%s
+D glib-values.ads	20200724222222 5ef3ad24 glib.values%s
+D gnat.ads		20210520051132 b5988c27 gnat%s
+D g-string.ads		20210520051132 c6abc540 gnat.strings%s
+D gtk.ads		20200724222222 cfdeaf1c gtk%s
+D gtk-accel_group.ads	20200724222222 a14a159a gtk.accel_group%s
+D gtk-adjustment.ads	20200724222222 bbcb1fda gtk.adjustment%s
+D gtk-bin.ads		20200724222222 4e8a2236 gtk.bin%s
+D gtk-buildable.ads	20200724222222 e8198b57 gtk.buildable%s
+D gtk-builder.ads	20200724222222 35d802c2 gtk.builder%s
+D gtk-cell_area.ads	20200724222222 309571a8 gtk.cell_area%s
+D gtk-cell_area_context.ads  20200724222222 5d63dcf9 gtk.cell_area_context%s
+D gtk-cell_editable.ads	20200724222222 a955a31f gtk.cell_editable%s
+D gtk-cell_layout.ads	20200724222222 ceee6a6f gtk.cell_layout%s
+D gtk-cell_renderer.ads	20200724222222 8a8076e8 gtk.cell_renderer%s
+D gtk-container.ads	20200724222222 dc3d0898 gtk.container%s
+D gtk-drawing_area.ads	20200724222222 6fdc9064 gtk.drawing_area%s
+D gtk-enums.ads		20200724222222 e3f2f3ba gtk.enums%s
+D gtk-handlers.ads	20200724222222 313b6eab gtk.handlers%s
+D gtk-main.ads		20200724222222 e684a528 gtk.main%s
+D gtk-marshallers.ads	20200724222222 6c3cad4d gtk.marshallers%s
+D gtk-selection_data.ads  20200724222222 061b2148 gtk.selection_data%s
+D gtk-style.ads		20200724222222 3c4cbc07 gtk.style%s
+D gtk-target_entry.ads	20200724222222 02690213 gtk.target_entry%s
+D gtk-target_list.ads	20200724222222 a9d79eb7 gtk.target_list%s
+D gtk-tree_model.ads	20200724222222 e664b639 gtk.tree_model%s
+D gtk-tree_view_column.ads  20200724222222 54737275 gtk.tree_view_column%s
+D gtk-widget.ads	20200724222222 07bd7883 gtk.widget%s
+D gtk-window.ads	20200724222222 e91a448d gtk.window%s
+D gtkada.ads		20200724222222 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20200724222222 fc9825de gtkada.bindings%s
+D gtkada-c.ads		20200724222222 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20200724222222 471f54b5 gtkada.types%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D pango.ads		20200724222222 e51ea573 pango%s
+D pango-attributes.ads	20200724222222 b2832a43 pango.attributes%s
+D pango-context.ads	20200724222222 5a6f0fe6 pango.context%s
+D pango-enums.ads	20200724222222 eff085ce pango.enums%s
+D pango-font.ads	20200724222222 71042db5 pango.font%s
+D pango-font_face.ads	20200724222222 c62e6ce5 pango.font_face%s
+D pango-font_family.ads	20200724222222 1fdea8b4 pango.font_family%s
+D pango-font_metrics.ads  20200724222222 25e6f301 pango.font_metrics%s
+D pango-fontset.ads	20200724222222 af4fe708 pango.fontset%s
+D pango-language.ads	20200724222222 e96cb8f4 pango.language%s
+D pango-layout.ads	20200724222222 d240b716 pango.layout%s
+D pango-matrix.ads	20200724222222 309f74b5 pango.matrix%s
+D pango-tabs.ads	20200724222222 0c575925 pango.tabs%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finmas.ads		20210520051132 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051134 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-rannum.ads		20210520051134 c3978523 system.random_numbers%s
+D s-rannum.adb		20210520051134 2631917b system.random_numbers%b
+D s-ransee.ads		20210520051134 01a57b33 system.random_seed%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051134 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-string.ads		20210520051134 8fe54fb7 system.strings%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-valuns.ads		20210520051134 dac7b45d system.val_uns%s
+D s-valueu.ads		20210520051134 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D text_io.ads		20210520051136 21b2c898 text_io%s
+D traceur.ads		20220118092620 ffbc77f9 traceur%s
+D traceur.adb		20220118184104 b79ce041 traceur%b
+D traceur_callbacks.ads	20220118092620 978c610b traceur_callbacks%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s s [TmatriceBIP traceur 10 4 none]
+G c Z s b [leverstylet traceur 36 14 none]
+G c Z s b [baisserstylet traceur 37 14 none]
+G c Z s b [deplacerstylet traceur 38 14 none]
+G c Z s b [centrerstylet traceur 39 14 none]
+G c Z s b [pivoterdroite traceur 40 14 none]
+G c Z s b [pivotergauche traceur 41 14 none]
+G c Z s b [orienternord traceur 42 14 none]
+G c Z s b [dessiner traceur 44 14 none]
+G c Z s b [redraw traceur 46 13 none]
+G c Z s b [on_main_window_delete_event traceur 50 13 none]
+G c Z s b [initialisertraceur traceur 54 14 none]
+G c Z s b [affichertraceur traceur 56 14 none]
+G c Z b b [random traceur__aleatoirelarg 52 13 20_9]
+G c Z b b [random traceur__aleatoirelarg 54 13 20_9]
+G c Z b b [reset traceur__aleatoirelarg 60 14 20_9]
+G c Z b b [reset traceur__aleatoirelarg 61 14 20_9]
+G c Z b b [save traceur__aleatoirelarg 67 14 20_9]
+G c Z b b [reset traceur__aleatoirelarg 68 14 20_9]
+G c Z b b [image traceur__aleatoirelarg 72 13 20_9]
+G c Z b b [value traceur__aleatoirelarg 73 13 20_9]
+G c Z b b [random traceur__aleatoirelong 52 13 26_9]
+G c Z b b [random traceur__aleatoirelong 54 13 26_9]
+G c Z b b [reset traceur__aleatoirelong 60 14 26_9]
+G c Z b b [reset traceur__aleatoirelong 61 14 26_9]
+G c Z b b [save traceur__aleatoirelong 67 14 26_9]
+G c Z b b [reset traceur__aleatoirelong 68 14 26_9]
+G c Z b b [image traceur__aleatoirelong 72 13 26_9]
+G c Z b b [value traceur__aleatoirelong 73 13 26_9]
+G c Z b b [random traceur__aleatoireorient 52 13 35_9]
+G c Z b b [random traceur__aleatoireorient 54 13 35_9]
+G c Z b b [reset traceur__aleatoireorient 60 14 35_9]
+G c Z b b [reset traceur__aleatoireorient 61 14 35_9]
+G c Z b b [save traceur__aleatoireorient 67 14 35_9]
+G c Z b b [reset traceur__aleatoireorient 68 14 35_9]
+G c Z b b [image traceur__aleatoireorient 72 13 35_9]
+G c Z b b [value traceur__aleatoireorient 73 13 35_9]
+G c Z b b [random traceur__aleatoirebaisse 52 13 42_9]
+G c Z b b [random traceur__aleatoirebaisse 54 13 42_9]
+G c Z b b [reset traceur__aleatoirebaisse 60 14 42_9]
+G c Z b b [reset traceur__aleatoirebaisse 61 14 42_9]
+G c Z b b [save traceur__aleatoirebaisse 67 14 42_9]
+G c Z b b [reset traceur__aleatoirebaisse 68 14 42_9]
+G c Z b b [image traceur__aleatoirebaisse 72 13 42_9]
+G c Z b b [value traceur__aleatoirebaisse 73 13 42_9]
+G c Z b b [dessine traceur 193 14 none]
+G r c none [dessiner traceur 44 14 none] [set_source_rgb cairo 686 14 none]
+G r c none [dessiner traceur 44 14 none] [rectangle cairo 1304 14 none]
+G r c none [dessiner traceur 44 14 none] [fill cairo 1469 14 none]
+G r c none [redraw traceur 46 13 none] [set_source_rgb cairo 686 14 none]
+G r c none [redraw traceur 46 13 none] [rectangle cairo 1304 14 none]
+G r c none [redraw traceur 46 13 none] [fill cairo 1469 14 none]
+G r c none [on_main_window_delete_event traceur 50 13 none] [main_quit gtk__main 205 14 none]
+G r c none [initialisertraceur traceur 54 14 none] [init gtk__main 62 14 none]
+G r c none [initialisertraceur traceur 54 14 none] [gtk_new gtk__window 83 14 none]
+G r c none [initialisertraceur traceur 54 14 none] [set_default_size gtk__window 322 14 none]
+G r c none [initialisertraceur traceur 54 14 none] [set_title gtk__window 787 14 none]
+G r c none [initialisertraceur traceur 54 14 none] [set_geometry_hints gtk__window 1106 14 none]
+G r c none [initialisertraceur traceur 54 14 none] [set_resizable gtk__window 660 14 none]
+G r c none [initialisertraceur traceur 54 14 none] [gtk_new gtk__drawing_area 110 14 none]
+G r c none [initialisertraceur traceur 54 14 none] [add gtk__container 216 14 none]
+G r c none [initialisertraceur traceur 54 14 none] [to_marshaller traceur_callbacks__event_cb__context_marshaller 150 19 338_7_12_4]
+G r c none [initialisertraceur traceur 54 14 none] [connect traceur_callbacks__event_cb 242 17 12_4]
+G r c none [initialisertraceur traceur 54 14 none] [show_all gtk__widget 2970 14 none]
+G r c none [affichertraceur traceur 56 14 none] [main gtk__main 197 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 122|3r6 3r31 4r6 20r38 26r38 35r40 42r40
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[15|46] 122|3w10 3r35
+X 6 a-numeri.ads
+16K13*Numerics 35e17 122|4r10 20r42 26r42 35r44 42r44
+X 7 a-nudira.ads
+44k22*Discrete_Random 81e33 122|4w19 20r51 26r51 35r53 42r53
+50R9*Generator<103|65R9> 122|24r40[20] 30r40[26] 37r43[35] 44r43[42]
+52V13 Random{integer} 122|238s21[26] 239s21[20] 242s51[35] 245s27[35]
+61U14 Reset<103|103p14> 122|236s12[20] 237s12[26] 241s12[35] 244s12[42]
+X 8 a-nudira.adb
+53V16 Random[103|86]{integer} 104|402b13[122|26]
+65V16 Random[103|86]{integer} 104|402b13[122|42]
+X 14 a-textio.ads
+506U14*Put_Line 122|196s15
+X 18 cairo.ads
+75K9*Cairo 2893e10 121|2w6 2r25
+77M9*Cairo_Context<92|67M9> 121|44r29 47r29 122|225r30 289r29
+686U14*Set_Source_Rgb 122|292s4
+1304U14*Rectangle 122|296s18
+1469U14*Fill 122|301s7
+X 20 gdk.ads
+38K9*Gdk 48e8 121|3r6 3r24
+43P9*Gdk_Window<35|153P9>
+46P9*Gdk_Visual<35|153P9>
+X 22 gdk-device.ads
+49P9*Gdk_Device(48R9)
+59V13*Convert{92|67M9} 38|58i21
+60V13*Convert{49P9} 38|59i21
+X 33 gdk-visual.ads
+78V13*Convert[124|20]{92|67M9} 38|58i21
+79V13*Convert[124|20]{20|46P9} 38|59i21
+X 34 gdk-window.ads
+45K13*Window 2193e15 121|3w10 3r28
+99M9*Gdk_Window_Hints 121|20r11
+178n7*Gravity_Center{173E9} 121|19r77
+210R9*Gdk_Geometry 222e14 121|19r15
+280V13*Convert{92|67M9} 38|58i21
+281V13*Convert{20|43P9} 38|59i21
+X 35 glib.ads
+38K9*Glib 429e9 121|1w6 1r16
+59F9*Gdouble<76|72F9> 122|296r32 296r44 296r56 296r68
+153P9*C_Proxy(150R9)
+229A9*Signal_Name<string>(character)<integer>
+X 40 glib-object.ads
+41P9*GObject(40R9)
+675V13*Convert{92|67M9} 38|58i21 39|49i21
+676V13*Convert{41P9} 38|59i21 39|50i21
+X 46 gtk.ads
+41K9*Gtk 79e8 121|4r6 5r6 5r29 6r6 6r24 7r6 7r24 122|215r7 249r12 285r18
+X 56 gtk-cell_renderer.ads
+83P9*Gtk_Cell_Renderer(82R9)
+104V13*Convert{92|67M9} 38|58i21
+105V13*Convert{83P9} 38|59i21
+X 57 gtk-container.ads
+216U14*Add 122|261R16
+X 58 gtk-drawing_area.ads
+101K13*Drawing_Area 141e21 121|5w10 5r33
+103R9*Gtk_Drawing_Area_Record<69|343R9> 103e74 121|46r36 122|224r36
+104P9*Gtk_Drawing_Area(103R9) 121|18r11
+110U14*Gtk_New 122|260s12
+X 59 gtk-enums.ads
+865V13*Convert{92|67M9} 38|58i21 39|49i21
+866V13*Convert{string} 38|59i21 39|50i21
+X 60 gtk-handlers.ads
+242U17*Connect 122|263s21[123|12]
+347V16*To_Marshaller=350:37{62|134R12[229[123|12]]} 122|264s59[123|12]
+X 61 gtk-main.ads
+33K13*Main 327e13 121|4w10 122|215r11 249r16 285r22
+62U14*Init 122|249s21
+197U14*Main 122|285s27
+205U14*Main_Quit 122|215s16
+X 62 gtk-marshallers.ads
+134R12*Marshaller
+X 67 gtk-tree_model.ads
+808V13*Convert{92|67M9} 38|58i21
+809V13*Convert{221R9} 38|59i21
+X 68 gtk-tree_view_column.ads
+55P9*Gtk_Tree_View_Column(54R9)
+66V13*Convert{92|67M9} 38|58i21
+67V13*Convert{55P9} 38|59i21
+X 69 gtk-widget.ads
+341K13*Widget 5431e15 121|6w10 6r28
+344P9*Gtk_Widget(343R9) 121|44r50 122|229r21 289r50
+431V13*Convert{92|67M9} 38|58i21 39|49i21
+432V13*Convert{344P9} 38|59i21 39|50i21
+2970U14*Show_All 122|280R12
+4249a4*Signal_Draw{35|229A9} 122|263r36
+X 70 gtk-window.ads
+71K13*Window 1676e15 121|7w10 7r28
+73R9*Gtk_Window_Record<49|45R9> 73e65 121|51r23 122|211r23
+74P9*Gtk_Window(73R9) 121|17r11
+83U14*Gtk_New 122|250s12
+322U14*Set_Default_Size 122|252R12
+660U14*Set_Resizable 122|258R12
+787U14*Set_Title 122|254R12
+1106U14*Set_Geometry_Hints 122|256R12
+X 75 interfac.ads
+79M9*Unsigned_32
+82M9*Unsigned_64
+X 76 i-c.ads
+72F9*double<long_float>
+X 92 system.ads
+67M9*Address
+X 103 s-rannum.ads
+77V13*Random{75|79M9} 104|224i21
+78V13*Random{75|82M9} 104|224i21
+X 120 text_io.ads
+24K9*Text_IO=24:29 122|2w6 2r19 196r7
+X 121 traceur.ads
+9K9*Traceur 58l5 58e12 122|1w6 9b14 305l5 305t12
+10A9*MATRICE(integer)<integer><integer> 24r14
+11X9*traceurNonInitialise 122|52r23 87r31 96r31 104r23 121r23 129r23 146r23
+12X9*debordementEst 122|167r32 180r32
+13X9*debordementNord 122|163r32 176r32
+14X9*debordementSud 122|165r32 178r32
+15X9*debordementOuest 122|169r32 182r32
+17p4*Win{70|74P9} 122|229r33 250m21 250r21 252r30 254r22 256r31 258r26 261r12
+. 280r22
+18p4*Area{58|104P9} 122|260m21 260r21 261r20 263r30
+19r4*Geometry{34|210R9} 122|256r42
+20m4*Mask{34|99M9} 122|256r52
+22b4*modif{boolean}
+24a4*contenu{10A9} 122|89m7 187m10 201m10 275m33 295r17
+26i9*posX{integer} 122|57r24 58r28 62r36 79m25 89r15 154m10 154r18 156m10
+. 156r18 160r10 160r24 187r18 238m12
+27i9*posY{integer} 122|57r39 67r28 71r36 80m25 89r21 150m10 150r18 152m10
+. 152r18 173r10 173r24 187r24 239m12
+29b4*baisse{boolean} 122|55r12 90m7 98m7 186r10 245m12
+31b4*initialise{boolean}
+33E8*Orientation 33e46 34r23 122|49r29 242r34
+33n24*Nord{33E8} 122|68r54 107r13 112r31 123r28 132r13 139r31 149r13 162r25
+. 175r25
+33n30*Sud{33E8} 122|72r62 109r12 114r31 134r12 137r31 151r12 164r24 177r24
+33n35*Est{33E8} 34r38 122|63r62 110r31 111r12 133r31 136r12 153r12 166r24
+. 179r24
+33n40*Ouest{33E8} 122|59r54 108r31 113r12 135r31 138r12 155r12 168r24 181r24
+34e3*orientationStylet{33E8} 122|56r34 59m33 63m41 68m33 72m41 77m9 106r13
+. 108m10 110m10 112m10 114m10 123m7 131r13 133m10 135m10 137m10 139m10 148r13
+. 161r15 174r23 242m12
+36U14*leverStylet 122|93b15 99t7
+37U14*baisserStylet 122|84b14 91t7
+38U14*deplacerStylet 122|60s33 64s41 69s33 73s41 143b14 189l8 189t22 198s7
+39U14*centrerStylet 122|48b14 82t7
+40U14*pivoterDroite 122|126b14 141t7
+41U14*pivoterGauche 122|101b14 116t7
+42U14*orienterNord 122|118b14 124l8 124t20
+44U14*Dessiner 44>24 44>44 122|229s7 289b14 302l13 302t21
+44m24 Cr{18|77M9} 122|289b24 292r20 296r28 301r13
+44p44 Win{69|344P9} 122|289b44
+46V13*Redraw{boolean} 46^21 47>21 122|224b13 231l8 231t14 264r74
+46p21 Area(58|103R9) 122|224b21 227r28
+47m21 Cr{18|77M9} 122|225b22 229r17
+50V13*On_Main_Window_Delete_Event{boolean} 51^7 122|210b13 217l8 217t35
+51p7 Object(70|73R9) 122|211b7 213r28
+54U14*initialiserTraceur 122|234b14 281l13 281t31
+56U14*afficherTraceur 122|283b19 286l13 286t28
+X 122 traceur.adb
+11i9 largMin{integer} 17r49
+12i5 largMax{integer} 17r60
+14i9 longMin{integer} 18r49
+15i5 longMax{integer} 18r60
+17I17 IntervalleLarg{integer} 20r67
+18I17 IntervalleLong{integer} 26r67
+20K17 AleatoireLarg[7|44] 22r13 24r26
+24r9 GenerateurLarg{7|50R9[20]} 236r18 239r28
+26K17 AleatoireLong[7|44] 28r13 30r26
+30r9 GenerateurLong{7|50R9[26]} 237r18 238r28
+32i9 orientMin{integer} 34r51
+33i5 orientMax{integer} 34r64
+34I17 IntervalleOrient{integer} 35r69
+35K17 AleatoireOrient[7|44] 36r13 37r27
+37r9 GenerateurOrient{7|50R9[35]} 241r18 242r58 245r34
+39i9 baisseMin{integer} 41r51
+40i5 baisseMax{integer} 41r64
+41I17 IntervalleBaisse{integer} 42r69
+42K17 AleatoireBaisse[7|44] 43r13 44r27
+44r9 GenerateurBaisse{7|50R9[42]} 244r18
+46i9 initialisationFaite{integer} 51r13 86r16 95r16 103r8 120r8 128r8 145r5
+. 247m12
+49e5 orientationStyletSauv{121|33E8} 56m9 77r30
+193U14 dessine 193b14 204l8 204t15
+200i11 l{integer} 201r18
+273i16 l{integer} 275r41
+274i30 c{integer} 275r43
+293i8 l{integer} 295r25 296r40
+294i14 c{integer} 295r27 296r52
+X 123 traceur_callbacks.ads
+7K9*Traceur_callbacks 122|7w6 7r29 123|15e22
+12K12*Event_Cb[60|220] 122|263r12 264r50
+

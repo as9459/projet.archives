@@ -1,0 +1,149 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tad_grillesudoku%b	tad_grillesudoku.adb	cee3af35 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U tad_grillesudoku%s	tad_grillesudoku.ads	aa370350 EE OO PK
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tad_coordonnee%s	tad_coordonnee.adb	tad_coordonnee.ali
+W tad_ensemble%s	tad_ensemble.adb	tad_ensemble.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D tad_coordonnee.ads	20220119133542 513dde5c tad_coordonnee%s
+D tad_ensemble.ads	20220119133542 2a870cde tad_ensemble%s
+D tad_grillesudoku.ads	20220119133542 d18dd1d2 tad_grillesudoku%s
+D tad_grillesudoku.adb	20220119134038 1f6e7ee7 tad_grillesudoku%b
+G a e
+G c Z s b [construiregrille tad_grillesudoku 14 13 none]
+G c Z s b [casevide tad_grillesudoku 18 13 none]
+G c Z s b [obtenirchiffre tad_grillesudoku 25 13 none]
+G c Z s b [nombrechiffres tad_grillesudoku 30 13 none]
+G c Z s b [fixerchiffre tad_grillesudoku 35 14 none]
+G c Z s b [vidercase tad_grillesudoku 44 14 none]
+G c Z s b [estremplie tad_grillesudoku 47 13 none]
+G c Z s b [obtenirchiffresduneligne tad_grillesudoku 50 13 none]
+G c Z s b [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none]
+G c Z s b [obtenirchiffresduncarre tad_grillesudoku 60 13 none]
+G c Z s s [Ttype_grilleBIP tad_grillesudoku 65 4 none]
+G r c none [casevide tad_grillesudoku 18 13 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [casevide tad_grillesudoku 18 13 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [obtenirchiffre tad_grillesudoku 25 13 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [obtenirchiffre tad_grillesudoku 25 13 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [fixerchiffre tad_grillesudoku 35 14 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [fixerchiffre tad_grillesudoku 35 14 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [vidercase tad_grillesudoku 44 14 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [vidercase tad_grillesudoku 44 14 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [estremplie tad_grillesudoku 47 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [estremplie tad_grillesudoku 47 13 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [estremplie tad_grillesudoku 47 13 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [obtenirchiffresduneligne tad_grillesudoku 50 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [obtenirchiffresduneligne tad_grillesudoku 50 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [obtenirchiffresduneligne tad_grillesudoku 50 13 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [obtenirchiffresduneligne tad_grillesudoku 50 13 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [obtenirchiffresduneligne tad_grillesudoku 50 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [obtenirchiffresdunecolonne tad_grillesudoku 55 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [obtenirchiffresduncarre tad_grillesudoku 60 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [obtenirchiffresduncarre tad_grillesudoku 60 13 none] [obtenircoordonneecarre tad_coordonnee 20 13 none]
+G r c none [obtenirchiffresduncarre tad_grillesudoku 60 13 none] [obtenirligne tad_coordonnee 11 13 none]
+G r c none [obtenirchiffresduncarre tad_grillesudoku 60 13 none] [obtenircolonne tad_coordonnee 14 13 none]
+G r c none [obtenirchiffresduncarre tad_grillesudoku 60 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [obtenirchiffresduncarre tad_grillesudoku 60 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+X 9 tad_coordonnee.ads
+1K9*TAD_Coordonnee 28e19 11|1w6 1r28
+3R9*Type_Coordonnee 26e14 11|20r14 27r14 37r18 44r60 12|24r34 39r34 70r38
+. 84r60 97r14 116r14 135r15 155r17
+6V13*construireCoordonnees{3R9} 12|101s22 121s19 139s22 167s25
+11V13*obtenirLigne{integer} 12|27s11 44s16 73s12 89s12 162s20
+14V13*obtenirColonne{integer} 12|27s27 44s32 73s28 89s28 163s18
+20V13*obtenirCoordonneeCarre{3R9} 12|161s19
+X 10 tad_ensemble.ads
+1K9*TAD_ensemble 34e17 11|2w6 2r28
+6A9*Type_Ensemble(boolean) 11|52r37 57r39 62r37 12|115r57 117r15 133r92 134r17
+. 152r57 154r21
+9V13*construireEnsemble{6A9} 12|119s17 137s18 160s22
+24U14*ajouterChiffre 12|123s13 141s16 169s19
+X 11 tad_grillesudoku.ads
+4K9*TAD_grilleSudoku 65E9 67l5 67e21 12|2b14 176l5 176t21
+6A9*Type_Grille(integer) 14r37 19r14 26r14 30r36 36r18 44r36 47r32 51r21
+. 56r23 61r21 65c9 12|8r37 9r14 24r14 39r14 51r36 70r18 84r36 96r32 115r14
+. 133r47 152r14
+8X4*FIXER_CHIFFRE_NON_NUL 12|75r16
+9X4*OBTENIR_CHIFFRE_NUL 12|42r16
+10X4*VIDER_CASE_VIDE 12|87r19
+11X4*CASE_NON_VIDE
+14V13*construireGrille{6A9} 12|8b13 17l8 17t24
+18V13*caseVide{boolean} 19>7 20>7 12|23b13 32l8 32t16 41s10 72s10 86s13 102s16
+. 122s17 140s20 168s23
+19a7 g{6A9} 12|24b7 27r9
+20r7 c{9|3R9} 12|24b27 27r24 27r42
+25V13*obtenirChiffre{integer} 26>7 27>7 12|38b13 45l8 45t22 123s35 141s39
+. 169s43
+26a7 g{6A9} 12|39b7 41r19 44r14
+27r7 c{9|3R9} 12|39b27 41r21 44r29 44r47
+30V13*nombreChiffres{integer} 30>29 12|51b13 63l8 63t22
+30a29 g{6A9} 12|51b29 57r16
+35U14*fixerChiffre 36=7 37>7 38>7 39=7 12|69b14 78l8 78t20
+36a7 g{6A9} 12|70b7 72r19 73m10
+37r7 c{9|3R9} 12|70b31 72r21 73r25 73r43
+38i7 v{integer} 12|70b55 73r49
+39i7 cpt{integer} 12|70b71 77m7 77r14
+44U14*viderCase 44=25 44=49 12|84b14 90l8 90t17
+44a25 g{6A9} 12|84b25 86r22 89m10
+44r49 c{9|3R9} 12|84b49 86r24 89r25 89r43
+47V13*estRemplie{boolean} 47>25 12|96b13 108l8 108t18
+47a25 g{6A9} 12|96b25 102r25
+50V13*obtenirChiffresDUneLigne{10|6A9} 51>7 52>7 12|114b13 127l8 127t32
+51a7 g{6A9} 12|115b7 122r26 123r50
+52i7 numLigne{integer} 12|115b27 121r41
+55V13*obtenirChiffresDUneColonne{10|6A9} 56>7 57>7 12|133b13 145l11 145t37
+56a7 g{6A9} 12|133b40 140r29 141r54
+57i7 numColonne{integer} 12|133b60 139r46
+60V13*obtenirChiffresDUnCarre{10|6A9} 61>7 62>7 12|151b13 174l8 174t31
+61a7 g{6A9} 12|152b7 168r32 169r58
+62i7 numCarre{integer} 12|152b27 161r42
+X 12 tad_grillesudoku.adb
+9a7 grille{11|6A9} 13m13 16r11
+11i11 i{integer} 13r20
+12i14 z{integer} 13r22
+52i7 Nb_Chiffres{integer} 54m7 58m16 58r31 62r14
+55i11 i{integer} 57r18
+56i14 z{integer} 57r20
+97r7 coord{9|3R9} 101m13 102r27
+99i11 i{integer} 101r44
+100i14 z{integer} 101r46
+116r7 coord{9|3R9} 121m10 122r28 123r52
+117a7 ligneC{10|6A9} 119m7 123m28 123r28 126r14
+120i11 i{integer} 121r50
+134a7 Colonne{10|6A9} 137m7 141m31 141r31 144r14
+135r7 coord{9|3R9} 139m13 140r31 141r56
+138i14 i{integer} 139r44
+154a10 Un_Carre{10|6A9} 160m10 169m34 169r34 173r14
+155r10 coord{9|3R9} 161m10 162r33 163r33 167m16 168r34 169r60
+156i10 ligneC{integer} 162m10 167r51
+157i10 cord{integer} 163m10 167r64
+165i14 i{integer} 167r47
+166i17 z{integer} 167r60
+

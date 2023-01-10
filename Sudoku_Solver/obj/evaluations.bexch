@@ -1,0 +1,28 @@
+[GENERATED OBJECT FILE]
+b__evaluations.o
+[PROJECT FILES]
+C:\Users\Yato\Desktop\But informatique\1.01\test\default.gpr
+20220119165158 8dd5a55a9bb62c41bd463e160cab142d
+C:\GtkAda\lib\gnat\gtkada.gpr
+20210913093922 f0c5f153f2ac559f4e63503c259305fa
+[BOUND OBJECT FILES]
+C:\Users\Yato\Desktop\But informatique\1.01\test\obj\TAD_coordonnee.o
+C:\Users\Yato\Desktop\But informatique\1.01\test\obj\TAD_ensemble.o
+C:\Users\Yato\Desktop\But informatique\1.01\test\obj\TAD_grillesudoku.o
+C:\Users\Yato\Desktop\But informatique\1.01\test\obj\affichage.o
+C:\Users\Yato\Desktop\But informatique\1.01\test\obj\remplirGrille.o
+C:\Users\Yato\Desktop\But informatique\1.01\test\obj\resolutions.o
+C:\Users\Yato\Desktop\But informatique\1.01\test\obj\evaluations.o
+[GENERATED SOURCE FILES]
+b__evaluations.ads
+b__evaluations.adb
+b__evaluations.ali
+[RESULTING OPTIONS]
+-LC:\Users\Yato\Desktop\But informatique\1.01\test\obj\
+-LC:\Users\Yato\Desktop\But informatique\1.01\test\obj\
+-LC:\GtkAda\lib\gtkada\gtkada.static\gtkada\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

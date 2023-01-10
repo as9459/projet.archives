@@ -1,0 +1,405 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U dessin%b		dessin.adb		5189473c NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+U dessin%s		dessin.ads		00021324 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W remplirgrille%s	remplirgrille.adb	remplirgrille.ali
+W resolutions%s		resolutions.adb		resolutions.ali
+W tad_coordonnee%s	tad_coordonnee.adb	tad_coordonnee.ali
+W tad_grillesudoku%s	tad_grillesudoku.adb	tad_grillesudoku.ali
+W traceur%s		traceur.adb		traceur.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051130 c3a8ac65 ada.unchecked_deallocation%s
+D cairo.ads		20200724222222 925d4aaa cairo%s
+D cairo-region.ads	20200724222222 b7133728 cairo.region%s
+D dessin.ads		20220119152740 656e25ff dessin%s
+D dessin.adb		20220119154022 34e762c3 dessin%b
+D gdk.ads		20200724222222 96d821f3 gdk%s
+D gdk-color.ads		20200724222222 ef57bc34 gdk.color%s
+D gdk-device.ads	20200724222222 04c1ecbd gdk.device%s
+D gdk-display.ads	20200724222222 d91ec37e gdk.display%s
+D gdk-drag_contexts.ads	20200724222222 11b1346e gdk.drag_contexts%s
+D gdk-event.ads		20200724222222 1bda38e2 gdk.event%s
+D gdk-frame_clock.ads	20200724222222 dadfbe52 gdk.frame_clock%s
+D gdk-frame_timings.ads	20200724222222 98b5e7d1 gdk.frame_timings%s
+D gdk-pixbuf.ads	20200724222222 499fe1c7 gdk.pixbuf%s
+D gdk-rectangle.ads	20200724222222 7b900608 gdk.rectangle%s
+D gdk-rgba.ads		20200724222222 2609514a gdk.rgba%s
+D gdk-screen.ads	20200724222222 9fe578a4 gdk.screen%s
+D gdk-types.ads		20200724222222 921dc8b2 gdk.types%s
+D gdk-visual.ads	20200724222222 615e934c gdk.visual%s
+D gdk-window.ads	20200724222222 aa508024 gdk.window%s
+D glib.ads		20200724222222 7d107887 glib%s
+D glib-error.ads	20200724222222 e055fabe glib.error%s
+D glib-generic_properties.ads  20200724222222 f3dc70df glib.generic_properties%s
+D glib-glist.ads	20200724222222 65a6e1be glib.glist%s
+D glib-gslist.ads	20200724222222 953541be glib.gslist%s
+D glib-object.ads	20200724222222 fb5efa0e glib.object%s
+D glib-properties.ads	20200724222222 4118b916 glib.properties%s
+D glib-types.ads	20200724222222 86ac71ae glib.types%s
+D glib-values.ads	20200724222222 5ef3ad24 glib.values%s
+D gnat.ads		20210520051132 b5988c27 gnat%s
+D g-string.ads		20210520051132 c6abc540 gnat.strings%s
+D gtk.ads		20200724222222 cfdeaf1c gtk%s
+D gtk-accel_group.ads	20200724222222 a14a159a gtk.accel_group%s
+D gtk-adjustment.ads	20200724222222 bbcb1fda gtk.adjustment%s
+D gtk-bin.ads		20200724222222 4e8a2236 gtk.bin%s
+D gtk-buildable.ads	20200724222222 e8198b57 gtk.buildable%s
+D gtk-builder.ads	20200724222222 35d802c2 gtk.builder%s
+D gtk-container.ads	20200724222222 dc3d0898 gtk.container%s
+D gtk-drawing_area.ads	20200724222222 6fdc9064 gtk.drawing_area%s
+D gtk-enums.ads		20200724222222 e3f2f3ba gtk.enums%s
+D gtk-main.ads		20200724222222 e684a528 gtk.main%s
+D gtk-selection_data.ads  20200724222222 061b2148 gtk.selection_data%s
+D gtk-style.ads		20200724222222 3c4cbc07 gtk.style%s
+D gtk-target_entry.ads	20200724222222 02690213 gtk.target_entry%s
+D gtk-target_list.ads	20200724222222 a9d79eb7 gtk.target_list%s
+D gtk-widget.ads	20200724222222 07bd7883 gtk.widget%s
+D gtk-window.ads	20200724222222 e91a448d gtk.window%s
+D gtkada.ads		20200724222222 57aea1c7 gtkada%s
+D gtkada-types.ads	20200724222222 471f54b5 gtkada.types%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D pango.ads		20200724222222 e51ea573 pango%s
+D pango-attributes.ads	20200724222222 b2832a43 pango.attributes%s
+D pango-context.ads	20200724222222 5a6f0fe6 pango.context%s
+D pango-enums.ads	20200724222222 eff085ce pango.enums%s
+D pango-font.ads	20200724222222 71042db5 pango.font%s
+D pango-font_face.ads	20200724222222 c62e6ce5 pango.font_face%s
+D pango-font_family.ads	20200724222222 1fdea8b4 pango.font_family%s
+D pango-font_metrics.ads  20200724222222 25e6f301 pango.font_metrics%s
+D pango-fontset.ads	20200724222222 af4fe708 pango.fontset%s
+D pango-language.ads	20200724222222 e96cb8f4 pango.language%s
+D pango-layout.ads	20200724222222 d240b716 pango.layout%s
+D pango-matrix.ads	20200724222222 309f74b5 pango.matrix%s
+D pango-tabs.ads	20200724222222 0c575925 pango.tabs%s
+D remplirgrille.ads	20220119133542 cd1c0300 remplirgrille%s
+D resolutions.ads	20220119133542 d77c4dac resolutions%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-finmas.ads		20210520051132 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051134 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051134 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-string.ads		20210520051134 8fe54fb7 system.strings%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D tad_coordonnee.ads	20220119133542 513dde5c tad_coordonnee%s
+D tad_ensemble.ads	20220119133542 2a870cde tad_ensemble%s
+D tad_grillesudoku.ads	20220119133542 d18dd1d2 tad_grillesudoku%s
+D traceur.ads		20220118092620 ffbc77f9 traceur%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [dessinergrille dessin 8 14 none]
+G c Z s b [dessinerun dessin 9 14 none]
+G c Z s b [dessinerdeux dessin 10 14 none]
+G c Z s b [dessinertrois dessin 11 14 none]
+G c Z s b [dessinerquatre dessin 12 14 none]
+G c Z s b [dessinercinq dessin 13 14 none]
+G c Z s b [dessinersix dessin 14 14 none]
+G c Z s b [dessinersept dessin 15 14 none]
+G c Z s b [dessinerhuit dessin 16 14 none]
+G c Z s b [dessinerneuf dessin 17 14 none]
+G c Z s b [placernombre dessin 18 14 none]
+G c Z s b [remplirgriled dessin 19 14 none]
+G r c none [dessinergrille dessin 8 14 none] [leverstylet traceur 36 14 none]
+G r c none [dessinergrille dessin 8 14 none] [centrerstylet traceur 39 14 none]
+G r c none [dessinergrille dessin 8 14 none] [orienternord traceur 42 14 none]
+G r c none [dessinergrille dessin 8 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [dessinergrille dessin 8 14 none] [pivotergauche traceur 41 14 none]
+G r c none [dessinergrille dessin 8 14 none] [baisserstylet traceur 37 14 none]
+G r c none [dessinergrille dessin 8 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [dessinerun dessin 9 14 none] [leverstylet traceur 36 14 none]
+G r c none [dessinerun dessin 9 14 none] [orienternord traceur 42 14 none]
+G r c none [dessinerun dessin 9 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [dessinerun dessin 9 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [dessinerun dessin 9 14 none] [pivotergauche traceur 41 14 none]
+G r c none [dessinerun dessin 9 14 none] [baisserstylet traceur 37 14 none]
+G r c none [dessinerdeux dessin 10 14 none] [leverstylet traceur 36 14 none]
+G r c none [dessinerdeux dessin 10 14 none] [orienternord traceur 42 14 none]
+G r c none [dessinerdeux dessin 10 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [dessinerdeux dessin 10 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [dessinerdeux dessin 10 14 none] [baisserstylet traceur 37 14 none]
+G r c none [dessinerdeux dessin 10 14 none] [pivotergauche traceur 41 14 none]
+G r c none [dessinertrois dessin 11 14 none] [leverstylet traceur 36 14 none]
+G r c none [dessinertrois dessin 11 14 none] [orienternord traceur 42 14 none]
+G r c none [dessinertrois dessin 11 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [dessinertrois dessin 11 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [dessinertrois dessin 11 14 none] [baisserstylet traceur 37 14 none]
+G r c none [dessinertrois dessin 11 14 none] [pivotergauche traceur 41 14 none]
+G r c none [dessinerquatre dessin 12 14 none] [leverstylet traceur 36 14 none]
+G r c none [dessinerquatre dessin 12 14 none] [orienternord traceur 42 14 none]
+G r c none [dessinerquatre dessin 12 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [dessinerquatre dessin 12 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [dessinerquatre dessin 12 14 none] [baisserstylet traceur 37 14 none]
+G r c none [dessinerquatre dessin 12 14 none] [pivotergauche traceur 41 14 none]
+G r c none [dessinercinq dessin 13 14 none] [leverstylet traceur 36 14 none]
+G r c none [dessinercinq dessin 13 14 none] [orienternord traceur 42 14 none]
+G r c none [dessinercinq dessin 13 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [dessinercinq dessin 13 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [dessinercinq dessin 13 14 none] [pivotergauche traceur 41 14 none]
+G r c none [dessinercinq dessin 13 14 none] [baisserstylet traceur 37 14 none]
+G r c none [dessinersix dessin 14 14 none] [leverstylet traceur 36 14 none]
+G r c none [dessinersix dessin 14 14 none] [orienternord traceur 42 14 none]
+G r c none [dessinersix dessin 14 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [dessinersix dessin 14 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [dessinersix dessin 14 14 none] [pivotergauche traceur 41 14 none]
+G r c none [dessinersix dessin 14 14 none] [baisserstylet traceur 37 14 none]
+G r c none [dessinersept dessin 15 14 none] [leverstylet traceur 36 14 none]
+G r c none [dessinersept dessin 15 14 none] [orienternord traceur 42 14 none]
+G r c none [dessinersept dessin 15 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [dessinersept dessin 15 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [dessinersept dessin 15 14 none] [baisserstylet traceur 37 14 none]
+G r c none [dessinersept dessin 15 14 none] [pivotergauche traceur 41 14 none]
+G r c none [dessinerhuit dessin 16 14 none] [leverstylet traceur 36 14 none]
+G r c none [dessinerhuit dessin 16 14 none] [orienternord traceur 42 14 none]
+G r c none [dessinerhuit dessin 16 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [dessinerhuit dessin 16 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [dessinerhuit dessin 16 14 none] [baisserstylet traceur 37 14 none]
+G r c none [dessinerhuit dessin 16 14 none] [pivotergauche traceur 41 14 none]
+G r c none [dessinerneuf dessin 17 14 none] [leverstylet traceur 36 14 none]
+G r c none [dessinerneuf dessin 17 14 none] [orienternord traceur 42 14 none]
+G r c none [dessinerneuf dessin 17 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [dessinerneuf dessin 17 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [dessinerneuf dessin 17 14 none] [pivotergauche traceur 41 14 none]
+G r c none [dessinerneuf dessin 17 14 none] [baisserstylet traceur 37 14 none]
+G r c none [placernombre dessin 18 14 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [placernombre dessin 18 14 none] [grille6moyen remplirgrille 10 13 none]
+G r c none [placernombre dessin 18 14 none] [resoudresudoku resolutions 40 14 none]
+G r c none [placernombre dessin 18 14 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [placernombre dessin 18 14 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [placernombre dessin 18 14 none] [obtenirchiffre tad_grillesudoku 25 13 none]
+G r c none [placernombre dessin 18 14 none] [leverstylet traceur 36 14 none]
+G r c none [placernombre dessin 18 14 none] [orienternord traceur 42 14 none]
+G r c none [placernombre dessin 18 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [placernombre dessin 18 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [placernombre dessin 18 14 none] [pivotergauche traceur 41 14 none]
+G r c none [placernombre dessin 18 14 none] [baisserstylet traceur 37 14 none]
+G r c none [remplirgriled dessin 19 14 none] [leverstylet traceur 36 14 none]
+G r c none [remplirgriled dessin 19 14 none] [centrerstylet traceur 39 14 none]
+G r c none [remplirgriled dessin 19 14 none] [orienternord traceur 42 14 none]
+G r c none [remplirgriled dessin 19 14 none] [deplacerstylet traceur 38 14 none]
+G r c none [remplirgriled dessin 19 14 none] [pivotergauche traceur 41 14 none]
+G r c none [remplirgriled dessin 19 14 none] [pivoterdroite traceur 40 14 none]
+G r c none [remplirgriled dessin 19 14 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [remplirgriled dessin 19 14 none] [grille6moyen remplirgrille 10 13 none]
+G r c none [remplirgriled dessin 19 14 none] [resoudresudoku resolutions 40 14 none]
+G r c none [remplirgriled dessin 19 14 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [remplirgriled dessin 19 14 none] [casevide tad_grillesudoku 18 13 none]
+G r c none [remplirgriled dessin 19 14 none] [obtenirchiffre tad_grillesudoku 25 13 none]
+G r c none [remplirgriled dessin 19 14 none] [baisserstylet traceur 37 14 none]
+X 13 dessin.ads
+6K9*dessin 21l5 21e11 14|2b14 647l5 647t11
+8U14*dessinerGrille 14|8b14 71l8 71t22
+9U14*dessinerUn 14|77b14 123l8 123t18 591s13
+10U14*dessinerDeux 14|129b14 193l8 193t20 593s13
+11U14*dessinerTrois 14|199b14 290l8 290t21 595s13
+12U14*dessinerQuatre 14|296b14 330l8 330t22 597s13
+13U14*dessinerCinq 14|336b14 385l8 385t20 599s13
+14U14*dessinerSix 14|391b14 434l8 434t19 601s13
+15U14*dessinerSept 14|440b14 475l8 475t20 603s13
+16U14*dessinerHuit 14|481b14 520l8 520t20 605s13
+17U14*dessinerNeuf 14|526b14 568l8 568t20 607s13
+18U14*placerNombre 18>28 18>44 18>57 14|574b14 611l8 611t20 643s13
+18i28 i{integer} 14|574b28 581r11 583r14
+18i44 x{integer} 14|574b44 587r34
+18i57 y{integer} 14|574b57 587r37
+19U14*remplirGrileD 19>28 14|613b14 646l11 646t24
+19i28 nu{integer} 14|613b28 643r26
+X 14 dessin.adb
+19i14 i{integer}
+20i17 c{integer}
+25i14 i{integer}
+31i17 y{integer}
+32i20 x{integer}
+39i17 y{integer}
+45i14 i{integer}
+49i14 i{integer}
+54i17 y{integer}
+55i20 x{integer}
+63i14 y{integer}
+81i11 i{integer}
+83i14 x{integer}
+88i11 i{integer}
+93i11 i{integer}
+104i11 i{integer}
+110i11 x{integer}
+111i14 i{integer}
+119i11 i{integer}
+130i7 c1{integer} 142m7 143r13 148m10 148r16
+130i11 c2{integer} 151m7 152r13 154m10 154r16
+130i15 c3{integer} 158m7 159r13 164m10 164r16
+130i19 c4{integer} 168m7 169r13 171m10 171r16
+130i23 c5{integer} 175m7 176r13 181m10 181r16
+130i27 c6{integer} 186m7 187r13 189m10 189r16
+134i11 i{integer}
+136i14 x{integer}
+205i11 i{integer}
+207i14 x{integer}
+214i29 i{integer}
+223i37 j{integer}
+229i37 k{integer}
+239i38 l{integer}
+244i38 m{integer}
+253i37 n{integer}
+262i37 o{integer}
+268i37 p{integer}
+277i37 q{integer}
+282i37 r{integer}
+300i11 i{integer}
+302i14 x{integer}
+312i9 k{integer}
+316i9 k{integer}
+320i9 k{integer}
+325i9 k{integer}
+340i11 i{integer}
+342i14 x{integer}
+347i11 i{integer}
+357i14 i{integer}
+363i14 Z{integer}
+368i14 k{integer}
+374i14 p{integer}
+379i14 l{integer}
+395i11 i{integer}
+397i14 x{integer}
+402i11 i{integer}
+409i29 i{integer}
+414i29 j{integer}
+419i29 k{integer}
+424i29 l{integer}
+429i29 m{integer}
+441i7 c1{integer} 456m17 457r23 459m25 459r30 464m17 465r23 472m25 472r30
+445i11 i{integer}
+447i14 x{integer}
+485i11 i{integer}
+487i14 x{integer}
+494i9 k{integer}
+495i13 i{integer}
+506i9 k{integer} 510r13
+507i13 k{integer}
+530i11 i{integer}
+532i14 x{integer}
+537i11 i{integer}
+544i11 i{integer}
+545i29 m{integer}
+550i11 i{integer}
+555i11 j{integer}
+560i11 k{integer}
+575a7 g{97|6A9} 582m10 584m10 585m25 585r25 588r23 589r30
+576r7 c{95|3R9} 587m7 588r25 589r33
+577i7 n{integer} 589m10 590r13 592r16 594r16 596r16 598r19 600r19 602r16
+. 604r16 606r16
+578b7 trouve{boolean} 585m28
+579i7 cp{integer} 585m36
+614i7 a{integer}
+614i10 b{integer}
+617i11 i{integer} 630r16 631r28 643r37
+618i14 j{integer} 638r16 639r28 643r30
+621i17 y{integer}
+622i20 x{integer}
+631i20 x{integer}
+639i20 y{integer}
+X 15 gdk.ads
+43P9*Gdk_Window<30|153P9>
+46P9*Gdk_Visual<30|153P9>
+X 17 gdk-device.ads
+49P9*Gdk_Device(48R9)
+59V13*Convert{77|67M9} 33|58i21
+60V13*Convert{49P9} 33|59i21
+X 28 gdk-visual.ads
+78V13*Convert[99|20]{77|67M9} 33|58i21
+79V13*Convert[99|20]{15|46P9} 33|59i21
+X 29 gdk-window.ads
+280V13*Convert{77|67M9} 33|58i21
+281V13*Convert{15|43P9} 33|59i21
+X 30 glib.ads
+153P9*C_Proxy(150R9)
+X 35 glib-object.ads
+41P9*GObject(40R9)
+675V13*Convert{77|67M9} 33|58i21 34|49i21
+676V13*Convert{41P9} 33|59i21 34|50i21
+X 49 gtk-enums.ads
+865V13*Convert{77|67M9} 33|58i21 34|49i21
+866V13*Convert{string} 33|59i21 34|50i21
+X 55 gtk-widget.ads
+344P9*Gtk_Widget(343R9)
+431V13*Convert{77|67M9} 33|58i21 34|49i21
+432V13*Convert{344P9} 33|59i21 34|50i21
+X 75 remplirgrille.ads
+3K9*remplirGrille 13|3w6 3r25 75|15e18
+10V13*grille6Moyen{97|6A9} 14|582s15 584s15
+X 76 resolutions.ads
+7K9*resolutions 13|5w6 5r23 76|45e16
+40U14*resoudreSudoku 14|585s10
+X 77 system.ads
+67M9*Address
+X 95 tad_coordonnee.ads
+1K9*TAD_Coordonnee 13|4w6 4r26 95|28e19
+3R9*Type_Coordonnee 14|576r11 95|26e14
+6V13*construireCoordonnees{3R9} 14|587s12
+X 97 tad_grillesudoku.ads
+4K9*TAD_grilleSudoku 13|2w6 2r28 97|67e21
+6A9*Type_Grille(integer) 14|575r11
+14V13*construireGrille{6A9} 14|575s26
+18V13*caseVide{boolean} 14|588s14
+25V13*obtenirChiffre{integer} 14|589s15
+X 98 traceur.ads
+9K9*Traceur 13|1w6 1r19 98|58e12
+36U14*leverStylet 14|11s10 35s16 58s16 79s7 99s7 107s7 122s7 132s7 192s7
+. 202s7 289s33 298s7 329s5 338s7 384s9 393s7 433s25 443s7 474s7 483s7 519s7
+. 528s7 567s7 616s7
+37U14*baisserStylet 14|30s13 53s13 92s7 103s7 109s7 141s7 211s25 306s5 352s10
+. 405s25 451s7 492s5 541s7
+38U14*deplacerStylet 14|21s16 33s19 40s16 46s13 56s19 64s16 84s13 89s10 94s10
+. 96s10 105s10 112s13 120s10 137s13 144s10 146s10 153s10 160s10 162s10 170s10
+. 177s10 179s10 188s10 208s13 215s33 217s33 224s33 230s33 232s33 240s34 245s34
+. 247s34 254s33 256s33 263s33 269s33 271s33 278s33 283s33 285s33 303s13 313s9
+. 317s9 321s9 326s9 343s13 348s10 358s13 364s13 369s13 375s13 380s13 398s13
+. 403s10 410s25 415s25 420s25 425s25 430s25 448s13 458s25 466s10 467s10 468s10
+. 470s10 488s13 496s13 499s10 501s10 508s13 512s10 514s10 533s13 538s10 546s10
+. 551s10 556s10 561s10 623s19 632s19 640s19
+39U14*centrerStylet 14|12s10 70s10 619s13
+40U14*pivoterDroite 14|38s13 43s10 44s10 59s16 60s16 82s10 95s10 108s7 118s7
+. 135s10 145s10 150s7 156s7 163s10 166s7 178s10 185s7 206s10 216s33 220s33
+. 226s33 233s33 236s33 237s33 242s34 248s34 252s33 255s33 259s33 265s33 272s33
+. 281s33 286s33 301s10 309s5 310s5 323s5 324s5 341s10 372s10 378s10 396s10
+. 446s10 454s9 462s17 469s10 486s10 498s10 502s9 513s10 531s10 543s7 548s10
+. 553s7 558s7 629s13 636s13 637s13
+41U14*pivoterGauche 14|23s13 27s16 28s16 51s13 62s13 87s7 97s10 101s7 102s7
+. 114s10 115s10 147s10 161s10 173s7 180s10 218s33 231s33 246s34 257s33 270s33
+. 275s33 284s33 315s5 319s5 346s7 353s10 362s10 367s10 401s7 407s25 412s25
+. 417s25 422s25 427s25 471s10 500s10 504s5 505s9 511s10 515s13 536s7 563s7
+. 625s16
+42U14*orienterNord 14|16s10 26s13 36s16 50s13 80s7 91s7 100s7 117s7 133s7
+. 140s7 184s7 204s7 212s25 235s33 251s33 274s33 299s7 307s5 339s7 351s10
+. 394s25 406s25 444s7 453s17 484s7 491s7 493s5 529s7 542s7 620s13 627s13
+. 635s13
+

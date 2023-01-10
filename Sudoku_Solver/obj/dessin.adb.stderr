@@ -1,0 +1,2 @@
+dessin.adb:614:07: warning: variable "a" is never read and never assigned [-gnatwv]
+dessin.adb:614:10: warning: variable "b" is never read and never assigned [-gnatwv]

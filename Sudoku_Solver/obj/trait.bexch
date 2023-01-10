@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__trait.o
+[PROJECT FILES]
+C:\Users\Yato\Desktop\But informatique\1.01\test\default.gpr
+20220118094002 64d9d55336a879d50d8d0ab08aeb0eea
+C:\GtkAda\lib\gnat\gtkada.gpr
+20210913093922 f0c5f153f2ac559f4e63503c259305fa
+[BOUND OBJECT FILES]
+C:\Users\Yato\Desktop\But informatique\1.01\test\obj\traceur_callbacks.o
+C:\Users\Yato\Desktop\But informatique\1.01\test\obj\Traceur.o
+C:\Users\Yato\Desktop\But informatique\1.01\test\obj\trait.o
+[GENERATED SOURCE FILES]
+b__trait.ads
+b__trait.adb
+b__trait.ali
+[RESULTING OPTIONS]
+-LC:\Users\Yato\Desktop\But informatique\1.01\test\obj\
+-LC:\Users\Yato\Desktop\But informatique\1.01\test\obj\
+-LC:\GtkAda\lib\gtkada\gtkada.static\gtkada\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+-shared-libgcc
+-shared-libgcc
+-shared-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

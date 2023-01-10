@@ -1,0 +1,414 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U traceur_callbacks%s	traceur_callbacks.ads	27cca3ca EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.drawing_area%s	gtk-drawing_area.adb	gtk-drawing_area.ali
+W gtk.handlers%s	gtk-handlers.adb	gtk-handlers.ali
+Z gtk.marshallers%s	gtk-marshallers.adb	gtk-marshallers.ali  ED
+W gtk.widget%s		gtk-widget.adb		gtk-widget.ali
+W gtk.window%s		gtk-window.adb		gtk-window.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-assert.ads		20210520051128 a718b65c ada.assertions%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051130 c3a8ac65 ada.unchecked_deallocation%s
+D cairo.ads		20200724222222 925d4aaa cairo%s
+D cairo-region.ads	20200724222222 b7133728 cairo.region%s
+D gdk.ads		20200724222222 96d821f3 gdk%s
+D gdk-color.ads		20200724222222 ef57bc34 gdk.color%s
+D gdk-device.ads	20200724222222 04c1ecbd gdk.device%s
+D gdk-display.ads	20200724222222 d91ec37e gdk.display%s
+D gdk-drag_contexts.ads	20200724222222 11b1346e gdk.drag_contexts%s
+D gdk-event.ads		20200724222222 1bda38e2 gdk.event%s
+D gdk-frame_clock.ads	20200724222222 dadfbe52 gdk.frame_clock%s
+D gdk-frame_timings.ads	20200724222222 98b5e7d1 gdk.frame_timings%s
+D gdk-pixbuf.ads	20200724222222 499fe1c7 gdk.pixbuf%s
+D gdk-rectangle.ads	20200724222222 7b900608 gdk.rectangle%s
+D gdk-rgba.ads		20200724222222 2609514a gdk.rgba%s
+D gdk-screen.ads	20200724222222 9fe578a4 gdk.screen%s
+D gdk-types.ads		20200724222222 921dc8b2 gdk.types%s
+D gdk-visual.ads	20200724222222 615e934c gdk.visual%s
+D gdk-window.ads	20200724222222 aa508024 gdk.window%s
+D glib.ads		20200724222222 7d107887 glib%s
+D glib-error.ads	20200724222222 e055fabe glib.error%s
+D glib-generic_properties.ads  20200724222222 f3dc70df glib.generic_properties%s
+D glib-glist.ads	20200724222222 65a6e1be glib.glist%s
+D glib-gslist.ads	20200724222222 953541be glib.gslist%s
+D glib-object.ads	20200724222222 fb5efa0e glib.object%s
+D glib-properties.ads	20200724222222 4118b916 glib.properties%s
+D glib-types.ads	20200724222222 86ac71ae glib.types%s
+D glib-values.ads	20200724222222 5ef3ad24 glib.values%s
+D gnat.ads		20210520051132 b5988c27 gnat%s
+D g-string.ads		20210520051132 c6abc540 gnat.strings%s
+D gtk.ads		20200724222222 cfdeaf1c gtk%s
+D gtk-accel_group.ads	20200724222222 a14a159a gtk.accel_group%s
+D gtk-adjustment.ads	20200724222222 bbcb1fda gtk.adjustment%s
+D gtk-bin.ads		20200724222222 4e8a2236 gtk.bin%s
+D gtk-buildable.ads	20200724222222 e8198b57 gtk.buildable%s
+D gtk-builder.ads	20200724222222 35d802c2 gtk.builder%s
+D gtk-cell_area.ads	20200724222222 309571a8 gtk.cell_area%s
+D gtk-cell_area_context.ads  20200724222222 5d63dcf9 gtk.cell_area_context%s
+D gtk-cell_editable.ads	20200724222222 a955a31f gtk.cell_editable%s
+D gtk-cell_layout.ads	20200724222222 ceee6a6f gtk.cell_layout%s
+D gtk-cell_renderer.ads	20200724222222 8a8076e8 gtk.cell_renderer%s
+D gtk-container.ads	20200724222222 dc3d0898 gtk.container%s
+D gtk-drawing_area.ads	20200724222222 6fdc9064 gtk.drawing_area%s
+D gtk-enums.ads		20200724222222 e3f2f3ba gtk.enums%s
+D gtk-handlers.ads	20200724222222 313b6eab gtk.handlers%s
+D gtk-handlers.adb	20200724222222 72ebcbbe gtk.handlers%b
+D gtk-marshallers.ads	20200724222222 6c3cad4d gtk.marshallers%s
+D gtk-marshallers.adb	20200724222222 3763b331 gtk.marshallers%b
+D gtk-selection_data.ads  20200724222222 061b2148 gtk.selection_data%s
+D gtk-style.ads		20200724222222 3c4cbc07 gtk.style%s
+D gtk-target_entry.ads	20200724222222 02690213 gtk.target_entry%s
+D gtk-target_list.ads	20200724222222 a9d79eb7 gtk.target_list%s
+D gtk-tree_model.ads	20200724222222 e664b639 gtk.tree_model%s
+D gtk-tree_view_column.ads  20200724222222 54737275 gtk.tree_view_column%s
+D gtk-widget.ads	20200724222222 07bd7883 gtk.widget%s
+D gtk-window.ads	20200724222222 e91a448d gtk.window%s
+D gtkada.ads		20200724222222 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20200724222222 fc9825de gtkada.bindings%s
+D gtkada-c.ads		20200724222222 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20200724222222 471f54b5 gtkada.types%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D pango.ads		20200724222222 e51ea573 pango%s
+D pango-attributes.ads	20200724222222 b2832a43 pango.attributes%s
+D pango-context.ads	20200724222222 5a6f0fe6 pango.context%s
+D pango-enums.ads	20200724222222 eff085ce pango.enums%s
+D pango-font.ads	20200724222222 71042db5 pango.font%s
+D pango-font_face.ads	20200724222222 c62e6ce5 pango.font_face%s
+D pango-font_family.ads	20200724222222 1fdea8b4 pango.font_family%s
+D pango-font_metrics.ads  20200724222222 25e6f301 pango.font_metrics%s
+D pango-fontset.ads	20200724222222 af4fe708 pango.fontset%s
+D pango-language.ads	20200724222222 e96cb8f4 pango.language%s
+D pango-layout.ads	20200724222222 d240b716 pango.layout%s
+D pango-matrix.ads	20200724222222 309f74b5 pango.matrix%s
+D pango-tabs.ads	20200724222222 0c575925 pango.tabs%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-assert.ads		20210520051132 6a49a4e4 system.assertions%s
+D s-conca4.ads		20210520051132 7e642b20 system.concat_4%s
+D s-conca5.ads		20210520051132 875e432e system.concat_5%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-finmas.ads		20210520051132 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-memory.ads		20210520051134 597d6634 system.memory%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051134 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stalib.adb		20210520051134 977290bf system.standard_library%b
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051134 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-string.ads		20210520051134 8fe54fb7 system.strings%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D traceur_callbacks.ads	20220118092620 978c610b traceur_callbacks%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20210520051136 214516a4 unchecked_deallocation%s
+G a e
+G c s s s [s traceur_callbacks 7 1 none]
+G c Z s s [to_marshaller traceur_callbacks__window_cb__marshallers__void_marshaller 206 19 229_7_9_4]
+G c Z s s [emit_by_name traceur_callbacks__window_cb__marshallers__void_marshaller 208 19 229_7_9_4]
+G c Z s s [call traceur_callbacks__window_cb__marshallers__void_marshaller 213 19 229_7_9_4]
+G c Z s s [to_handler traceur_callbacks__window_cb__marshallers__void_marshaller 211 19 229_7_9_4]
+G c Z s s [to_general_handler traceur_callbacks__window_cb__marshallers__void_marshaller 213 19 229_7_9_4]
+G c Z s s [marshallerIP traceur_callbacks__window_cb__marshallers 134 12 229_7_9_4]
+G c Z s s [connect traceur_callbacks__window_cb 242 17 9_4]
+G c Z s s [object_connect traceur_callbacks__window_cb 249 17 9_4]
+G c Z s s [connect traceur_callbacks__window_cb 260 17 9_4]
+G c Z s s [object_connect traceur_callbacks__window_cb 265 17 9_4]
+G c Z s s [connect traceur_callbacks__window_cb 275 17 9_4]
+G c Z s s [object_connect traceur_callbacks__window_cb 280 17 9_4]
+G c Z s s [connect traceur_callbacks__window_cb 294 16 9_4]
+G c Z s s [object_connect traceur_callbacks__window_cb 301 16 9_4]
+G c Z s s [connect traceur_callbacks__window_cb 312 16 9_4]
+G c Z s s [object_connect traceur_callbacks__window_cb 319 16 9_4]
+G c Z s s [to_marshaller traceur_callbacks__window_cb__gint_marshaller 150 19 332_7_9_4]
+G c Z s s [emit_by_name traceur_callbacks__window_cb__gint_marshaller 152 19 332_7_9_4]
+G c Z s s [call traceur_callbacks__window_cb__gint_marshaller 168 19 332_7_9_4]
+G c Z s s [to_handler traceur_callbacks__window_cb__gint_marshaller 43 19 332_7_9_4]
+G c Z s s [to_general_handler traceur_callbacks__window_cb__gint_marshaller 45 19 332_7_9_4]
+G c Z s s [to_marshaller traceur_callbacks__window_cb__guint_marshaller 150 19 334_7_9_4]
+G c Z s s [emit_by_name traceur_callbacks__window_cb__guint_marshaller 152 19 334_7_9_4]
+G c Z s s [call traceur_callbacks__window_cb__guint_marshaller 168 19 334_7_9_4]
+G c Z s s [to_handler traceur_callbacks__window_cb__guint_marshaller 43 19 334_7_9_4]
+G c Z s s [to_general_handler traceur_callbacks__window_cb__guint_marshaller 45 19 334_7_9_4]
+G c Z s s [to_marshaller traceur_callbacks__window_cb__event_marshaller 150 19 336_7_9_4]
+G c Z s s [emit_by_name traceur_callbacks__window_cb__event_marshaller 152 19 336_7_9_4]
+G c Z s s [call traceur_callbacks__window_cb__event_marshaller 168 19 336_7_9_4]
+G c Z s s [to_handler traceur_callbacks__window_cb__event_marshaller 43 19 336_7_9_4]
+G c Z s s [to_general_handler traceur_callbacks__window_cb__event_marshaller 45 19 336_7_9_4]
+G c Z s s [to_marshaller traceur_callbacks__window_cb__context_marshaller 150 19 338_7_9_4]
+G c Z s s [emit_by_name traceur_callbacks__window_cb__context_marshaller 152 19 338_7_9_4]
+G c Z s s [call traceur_callbacks__window_cb__context_marshaller 168 19 338_7_9_4]
+G c Z s s [to_handler traceur_callbacks__window_cb__context_marshaller 43 19 338_7_9_4]
+G c Z s s [to_general_handler traceur_callbacks__window_cb__context_marshaller 45 19 338_7_9_4]
+G c Z s s [to_marshaller traceur_callbacks__window_cb__widget_marshaller 185 19 340_7_9_4]
+G c Z s s [emit_by_name traceur_callbacks__window_cb__widget_marshaller 187 19 340_7_9_4]
+G c Z s s [call traceur_callbacks__window_cb__widget_marshaller 193 19 340_7_9_4]
+G c Z s s [to_handler traceur_callbacks__window_cb__widget_marshaller 138 19 340_7_9_4]
+G c Z s s [to_general_handler traceur_callbacks__window_cb__widget_marshaller 140 19 340_7_9_4]
+G c Z s s [emit_by_name traceur_callbacks__window_cb 383 16 9_4]
+G c Z s s [convert traceur_callbacks__window_cb 420 16 9_4]
+G c Z s s [convert traceur_callbacks__window_cb 422 16 9_4]
+G c Z s s [free_data traceur_callbacks__window_cb 425 17 9_4]
+G c Z s s [first_marshaller traceur_callbacks__window_cb 429 17 9_4]
+G c Z s s [data_type_recordIP traceur_callbacks__window_cb 406 12 9_4]
+G c Z s s [to_handler traceur_callbacks__window_cb 182 16 9_4]
+G c Z s s [to_general_handler traceur_callbacks__window_cb 184 16 9_4]
+G c Z s s [to_address traceur_callbacks__window_cb 186 16 9_4]
+G c Z s s [to_address traceur_callbacks__window_cb 188 16 9_4]
+G c Z s s [to_marshaller traceur_callbacks__event_cb__marshallers__void_marshaller 206 19 229_7_12_4]
+G c Z s s [emit_by_name traceur_callbacks__event_cb__marshallers__void_marshaller 208 19 229_7_12_4]
+G c Z s s [call traceur_callbacks__event_cb__marshallers__void_marshaller 213 19 229_7_12_4]
+G c Z s s [to_handler traceur_callbacks__event_cb__marshallers__void_marshaller 211 19 229_7_12_4]
+G c Z s s [to_general_handler traceur_callbacks__event_cb__marshallers__void_marshaller 213 19 229_7_12_4]
+G c Z s s [marshallerIP traceur_callbacks__event_cb__marshallers 134 12 229_7_12_4]
+G c Z s s [connect traceur_callbacks__event_cb 242 17 12_4]
+G c Z s s [object_connect traceur_callbacks__event_cb 249 17 12_4]
+G c Z s s [connect traceur_callbacks__event_cb 260 17 12_4]
+G c Z s s [object_connect traceur_callbacks__event_cb 265 17 12_4]
+G c Z s s [connect traceur_callbacks__event_cb 275 17 12_4]
+G c Z s s [object_connect traceur_callbacks__event_cb 280 17 12_4]
+G c Z s s [connect traceur_callbacks__event_cb 294 16 12_4]
+G c Z s s [object_connect traceur_callbacks__event_cb 301 16 12_4]
+G c Z s s [connect traceur_callbacks__event_cb 312 16 12_4]
+G c Z s s [object_connect traceur_callbacks__event_cb 319 16 12_4]
+G c Z s s [to_marshaller traceur_callbacks__event_cb__gint_marshaller 150 19 332_7_12_4]
+G c Z s s [emit_by_name traceur_callbacks__event_cb__gint_marshaller 152 19 332_7_12_4]
+G c Z s s [call traceur_callbacks__event_cb__gint_marshaller 168 19 332_7_12_4]
+G c Z s s [to_handler traceur_callbacks__event_cb__gint_marshaller 43 19 332_7_12_4]
+G c Z s s [to_general_handler traceur_callbacks__event_cb__gint_marshaller 45 19 332_7_12_4]
+G c Z s s [to_marshaller traceur_callbacks__event_cb__guint_marshaller 150 19 334_7_12_4]
+G c Z s s [emit_by_name traceur_callbacks__event_cb__guint_marshaller 152 19 334_7_12_4]
+G c Z s s [call traceur_callbacks__event_cb__guint_marshaller 168 19 334_7_12_4]
+G c Z s s [to_handler traceur_callbacks__event_cb__guint_marshaller 43 19 334_7_12_4]
+G c Z s s [to_general_handler traceur_callbacks__event_cb__guint_marshaller 45 19 334_7_12_4]
+G c Z s s [to_marshaller traceur_callbacks__event_cb__event_marshaller 150 19 336_7_12_4]
+G c Z s s [emit_by_name traceur_callbacks__event_cb__event_marshaller 152 19 336_7_12_4]
+G c Z s s [call traceur_callbacks__event_cb__event_marshaller 168 19 336_7_12_4]
+G c Z s s [to_handler traceur_callbacks__event_cb__event_marshaller 43 19 336_7_12_4]
+G c Z s s [to_general_handler traceur_callbacks__event_cb__event_marshaller 45 19 336_7_12_4]
+G c Z s s [to_marshaller traceur_callbacks__event_cb__context_marshaller 150 19 338_7_12_4]
+G c Z s s [emit_by_name traceur_callbacks__event_cb__context_marshaller 152 19 338_7_12_4]
+G c Z s s [call traceur_callbacks__event_cb__context_marshaller 168 19 338_7_12_4]
+G c Z s s [to_handler traceur_callbacks__event_cb__context_marshaller 43 19 338_7_12_4]
+G c Z s s [to_general_handler traceur_callbacks__event_cb__context_marshaller 45 19 338_7_12_4]
+G c Z s s [to_marshaller traceur_callbacks__event_cb__widget_marshaller 185 19 340_7_12_4]
+G c Z s s [emit_by_name traceur_callbacks__event_cb__widget_marshaller 187 19 340_7_12_4]
+G c Z s s [call traceur_callbacks__event_cb__widget_marshaller 193 19 340_7_12_4]
+G c Z s s [to_handler traceur_callbacks__event_cb__widget_marshaller 138 19 340_7_12_4]
+G c Z s s [to_general_handler traceur_callbacks__event_cb__widget_marshaller 140 19 340_7_12_4]
+G c Z s s [emit_by_name traceur_callbacks__event_cb 383 16 12_4]
+G c Z s s [convert traceur_callbacks__event_cb 420 16 12_4]
+G c Z s s [convert traceur_callbacks__event_cb 422 16 12_4]
+G c Z s s [free_data traceur_callbacks__event_cb 425 17 12_4]
+G c Z s s [first_marshaller traceur_callbacks__event_cb 429 17 12_4]
+G c Z s s [data_type_recordIP traceur_callbacks__event_cb 406 12 12_4]
+G c Z s s [to_handler traceur_callbacks__event_cb 182 16 12_4]
+G c Z s s [to_general_handler traceur_callbacks__event_cb 184 16 12_4]
+G c Z s s [to_address traceur_callbacks__event_cb 186 16 12_4]
+G c Z s s [to_address traceur_callbacks__event_cb 188 16 12_4]
+G r i none [s traceur_callbacks 7 1 none] [return_marshallers gtk__marshallers 127 12 none]
+G r i none [s traceur_callbacks 7 1 none] [return_callback gtk__handlers 220 12 none]
+G r c none [emit_by_name traceur_callbacks__window_cb__marshallers__void_marshaller 208 19 229_7_9_4] [get_object glib__object 135 13 none]
+G r s handler_id [connect traceur_callbacks__window_cb 242 17 9_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect traceur_callbacks__window_cb 242 17 9_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect traceur_callbacks__window_cb 249 17 9_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect traceur_callbacks__window_cb 249 17 9_4] [get_object glib__object 135 13 none]
+G r c none [object_connect traceur_callbacks__window_cb 249 17 9_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect traceur_callbacks__window_cb 260 17 9_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect traceur_callbacks__window_cb 260 17 9_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect traceur_callbacks__window_cb 265 17 9_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect traceur_callbacks__window_cb 265 17 9_4] [get_object glib__object 135 13 none]
+G r c none [object_connect traceur_callbacks__window_cb 265 17 9_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect traceur_callbacks__window_cb 275 17 9_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect traceur_callbacks__window_cb 275 17 9_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect traceur_callbacks__window_cb 280 17 9_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect traceur_callbacks__window_cb 280 17 9_4] [get_object glib__object 135 13 none]
+G r c none [object_connect traceur_callbacks__window_cb 280 17 9_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect traceur_callbacks__window_cb 294 16 9_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect traceur_callbacks__window_cb 301 16 9_4] [get_object glib__object 135 13 none]
+G r c none [object_connect traceur_callbacks__window_cb 301 16 9_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect traceur_callbacks__window_cb 312 16 9_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect traceur_callbacks__window_cb 319 16 9_4] [get_object glib__object 135 13 none]
+G r c none [object_connect traceur_callbacks__window_cb 319 16 9_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [emit_by_name traceur_callbacks__window_cb__gint_marshaller 152 19 332_7_9_4] [get_object glib__object 135 13 none]
+G r c none [call traceur_callbacks__window_cb__gint_marshaller 168 19 332_7_9_4] [nth glib__values 70 13 none]
+G r c none [call traceur_callbacks__window_cb__gint_marshaller 168 19 332_7_9_4] [get_int glib__values 141 14 none]
+G r c none [emit_by_name traceur_callbacks__window_cb__guint_marshaller 152 19 334_7_9_4] [get_object glib__object 135 13 none]
+G r c none [call traceur_callbacks__window_cb__guint_marshaller 168 19 334_7_9_4] [nth glib__values 70 13 none]
+G r c none [call traceur_callbacks__window_cb__guint_marshaller 168 19 334_7_9_4] [get_uint glib__values 147 14 none]
+G r c none [emit_by_name traceur_callbacks__window_cb__event_marshaller 152 19 336_7_9_4] [get_object glib__object 135 13 none]
+G r c none [call traceur_callbacks__window_cb__event_marshaller 168 19 336_7_9_4] [nth glib__values 70 13 none]
+G r c none [call traceur_callbacks__window_cb__event_marshaller 168 19 336_7_9_4] [get_event gdk__event 1039 13 none]
+G r c none [emit_by_name traceur_callbacks__window_cb__context_marshaller 152 19 338_7_9_4] [get_object glib__object 135 13 none]
+G r c none [call traceur_callbacks__window_cb__context_marshaller 168 19 338_7_9_4] [nth glib__values 70 13 none]
+G r c none [call traceur_callbacks__window_cb__context_marshaller 168 19 338_7_9_4] [get_context cairo 88 13 none]
+G r c none [emit_by_name traceur_callbacks__window_cb__widget_marshaller 187 19 340_7_9_4] [get_object glib__object 135 13 none]
+G r c none [call traceur_callbacks__window_cb__widget_marshaller 193 19 340_7_9_4] [nth glib__values 70 13 none]
+G r c none [call traceur_callbacks__window_cb__widget_marshaller 193 19 340_7_9_4] [get_address glib__values 172 14 none]
+G r c none [call traceur_callbacks__window_cb__widget_marshaller 193 19 340_7_9_4] [convert gtk__widget 432 13 none]
+G r s gtk_widget_record [call traceur_callbacks__window_cb__widget_marshaller 193 19 340_7_9_4] [gtk_widget_recordIP gtk__widget 343 9 none]
+G r c none [emit_by_name traceur_callbacks__window_cb 383 16 9_4] [get_object glib__object 135 13 none]
+G r c none [emit_by_name traceur_callbacks__window_cb 383 16 9_4] [to_address gdk__event 1036 13 none]
+G r c none [first_marshaller traceur_callbacks__window_cb 429 17 9_4] [get_data gtkada__bindings 174 13 none]
+G r s gtk_window_record [first_marshaller traceur_callbacks__window_cb 429 17 9_4] [gtk_window_recordIP gtk__window 73 9 none]
+G r c none [first_marshaller traceur_callbacks__window_cb 429 17 9_4] [make_values glib__values 63 13 none]
+G r c none [first_marshaller traceur_callbacks__window_cb 429 17 9_4] [nth glib__values 70 13 none]
+G r c none [first_marshaller traceur_callbacks__window_cb 429 17 9_4] [get_address glib__values 172 14 none]
+G r c none [first_marshaller traceur_callbacks__window_cb 429 17 9_4] [get_user_data glib__object 147 13 none]
+G r c none [first_marshaller traceur_callbacks__window_cb 429 17 9_4] [set_value gtkada__bindings 208 14 none]
+G r c none [first_marshaller traceur_callbacks__window_cb 429 17 9_4] [process_exception gtkada__bindings 220 14 none]
+G r c none [emit_by_name traceur_callbacks__event_cb__marshallers__void_marshaller 208 19 229_7_12_4] [get_object glib__object 135 13 none]
+G r s handler_id [connect traceur_callbacks__event_cb 242 17 12_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect traceur_callbacks__event_cb 242 17 12_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect traceur_callbacks__event_cb 249 17 12_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect traceur_callbacks__event_cb 249 17 12_4] [get_object glib__object 135 13 none]
+G r c none [object_connect traceur_callbacks__event_cb 249 17 12_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect traceur_callbacks__event_cb 260 17 12_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect traceur_callbacks__event_cb 260 17 12_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect traceur_callbacks__event_cb 265 17 12_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect traceur_callbacks__event_cb 265 17 12_4] [get_object glib__object 135 13 none]
+G r c none [object_connect traceur_callbacks__event_cb 265 17 12_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect traceur_callbacks__event_cb 275 17 12_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect traceur_callbacks__event_cb 275 17 12_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect traceur_callbacks__event_cb 280 17 12_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect traceur_callbacks__event_cb 280 17 12_4] [get_object glib__object 135 13 none]
+G r c none [object_connect traceur_callbacks__event_cb 280 17 12_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect traceur_callbacks__event_cb 294 16 12_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect traceur_callbacks__event_cb 301 16 12_4] [get_object glib__object 135 13 none]
+G r c none [object_connect traceur_callbacks__event_cb 301 16 12_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect traceur_callbacks__event_cb 312 16 12_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect traceur_callbacks__event_cb 319 16 12_4] [get_object glib__object 135 13 none]
+G r c none [object_connect traceur_callbacks__event_cb 319 16 12_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [emit_by_name traceur_callbacks__event_cb__gint_marshaller 152 19 332_7_12_4] [get_object glib__object 135 13 none]
+G r c none [call traceur_callbacks__event_cb__gint_marshaller 168 19 332_7_12_4] [nth glib__values 70 13 none]
+G r c none [call traceur_callbacks__event_cb__gint_marshaller 168 19 332_7_12_4] [get_int glib__values 141 14 none]
+G r c none [emit_by_name traceur_callbacks__event_cb__guint_marshaller 152 19 334_7_12_4] [get_object glib__object 135 13 none]
+G r c none [call traceur_callbacks__event_cb__guint_marshaller 168 19 334_7_12_4] [nth glib__values 70 13 none]
+G r c none [call traceur_callbacks__event_cb__guint_marshaller 168 19 334_7_12_4] [get_uint glib__values 147 14 none]
+G r c none [emit_by_name traceur_callbacks__event_cb__event_marshaller 152 19 336_7_12_4] [get_object glib__object 135 13 none]
+G r c none [call traceur_callbacks__event_cb__event_marshaller 168 19 336_7_12_4] [nth glib__values 70 13 none]
+G r c none [call traceur_callbacks__event_cb__event_marshaller 168 19 336_7_12_4] [get_event gdk__event 1039 13 none]
+G r c none [emit_by_name traceur_callbacks__event_cb__context_marshaller 152 19 338_7_12_4] [get_object glib__object 135 13 none]
+G r c none [call traceur_callbacks__event_cb__context_marshaller 168 19 338_7_12_4] [nth glib__values 70 13 none]
+G r c none [call traceur_callbacks__event_cb__context_marshaller 168 19 338_7_12_4] [get_context cairo 88 13 none]
+G r c none [emit_by_name traceur_callbacks__event_cb__widget_marshaller 187 19 340_7_12_4] [get_object glib__object 135 13 none]
+G r c none [call traceur_callbacks__event_cb__widget_marshaller 193 19 340_7_12_4] [nth glib__values 70 13 none]
+G r c none [call traceur_callbacks__event_cb__widget_marshaller 193 19 340_7_12_4] [get_address glib__values 172 14 none]
+G r c none [call traceur_callbacks__event_cb__widget_marshaller 193 19 340_7_12_4] [convert gtk__widget 432 13 none]
+G r s gtk_widget_record [call traceur_callbacks__event_cb__widget_marshaller 193 19 340_7_12_4] [gtk_widget_recordIP gtk__widget 343 9 none]
+G r c none [emit_by_name traceur_callbacks__event_cb 383 16 12_4] [get_object glib__object 135 13 none]
+G r c none [emit_by_name traceur_callbacks__event_cb 383 16 12_4] [to_address gdk__event 1036 13 none]
+G r c none [first_marshaller traceur_callbacks__event_cb 429 17 12_4] [get_data gtkada__bindings 174 13 none]
+G r s gtk_drawing_area_record [first_marshaller traceur_callbacks__event_cb 429 17 12_4] [gtk_drawing_area_recordIP gtk__drawing_area 103 9 none]
+G r c none [first_marshaller traceur_callbacks__event_cb 429 17 12_4] [make_values glib__values 63 13 none]
+G r c none [first_marshaller traceur_callbacks__event_cb 429 17 12_4] [nth glib__values 70 13 none]
+G r c none [first_marshaller traceur_callbacks__event_cb 429 17 12_4] [get_address glib__values 172 14 none]
+G r c none [first_marshaller traceur_callbacks__event_cb 429 17 12_4] [get_user_data glib__object 147 13 none]
+G r c none [first_marshaller traceur_callbacks__event_cb 429 17 12_4] [set_value gtkada__bindings 208 14 none]
+G r c none [first_marshaller traceur_callbacks__event_cb 429 17 12_4] [process_exception gtkada__bindings 220 14 none]
+X 14 gdk.ads
+43P9*Gdk_Window<29|153P9>
+46P9*Gdk_Visual<29|153P9>
+X 16 gdk-device.ads
+49P9*Gdk_Device(48R9)
+59V13*Convert{86|67M9} 32|58i21
+60V13*Convert{49P9} 32|59i21
+X 27 gdk-visual.ads
+78V13*Convert[110|20]{86|67M9} 32|58i21
+79V13*Convert[110|20]{14|46P9} 32|59i21
+X 28 gdk-window.ads
+280V13*Convert{86|67M9} 32|58i21
+281V13*Convert{14|43P9} 32|59i21
+X 29 glib.ads
+153P9*C_Proxy(150R9)
+X 34 glib-object.ads
+41P9*GObject(40R9)
+675V13*Convert{86|67M9} 32|58i21 33|49i21
+676V13*Convert{41P9} 32|59i21 33|50i21
+X 40 gtk.ads
+41K9*Gtk 79e8 109|2r6 2r28 3r6 3r24 4r6 4r22 5r6 5r22 9r29 12r28
+X 50 gtk-cell_renderer.ads
+83P9*Gtk_Cell_Renderer(82R9)
+104V13*Convert{86|67M9} 32|58i21
+105V13*Convert{83P9} 32|59i21
+X 52 gtk-drawing_area.ads
+101K13*Drawing_Area 141e21 109|2w10 2r32
+103R9*Gtk_Drawing_Area_Record<64|343R9> 103e74 109|13r7
+X 53 gtk-enums.ads
+865V13*Convert{86|67M9} 32|58i21 33|49i21
+866V13*Convert{string} 32|59i21 33|50i21
+X 54 gtk-handlers.ads
+181K13*Handlers 1531e17 109|3w10 3r28 9r33 12r32
+220k12*Return_Callback 446e23 109|9r42 12r41
+X 62 gtk-tree_model.ads
+808V13*Convert{86|67M9} 32|58i21
+809V13*Convert{221R9} 32|59i21
+X 63 gtk-tree_view_column.ads
+55P9*Gtk_Tree_View_Column(54R9)
+66V13*Convert{86|67M9} 32|58i21
+67V13*Convert{55P9} 32|59i21
+X 64 gtk-widget.ads
+341K13*Widget 5431e15 109|4w10 4r26
+344P9*Gtk_Widget(343R9)
+431V13*Convert{86|67M9} 32|58i21 33|49i21
+432V13*Convert{344P9} 32|59i21 33|50i21
+X 65 gtk-window.ads
+71K13*Window 1676e15 109|5w10 5r26
+73R9*Gtk_Window_Record<43|45R9> 73e65 109|10r8
+X 86 system.ads
+67M9*Address
+X 93 s-memory.ads
+53V13*Alloc{86|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{86|67M9} 105i<c,__gnat_realloc>22
+X 101 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+X 109 traceur_callbacks.ads
+7K9*Traceur_callbacks 15l5 15e22
+9K12*Window_Cb[54|220]
+12K12*Event_Cb[54|220]
+
