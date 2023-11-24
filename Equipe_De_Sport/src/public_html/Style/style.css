@@ -1,0 +1,5468 @@
+*{
+padding: 0px;  
+margin: 0px;
+}
+
+
+.s-botB{
+    height: 20px;
+    width: 50px;
+}
+
+.s-botC{
+    display: flex;
+    flex-flow: column;
+}
+.s-botR{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.row {
+    content: "";
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.s-botN input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+
+/*                     Header                       */
+/*              Tailles et organisation          <T>*/
+
+:root {
+    --background-color: #ffffff;
+    --color: #000;
+}
+
+ /*@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #000;
+        --color: #ededed;
+    }
+} */
+
+body {
+    background-color: var(--background-color);
+    
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Header                       */
+/*              Tailles et organisation          <T>*/
+
+
+.Style-header{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    padding-top: 15px;
+    margin-top: -15px;
+    overflow: hidden;
+    /*<C>*/
+}
+
+.S-header-imgbar{
+    display: flex;
+    flex-flow: row nowrap;
+    vertical-align: middle;
+    justify-content:center;
+    align-items:center;
+    margin: 0px 15px;
+}
+
+.S-header-imgbar P{
+    margin-top: -7px;
+    /*<C>*/
+}
+
+.S-header-imgbar img{
+    height: 60px;
+    object-fit: contain;
+    padding: 5px  5px; 
+    margin-bottom: -2px;
+}
+
+.S-header-bar{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 5px 20px 0px auto;
+    transition: 0.4s;
+    /*<C>*/
+}
+
+.S-header-bar-logOut {
+    margin-left: auto;
+    padding: 5px;
+}
+
+.S-header-BtnLogOut button{
+    padding: 0px;
+    /*<C>*/
+    /*<H>*/
+}
+
+.S-header-BtnLogOut img{
+    height: 30px;
+    object-fit: contain;
+    /*<C>*/
+}
+
+.S-header-bar-nav {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.S-header-bar-nav-L1, .S-header-bar-nav-L2, .S-header-bar-nav-L3 , .S-header-bar-nav-L4 {
+    padding: 3px 16px;
+    /*<C>*/
+}
+
+.S-header-bar-nav-L1 {
+    margin: 10px auto -3px auto ;
+}
+.S-header-bar-nav-L4 {
+    margin: 10px 5% -3px 0px ;
+}
+
+.S-header-bar-nav-L2, .S-header-bar-nav-L3 {
+    margin: 10px 10px -3px 0px ;
+}
+.S-header-bar-nav button{
+    text-align: center;
+    /*<C>*/
+}
+
+
+/*                     Header                       */
+/*               Couleurs et style               <C>*/
+
+
+.Style-header{
+    /*<T>*/
+    background-color: var(--background-color); 
+    border-bottom: 3px solid #f52346f8;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.S-header-imgbar P{
+    /*<T>*/
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', sans-serif;
+}
+.S-header-imgbar button{
+    background-color: inherit;
+    border: 0px solid black;
+    cursor:pointer;
+}
+
+.S-header-bar {
+    /*<T>*/
+    font-size: 20px;
+    color: var(--color);
+}
+
+.S-header-BtnLogOut button{
+    /*<T>*/
+    cursor:pointer;
+    color: var(--color);
+    background-color: inherit;
+    border: 1px solid rgba(245, 245, 220, 0);
+    /*<H>*/
+}
+
+.S-header-bar-nav-L1, .S-header-bar-nav-L2, .S-header-bar-nav-L3 , .S-header-bar-nav-L4 {
+    /*<T>*/
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid var(--color);
+    border-bottom: 4px solid #f5234600;
+}
+
+.S-header-bar-nav-ongletChoisi{
+    background-color: #ffcdcd;
+}
+
+.S-header-bar-nav button{
+    /*<T>*/
+    font-size: 16px;
+    color: var(--color);
+    text-decoration: none;
+    background-color: inherit;
+    border: 0px solid black;
+    cursor:pointer;
+}
+
+
+/*                     Header                       */
+/*                    :hover                     <H>*/
+
+
+.S-header-bar-nav div:hover {
+    transition: 0.4s;
+    border-bottom: 4px solid #f52346f8;
+}
+
+.S-header-BtnLogOut button:hover{
+    /*<T>*/
+    /*<C>*/
+    box-shadow: 0px 1px 2px gray;
+}
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Main                       */
+/*            Tailles et organisation          <T>*/
+
+
+.Style-main{
+    display: flex;
+    flex-direction: column;
+    justify-content:start ;
+    align-items: center;
+    padding-top: 5px;
+    margin: 0px 20px;
+    min-height: 620px;
+}
+
+.S-main-dicor{
+    height: 3px;
+    width: calc(100% - 3%);
+    margin: 11px 0px 11px 0px;
+    /*<C>*/
+}
+
+.S-main-head{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin: 20px 0px -5px 0px ;
+}
+
+.S-main-head-BtnRetourne {
+    margin: 0px auto 0px 30px;
+}
+
+.S-main-head-BtnNouveau{
+    margin: 0px 30px 0px auto;
+}
+
+
+.S-main-head-BtnRetourne button, .S-main-head-BtnNouveau button{
+    padding: 5px;
+    /*<C>*/
+    /*<H>*/
+}
+
+
+/*                     Main                       */
+/*               Couleurs et style             <C>*/
+
+
+.S-main-dicor{
+/*<T>*/
+background-color: var(--color);
+border-radius: 5px;
+box-shadow: 1px 2px 7px 1px rgba(184, 184, 184, 0.1);
+opacity: 0.6;
+}
+
+.S-main-head-BtnRetourne button, .S-main-head-BtnNouveau button{
+    /*<T>*/
+    cursor:pointer;
+    color: var(--color);
+    border: 1px solid gray;
+    border-radius: 4px;
+    /*<H>*/
+}
+
+
+/*                     Main                       */
+/*                    :hover                   <H>*/
+
+
+.S-main-head-BtnRetourne button:hover, .S-main-head-BtnNouveau button:hover{
+    /*<T>*/
+    /*<C>*/
+    background-color: rgb(211, 211, 211);
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px gray;
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Main                       */
+/*                  Connexion                     */
+/*            Tailles et organisation          <T>*/
+
+
+.S-main-Connexion{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.S-main-Connexion-img img{
+    height: 200px;
+    object-fit: contain;
+    padding: 5px  5px; 
+}
+
+.S-main-Connexion-titre{
+    text-align: center;
+    font-size: 25px;
+    margin: 15px 0px 0px 0px;
+}
+
+.S-main-form-Connexion{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.S-main-Connexion-InputRow{
+    margin: 20px 150px 0px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.S-main-Connexion-InputLabel{
+    margin: 0px 0px 2px 0px;
+    width: 150px;
+    /* <T> */
+}
+
+.S-main-Connexion-InputChamp{
+    width: 260px;
+    height: 25px;
+}
+.S-main-Connexion-InputChamp input{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.S-main-Connexion-BtnConnexion{
+    margin: 20px 0px 50px 0px;
+    width: 150px;
+}
+.S-main-Connexion-BtnConnexion button{
+    padding: 5px 10px;
+    width: 100%;
+}
+
+
+/*                     Main                       */
+/*                  Connexion                     */
+/*               Couleurs et style             <C>*/
+
+
+.S-main-Connexion-InputLabel{
+    /* <C> */
+    color: var(--color);
+    font-size: 16px;
+    font-family:'Lucida Sans',Geneva, Verdana, sans-serif;
+}
+
+
+/*                     Main                       */
+/*                  Connexion                     */
+/*                    :hover                   <H>*/
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Main                       */
+/*                   L'accueil                    */
+/*            Tailles et organisation          <T>*/
+
+
+.S-main-accueil-prochainMath{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 200px;
+
+}
+.S-main-accueil-prochainMath-img {
+    height: 70%;
+}
+.S-main-accueil-prochainMath-img img{
+    height: 100%;
+    object-fit: contain; 
+    margin-bottom: -2px;
+}
+
+.S-main-accueil-prochainMath-info{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    /* <C> */
+}
+
+.S-m-accueil-prochainMath-infoPvsP{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 5px 0px;
+}
+
+.S-m-accueil-prochainMath-infoP1{
+    width: 40%;
+    text-align: right;
+    /* <C> */
+}
+
+.S-m-accueil-prochainMath-infoPVS{
+    width: 70px;
+    text-align: center;
+    /* <C> */
+    
+}
+.S-m-accueil-prochainMath-infoP2{
+    width: 40%;
+    text-align: left;
+    /* <C> */
+}
+
+.S-main-accueil-BtnSlide{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0px 50px 0px auto;
+}
+
+.S-main-accueil-slide-R,.S-main-accueil-slide-L{
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    /* <C> */
+}
+
+.S-main-accueil-titre-MatchePrecedents{
+    margin: 5px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-accueil-MatchePrecedents{
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    width: 95%;
+    margin: 5px 0px 0px 0px;
+}
+
+.S-main-accueil-MatchePrecedents-BtnMatch{
+    margin: 5px;
+    /* <C> */
+}
+
+.S-m-accueil-MatchePrecedents-BtnMatch-Bloc{
+    display: flex;
+    flex-flow: column;
+    padding: 10px 10px 0px 10px;
+}
+
+.S-main-accueil-MatchePrecedents-img img{
+    width: 128px;
+    object-fit: contain; 
+}
+
+.S-main-accueil-MatchePrecedents-info{
+    margin: 15px 0px 0px 0px;
+    padding: 10px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-main-accueil-titre-MeilleursJoueurs{
+    margin: 5px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-accueil-MeilleursJoueurs{
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    width: 95%;
+    margin: 5px 0px 10px 0px;
+}
+
+.S-main-accueil-MeilleursJoueurs-BtnJoueurs{
+    margin: 5px;
+    /* <C> */
+}
+
+.S-main-accueil-MeilleursJoueurs-BtnJoueurs-premier{
+    margin-left: 0px;
+}
+
+.S-m-accueil-MeilleursJoueurs-BtnJoueurs-Bloc{
+    display: flex;
+    flex-flow: column;
+    padding: 2px 2px 0px 2px;
+    width: 150px;
+}
+
+
+.S-main-accueil-MeilleursJoueurs-img img{
+    width: 100%;
+    object-fit: contain; 
+    height: 170px;
+}
+
+.S-main-accueil-MeilleursJoueurs-info{
+    margin: 1px 0px 0px 0px;
+    padding: 0px 0px 5px 0px;
+    text-align: left;
+    /* <C> */
+}
+
+.S-main-accueil-MeilleursJoueurs-info-p1{
+    margin: 1px 0px 0px 2px;
+    /* <C> */
+}
+
+.S-main-accueil-MeilleursJoueurs-info-p2{
+    margin: 2px 0px 0px 10px;
+    /* <C> */
+}
+
+
+/*                     Main                       */
+/*                   L'accueil                    */
+/*               Couleurs et style             <C>*/
+
+
+.S-main-accueil-prochainMath-info{
+    /* <T> */
+    color: var(--color);
+    font-size: 18px;
+}
+
+
+.S-m-accueil-prochainMath-infoP1{
+    /* <T> */
+    color: var(--color);
+    font-size: 20px;
+}
+
+.S-m-accueil-prochainMath-infoPVS{
+    /* <T> */
+    color: var(--color);
+    font-size: 25px;
+    
+}
+.S-m-accueil-prochainMath-infoP2{
+    /* <T> */
+    color: var(--color);
+    font-size: 20px;
+}
+
+.S-main-accueil-slide-R,.S-main-accueil-slide-L{
+    /* <T> */
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.S-main-accueil-titre-MatchePrecedents{
+    /* <T> */
+    color: var(--color);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.S-main-accueil-MatchePrecedents-BtnMatch{
+    /* <T> */
+    cursor:pointer;
+}
+
+.S-main-accueil-MatchePrecedents-info{
+    /* <T> */
+    border-top: 1px solid black;
+    color: var(--color);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.S-main-accueil-titre-MeilleursJoueurs{
+    /* <T> */
+    color: var(--color);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.S-main-accueil-MeilleursJoueurs-BtnJoueurs{
+    /* <T> */
+    cursor:pointer;
+}
+
+.S-main-accueil-MeilleursJoueurs-info{
+    /* <T> */
+    border-top: 1px solid black;
+    color: var(--color);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.S-main-accueil-MeilleursJoueurs-info-p1{
+    /* <T> */
+    font-size: 19px;
+}
+
+.S-main-accueil-MeilleursJoueurs-info-p2{
+    /* <T> */
+    font-size: 15px;
+}
+
+
+/*                     Main                       */
+/*                   L'accueil                    */
+/*                    :hover                   <H>*/
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Main                       */
+/*                 Noter équipe                   */
+/*            Tailles et organisation          <T>*/
+
+
+.S-main-NoterEquipe-Statistiques{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.S-main-NoterEquipe-Statistiques-Membres{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    margin-left: 100px;
+}
+.S-m-NoterEquipe-Membres-Bloc {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Membres-img {
+    width: 90%;
+}
+
+.S-m-NoterEquipe-Membres-img img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-NoterEquipe-Membres-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Membres-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-NoterEquipe-Statistiques-Actif {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+}
+
+.S-m-NoterEquipe-Actif-Bloc {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Actif-Bloc-img {
+    width: 90%;
+}
+
+.S-m-NoterEquipe-Actif-Bloc-img img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-NoterEquipe-Actif-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Actif-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-NoterEquipe-Statistiques-Blesse {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+}
+
+.S-m-NoterEquipe-Blesse-Bloc {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Blesse-Bloc-img {
+    width: 90%;
+}
+
+.S-m-NoterEquipe-Blesse-Bloc-img img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-NoterEquipe-Blesse-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Blesse-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-NoterEquipe-Statistiques-Absent {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+}
+
+.S-m-NoterEquipe-Absent-Bloc {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Absent-Bloc-img {
+    width: 90%;
+}
+
+.S-m-NoterEquipe-Absent-Bloc-img img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-NoterEquipe-Absent-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Absent-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-NoterEquipe-Statistiques-Suspendu {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+    margin-right: 150px;
+}
+
+.S-m-NoterEquipe-Suspendu-Bloc {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Suspendu-Bloc-img {
+    width: 90%;
+}
+
+.S-m-NoterEquipe-Suspendu-Bloc-img img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-NoterEquipe-Suspendu-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Suspendu-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-MembresNotreEquipe{
+    width: 95%;
+    overflow-x:auto;
+    overflow-y: auto;
+}
+
+.S-main-MembresNotreEquipe table, .S-main-MembresNotreEquipe th, .S-main-MembresNotreEquipe td{
+    text-align: center;
+    /* <C> */
+    /* <H> */
+}
+
+.S-main-MembresNotreEquipe table{
+    width:100%;
+    /* <C> */
+}
+
+.S-main-MembresNotreEquipe th[id="Titulaire_ht"]{
+    max-width: 27px;
+}
+
+.S-main-MembresNotreEquipe th[id="Remplacant_ht"]{
+    max-width: 34px;
+}
+
+.S-main-MembresNotreEquipe input{
+    width: 20px;
+    height: 20px;
+    /* <C> */
+}
+
+.S-main-MembresNotreEquipe select{
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    /* <C> */
+}
+
+.S-main-MembresNotreEquipe td[headers="Photo_ht"]>img{
+    height:60px;
+}
+
+.S-main-MembresNotreEquipe td[headers="Action_ht"]>button{
+    padding: 5px 25px;
+    /* <C> */
+}
+
+/*                     Main                       */
+/*                 Noter équipe                   */
+/*               Couleurs et style             <C>*/
+
+
+
+.S-m-NoterEquipe-Membres-Bloc {
+    /* <T> */
+    border: 2px solid #f52447;
+    border-radius: 20px 20px 50% 50%;
+    background-color: #fa4e6a;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(100, 100, 100, 0.7);
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Membres-Bloc button{
+    /* <T> */
+    border: 2px solid #f5244700;
+    background-color: #fa4e6b00;
+    cursor: pointer;
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Membres-img img{
+    /* <T> */
+    background-color: #fa4e6a;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.S-m-NoterEquipe-Membres-Bloc-nb{
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    background-color: #fa4e6a;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    box-shadow: 0px 3px 2px rgba(100, 100, 100, 0.6);
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Membres-Bloc-nb label{
+    cursor: pointer;
+}
+
+.S-m-NoterEquipe-Membres-nom {
+    /* <T> */
+    color: var(--color);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-NoterEquipe-Actif-Bloc {
+    /* <T> */
+    border: 2px solid #d1d1d1;
+    border-radius: 20px 20px 50% 50%;
+    background-color: #e6e3e1;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(100, 100, 100, 0.7);
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Actif-Bloc-img img{
+    /* <T> */
+    background-color: #e6e3e1;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.S-m-NoterEquipe-Actif-Bloc-img button{
+    /* <T> */
+    background-color: #e6e3e100;
+    border: 2px solid #d1d1d100;
+}
+
+.S-m-NoterEquipe-Actif-Bloc-nb {
+    /* >T> */
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    background-color: #e6e3e1;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 2px rgba(100, 100, 100, 0.6);
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Actif-Bloc-nb  label{
+    cursor: pointer;
+}
+
+.S-m-NoterEquipe-Actif-nom {
+    /* >T> */
+    color: var(--color);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-NoterEquipe-Blesse-Bloc {
+    /* <T> */
+    border: 2px solid #ffea28;
+    border-radius: 20px 20px 50% 50%;
+    background-color: #fff7af;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(100, 100, 100, 0.7);
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Blesse-Bloc-img img{
+    /* <T> */
+    background-color: #fff7af;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 3px 2px rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.S-m-NoterEquipe-Blesse-Bloc-img button{
+    /* <T> */
+    background-color: #fff7af00;
+    border: 2px solid #ffea2800;
+}
+
+.S-m-NoterEquipe-Blesse-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    background-color: #fff7af;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 2px rgba(100, 100, 100, 0.6);
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Blesse-Bloc-nb label{
+    cursor: pointer;
+}
+
+.S-m-NoterEquipe-Blesse-nom {
+    /* <T> */
+    color: var(--color);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-NoterEquipe-Absent-Bloc {
+    /* <T> */
+    border: 2px solid #88fdea;
+    border-radius: 20px 20px 50% 50%;
+    background-color: #affff2;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(100, 100, 100, 0.7);
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Absent-Bloc-img img{
+    /* <T> */
+    background-color: #affff2;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 3px 2px rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.S-m-NoterEquipe-Absent-Bloc-img button{
+    /* <T> */
+    background-color: #affff200;
+    border: 2px solid #88fde900;
+}
+
+.S-m-NoterEquipe-Absent-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    background-color: #affff2;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 2px rgba(100, 100, 100, 0.6);
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Absent-Bloc-nb label{
+    cursor: pointer;
+}
+
+.S-m-NoterEquipe-Absent-nom {
+    /* <T> */
+    color: var(--color);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.S-m-NoterEquipe-Suspendu-Bloc {
+    /* <T> */
+    border: 2px solid #ab7eff;
+    border-radius: 20px 20px 50% 50%;
+    background-color: #c4a6fd;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(100, 100, 100, 0.7);
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Suspendu-Bloc-img img{
+    /* <T> */
+    background-color: #c4a6fd;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.S-m-NoterEquipe-Suspendu-Bloc-img button{
+    /* <T> */
+    background-color: #c4a6fd00;
+    border: 2px solid #ab7eff00;
+}
+
+.S-m-NoterEquipe-Suspendu-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    background-color: #c4a6fd;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 2px rgba(100, 100, 100, 0.5);
+    /* <H> */
+}
+
+.S-m-NoterEquipe-Suspendu-Bloc-nb label{
+    cursor: pointer;
+}
+
+.S-m-NoterEquipe-Suspendu-nom {
+    /* <T> */
+    color: var(--color);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-main-MembresNotreEquipe caption{
+    margin-bottom: 12px;
+    color: var(--color);
+}
+
+.S-main-MembresNotreEquipe table, .S-main-MembresNotreEquipe th, .S-main-MembresNotreEquipe td{
+    /* <T> */
+    border: 1px solid rgb(104, 104, 104);
+    border-collapse: collapse;
+    /* <H> */
+}
+
+.S-main-MembresNotreEquipe table{
+    /* <T> */
+    border: solid 2px #082190;
+    background-color: #0c2ec4;
+}
+
+.S-main-MembresNotreEquipe tr {
+    background-color: #f1f1f1;
+    /* <H> */
+}
+
+.S-main-MembresNotreEquipe th, .S-main-MembresNotreEquipe td{
+    /* <T> */
+    border: solid 1px #333a60;padding: 6px;
+    /* <H> */
+}
+
+.S-main-MembresNotreEquipe th {
+    background-color: #0c2ec4;color:#efffff;
+}
+
+.S-main-MembresNotreEquipe tr:nth-child(even) {
+    background-color: #e6fdff;
+}
+
+.S-main-MembresNotreEquipe input{
+    /* <T> */
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+.S-main-MembresNotreEquipe select{
+    /* <T> */
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(128, 128, 128, 0);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.16);
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+.S-main-MembresNotreEquipe td[headers="Action_ht"]>button{
+    /* <T> */
+    cursor:pointer;
+}
+
+
+/*                     Main                       */
+/*                 Noter équipe                   */
+/*                    :hover                   <H>*/
+
+
+.S-main-MembresNotreEquipe tr:hover {
+    background-color: rgb(179, 255, 173);
+}
+
+.S-main-MembresNotreEquipe tr:hover td:is([headers="N_ht"]){
+    background-color: rgb(214, 251, 66);
+}
+
+.S-main-MembresNotreEquipe select:hover{
+    background-color: rgba(255, 255, 255, 0.463);
+}
+
+.S-m-NoterEquipe-Membres-Bloc:hover ,.S-m-NoterEquipe-Membres-Bloc:hover .S-m-NoterEquipe-Membres-Bloc-nb{
+    /* <T> */
+    /* <C> */
+    box-shadow: 0px 5px 3px rgb(53, 53, 53);
+}
+
+.S-m-NoterEquipe-Actif-Bloc:hover,.S-m-NoterEquipe-Actif-Bloc:hover .S-m-NoterEquipe-Actif-Bloc-nb{
+    /* <T> */
+    /* <C> */
+    box-shadow: 0px 5px 3px rgb(53, 53, 53);
+}
+
+.S-m-NoterEquipe-Blesse-Bloc:hover,.S-m-NoterEquipe-Blesse-Bloc:hover .S-m-NoterEquipe-Blesse-Bloc-nb{
+    /* <T> */
+    /* <C> */
+    box-shadow: 0px 5px 3px rgb(53, 53, 53);
+}
+
+.S-m-NoterEquipe-Absent-Bloc:hover,.S-m-NoterEquipe-Absent-Bloc:hover .S-m-NoterEquipe-Absent-Bloc-nb{
+    /* <T> */
+    /* <C> */
+    box-shadow: 0px 5px 3px rgb(53, 53, 53);
+}
+
+.S-m-NoterEquipe-Suspendu-Bloc:hover,.S-m-NoterEquipe-Suspendu-Bloc:hover .S-m-NoterEquipe-Suspendu-Bloc-nb{
+    /* <T> */
+    /* <C> */
+    box-shadow: 0px 5px 3px rgb(53, 53, 53);
+}
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Main                       */
+/*               Afficher un joueur               */
+/*            Tailles et organisation          <T>*/
+
+
+.S-main-joueurInfo{
+    width: 100%;
+}
+
+.S-main-joueurInfo{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+    margin: 5px 0px 5px 0px;        
+}
+
+.S-main-joueurInfo-joueurImg {
+    margin: 0px 0px 0px auto;
+    padding: 6px 10px;
+}
+
+.S-main-joueurInfo-joueurImg img{
+    height: 250px;
+    width: 250px;
+    object-fit: contain; 
+    margin-bottom: -2px;
+    /* <C> */
+}
+
+.S-main-joueurInfo-Bloc{
+    margin: 0px auto 0px 1%;
+}
+
+.S-main-joueurInfo-BlocRow{
+    margin: 10px auto 0px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-items: baseline;
+}
+
+.S-main-joueurInfo-BlocLabel{
+    margin: 0px auto 0px 0px;
+    /* <C> */
+}
+
+.S-main-joueurInfo-Blocinfo{
+    margin: 6px 4px 0px 24px;
+    /* <C> */
+}
+
+.S-main-joueurInfo-Blocinfo p{
+    width: 150px;
+    height: 23px;
+}
+
+.S-main-joueurInfo-Postes{
+    height: 190px;
+    width: 150px;
+    margin: 0px auto 0px 0px;
+    padding: 16px 10px;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    justify-content: center;
+    justify-content:space-around;
+    /* <C> */
+}
+
+.S-main-joueurInfo-PostesP{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 1px;
+}
+
+.S-main-joueurInfo-PostesP div{
+    margin: 0px auto 0px auto;
+    height: 1px;
+}
+
+.S-main-joueurStatistiques{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.S-main-joueurStatistiques-Moyen{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.S-m-jStat-Moyen-Bloc {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.S-m-jStat-Moyen-img {
+    width: 90%;
+}
+
+.S-m-jStat-Moyen-img img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-jStat-Moyen-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-jStat-Moyen-nom {
+    margin: 10px 0px 10px 0px;
+    
+    /* <C> */
+}
+
+.S-main-joueurStatistiques-goals {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+}
+
+.S-m-jStat-goals-Bloc {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.S-m-jStat-goals-Bloc-img {
+    width: 90%;
+}
+
+.S-m-jStat-goals-Bloc-img img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-jStat-goals-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-jStat-goals-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-joueurStatistiques-victoire {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+}
+
+.S-m-jStat-victoire-Bloc {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.S-m-jStat-victoire-Bloc-img {
+    width: 90%;
+}
+
+.S-m-jStat-victoire-Bloc-img img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-jStat-victoire-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-jStat-victoire-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-joueurStatistiques-egalite {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+}
+
+.S-m-jStat-egalite-Bloc {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.S-m-jStat-egalite-Bloc-img {
+    width: 90%;
+}
+
+.S-m-jStat-egalite-Bloc-img img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-jStat-egalite-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-jStat-egalite-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-joueurStatistiques-perte {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+}
+
+.S-m-jStat-perte-Bloc {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.S-m-jStat-perte-Bloc-img {
+    width: 90%;
+}
+
+.S-m-jStat-perte-Bloc-img img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-jStat-perte-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-jStat-perte-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-joueurStatistiques-CrSort {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.S-m-jStat-CrSort-CarteRouge {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.S-m-jStat-CrSort-CarteRouge-img {
+    height: 70px;
+    width: 40px;
+    /* <C> */
+}
+
+.S-m-jStat-CrSort-CarteRouge-nb {
+    position: absolute;
+    /* <C> */
+}
+
+.S-m-jStat-CrSort-Sorte {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 10px 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+.S-m-jStat-Cjentr-Sorte-Blocimg {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    height: 60px;
+    width: 110px;
+    /* <C> */
+}
+
+.S-m-jStat-CrSort-Sorte-ArrowR{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 11px 10px;
+}
+
+.S-m-jStat-CrSort-Sorte-ARimg1 {
+    height: 15px;
+    width: 50px;
+    /* <C> */
+}
+
+.S-m-jStat-CrSort-Sorte-ARimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 2px 0px 0px 45px;
+    transform: rotate(45deg);
+    /* <C> */  
+}
+
+.S-m-jStat-CrSort-Sorte-ArrowL{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: -5px 10px 0px 0px;
+}
+
+.S-m-jStat-CrSort-Sorte-ALimg1 {
+    height: 17px;
+    width: 50px;
+    /* <C> */ 
+}
+
+.S-m-jStat-CrSort-Sorte-ALimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 4px 40px 0px 0px;
+    transform: rotate(45deg);
+    /* <C> */ 
+}
+
+.S-m-jStat-CrSort-Sorte-nb {
+    margin: -1px 0px 0px 0px;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    /* <C> */
+}
+
+.S-m-jStat-CrSort-Sorte-nb p{
+    margin-top: 3px;
+    /* <C> */
+}
+
+.S-main-joueurStatistiques-Cjentr {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.S-m-jStat-Cjentr-Cartejoune {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.S-m-jStat-Cjentr-Cartejoune-img {
+    height: 70px;
+    width: 40px;
+    /* <C> */
+}
+
+.S-m-jStat-Cjentr-Cartejoune-nb {
+    position: absolute;
+    /* <C> */
+}
+
+.S-m-jStat-Cjentr-Entre {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 10px 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+.S-m-jStat-Cjentr-Entre-Blocimg {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    height: 60px;
+    width: 110px;
+    padding: 15px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-jStat-Cjentr-Entre-ArrowR{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 11px 10px;
+}
+
+.S-m-jStat-Cjentr-Entre-ARimg1 {
+    height: 15px;
+    width: 50px;
+    /* <C> */ 
+}
+
+.S-m-jStat-Cjentr-Entre-ARimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 2px 0px 0px 45px;
+    transform: rotate(45deg);
+    /* <C> */  
+}
+
+.S-m-jStat-Cjentr-Entre-ArrowL{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: -5px 10px 0px 0px;
+}
+.S-m-jStat-Cjentr-Entre-ALimg1 {
+    height: 17px;
+    width: 50px;
+    /* <C> */  
+}
+
+.S-m-jStat-Cjentr-Entre-ALimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 4px 40px 0px 0px;
+    transform: rotate(45deg);
+    /* <C> */
+}
+
+.S-m-jStat-Cjentr-Entre-nb {
+    margin: -1px 0px 0px 0px;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    /* <C> */
+}
+
+.S-m-jStat-Cjentr-Entre-nb p{
+    margin-top: 5px;
+    /* <C> */
+}
+
+.S-main-joueurSection{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content:left;
+    margin: 0px 0px 0px 7px;
+    width: 101%;
+}
+
+.S-main-joueurSection-titre{
+    margin: 10px 0px 20px 0px;
+    /* <C> */
+}
+
+.S-main-from-joueurSection{
+    display: flex;
+    flex-flow: row wrap ;
+    align-items: center;
+    justify-content:left;
+    margin: 0px 0px 10px 7px;
+}
+
+.S-main-from-joueurSection-BtnMatch{
+    margin: 2px;
+    /* <H> */
+}
+
+.S-main-joueurSection-match{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: 296px;
+    /* <C> */
+}
+
+.S-main-joueurSection-match-img{
+       width: 100%;
+}
+
+.S-main-joueurSection-match-img img{
+    padding: 10px 0px 10px 0px;
+    height: 120px;
+    width: 100%;
+    object-fit: contain; 
+    margin-bottom: -2px;
+}
+
+.S-main-joueurSection-match-info{
+    display: flex;
+    flex-flow: row nowrap ;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: -50px 0px 2px 0px;
+    width: 100%;
+}
+
+.S-m-jSect-match-info-nomScore{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 10px;
+    /* <C> */
+}
+
+.S-m-jSect-match-info-Moyen{
+    height: 70px;
+    width: 70px;
+    margin: 0px 5px -20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.S-m-jSect-match-info-Moyen-Blocimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.S-m-jSect-match-info-Moyen-img1{
+    height: 52px;
+    width: 52px;
+    position: absolute;
+    /* <C> */
+}
+
+.S-m-jSect-match-info-Moyen-img2{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    /* <C> */
+}
+
+.S-m-jSect-match-info-Moyen-nb{
+    z-index: 1;
+    /* <C> */
+}
+
+.S-main-joueurSection-match-Stat{
+    display: flex;
+    flex-flow: row nowrap ;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    min-height: 80px;
+    /* <C> */
+}
+
+.S-m-jSect-match-Stat-goals{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.S-m-jSect-match-Stat-goals-img img{
+    height: 70px;
+    object-fit: contain;
+    padding: 5px  5px; 
+    margin-bottom: -2px;
+}
+
+.S-m-jSect-match-Stat-goals-nb{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    /* <C> */
+}
+
+.S-m-jSect-match-Stat-goals-nb p{
+    margin: 7px 1px 0px 0px ;
+    /* <C> */
+}
+
+.S-m-jSect-match-Stat-CarteRouge{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 3px;
+}
+
+.S-m-jSect-match-Stat-CarteRouge-img{
+    height: 50px;
+    width: 30px;
+    /* <C> */
+}
+
+.S-m-jSect-match-Stat-CarteRouge-nb{
+    position: absolute;
+    /* <C> */
+}
+
+.S-m-jSect-match-Stat-Cartejoune{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 3px;
+}
+
+.S-m-jSect-match-Stat-Cartejoune-img{
+    height: 50px;
+    width: 30px;
+    /* <C> */
+}
+
+.S-m-jSect-match-Stat-Cartejoune-nb{
+    position: absolute;
+    /* <C> */
+}
+
+.S-m-jSect-match-Stat-Entre-Blocimg{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    padding: 11px 0px 0px 0px;
+}
+
+.S-m-jSect-match-Stat-Entre-ArrowR{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 11px 10px;
+}
+
+.S-m-jSect-match-Stat-Entre-ARimg1 {
+    height: 10px;
+    width: 30px;
+    /* <C> */ 
+}
+
+.S-m-jSect-match-Stat-Entre-ARimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 1px 0px 0px 28px;
+    transform: rotate(45deg);
+    /* <C> */   
+}
+
+.S-m-jSect-match-Stat-Entre-ArrowL{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: -4px 10px 0px 0px;
+}
+
+.S-m-jSect-match-Stat-Entre-ALimg1 {
+    height: 10px;
+    width: 30px;
+    /* <C> */ 
+}
+
+.S-m-jSect-match-Stat-Entre-ALimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 3px 28px 0px 0px;
+    transform: rotate(45deg);
+    /* <C> */
+}
+
+.S-m-jSect-match-Stat-Sorte-Blocimg{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    padding: 11px 0px 0px 0px;
+}
+
+.S-m-jSect-match-Stat-Sorte-ArrowR{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 11px 10px;
+}
+
+.S-m-jSect-match-Stat-Sorte-ARimg1 {
+    height: 10px;
+    width: 30px;
+    /* <C> */ 
+}
+
+.S-m-jSect-match-Stat-Sorte-ARimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 0px 0px 0px 28px;
+    transform: rotate(45deg);
+    /* <C> */
+}
+
+.S-m-jSect-match-Stat-Sorte-ArrowL{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: -5px 10px 0px 0px;
+}
+
+.S-m-jSect-match-Stat-Sorte-ALimg1 {
+    height: 10px;
+    width: 30px;
+    /* <C> */
+}
+
+.S-m-jSect-match-Stat-Sorte-ALimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 3px 28px 0px 0px;
+    transform: rotate(45deg);
+    /* <C> */
+}
+
+
+/*                     Main                       */
+/*               Afficher un joueur               */
+/*               Couleurs et style             <C>*/
+
+
+.S-main-joueurInfo-joueurImg img{
+    /* <T> */
+    border: 2px solid rgba(0, 0, 0, 0.489);
+    border-radius: 10px;
+    background-image: url(./wwwSerImg/img.png)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.S-main-joueurInfo-Blocinfo, .S-main-joueurInfo-BlocLabel{
+    /* <T> */
+    color: var(--color);
+}
+
+.S-main-joueurInfo-Postes{
+    /* <T> */
+    border: 1px solid rgba(0, 0, 0, 0.273);
+    border-radius: 2px;
+    background-image: url(./wwwSerImg/TERRAIN_FOOTBALL.png)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.S-m-jStat-Moyen-img img{
+    /* <T> */
+    background-color: #fa4e6a;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-Moyen-Bloc-nb{
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    background-color: #fa4e6a;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-Moyen-nom {
+    /* <T> */
+    color: var(--color);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-jStat-goals-Bloc-img img{
+    /* <T> */
+    background-color: #e6e3e1;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-goals-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    background-color: #e6e3e1;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-goals-nom {
+    /* <T> */
+    color: var(--color);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-jStat-victoire-Bloc-img img{
+    /* <T> */
+    background-color: #fff7af;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-victoire-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    background-color: #fff7af;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-victoire-nom {
+    /* <T> */
+    color: var(--color);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-jStat-egalite-Bloc-img img{
+    /* <T> */
+    background-color: #affff2;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-egalite-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    background-color: #affff2;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-egalite-nom {
+    /* <T> */
+    color: var(--color);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-jStat-perte-Bloc-img img{
+    /* <T> */
+    background-color: #c4a6fd;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-perte-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact,sans-serif;
+    background-color: #c4a6fd;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-perte-nom {
+    /* <T> */
+    color: var(--color);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-jStat-CrSort-CarteRouge-img {
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(255, 111, 111);
+}
+
+.S-m-jStat-CrSort-CarteRouge-nb {
+    /* <T> */
+    font-size: 20px;
+    font-family: Impact,sans-serif;
+}
+
+.S-m-jStat-Cjentr-Sorte-Blocimg {
+    /* <T> */
+    padding: 15px 0px 0px 0px;
+    background-color: #ffbebe;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-CrSort-Sorte-ARimg1 {
+    /* <T> */
+    background-color: rgb(255, 111, 111);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-jStat-CrSort-Sorte-ARimg2 {
+    /* <T> */
+    border-top:    13px solid rgb(255, 111, 111);
+    border-right:  13px solid rgb(255, 111, 111);
+    border-bottom: 13px solid rgba(255, 111, 111, 0);
+    border-left:   13px solid rgba(255, 111, 111, 0);
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.6);   
+}
+
+.S-m-jStat-CrSort-Sorte-ALimg1 {
+    /* <T> */
+    background-color: rgb(232, 232, 232);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-jStat-CrSort-Sorte-ALimg2 {
+    /* <T> */
+    border-top:    14px solid rgb(255, 111, 111, 0);
+    border-right:  14px solid rgb(255, 111, 111, 0);
+    border-bottom: 14px solid rgb(232, 232, 232);
+    border-left:   14px solid rgba(232, 232, 232);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.6);   
+}
+
+.S-m-jStat-CrSort-Sorte-nb {
+    /* <T> */
+    border-radius: 0px 0px 12px 12px;
+    background-color: #ffbebe;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-CrSort-Sorte-nb p{
+    /* <T> */
+    color: var(--color);
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+}
+
+.S-m-jStat-Cjentr-Cartejoune-img {
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 111);
+}
+
+.S-m-jStat-Cjentr-Cartejoune-nb {
+    /* <T> */
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+}
+
+.S-m-jStat-Cjentr-Entre-Blocimg {
+    /* <T> */
+    background-color: #c1ffc1;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-Cjentr-Entre-ARimg1 {
+    /* <T> */
+    background-color: rgb(232, 232, 232);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-jStat-Cjentr-Entre-ARimg2 {
+    /* <T> */
+    border-top:    13px solid rgb(232, 232, 232);
+    border-right:  13px solid rgb(232, 232, 232);
+    border-bottom: 13px solid rgba(255, 111, 111, 0);
+    border-left:   13px solid rgba(255, 111, 111, 0);
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.6);   
+}
+
+.S-m-jStat-Cjentr-Entre-ALimg1 {
+    /* <T> */
+    background-color: rgb(180, 253, 128);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-jStat-Cjentr-Entre-ALimg2 {
+    /* <T> */
+    border-top:    14px solid rgb(255, 111, 111, 0);
+    border-right:  14px solid rgb(255, 111, 111, 0);
+    border-bottom: 14px solid rgb(180, 253, 128);
+    border-left:   14px solid rgba(180, 253, 128);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.6);   
+}
+
+.S-m-jStat-Cjentr-Entre-nb {
+    /* <T> */
+    border-radius: 0px 0px 12px 12px;
+}
+
+.S-m-jStat-Cjentr-Entre-nb {
+    /* <T> */
+    background-color: #c1ffc1;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-jStat-Cjentr-Entre-nb p{
+    /* <T> */
+    color: var(--color);
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+}
+
+.S-main-joueurSection-titre{
+    /* <T> */
+    color: var(--color);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.S-main-joueurSection-match{
+    /* <T> */
+    border-radius: 4px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.17);
+}
+
+.S-main-from-joueurSection-BtnMatch{
+    /* <T> */
+    cursor:pointer;
+    /* <H> */
+}
+
+.S-m-jSect-match-info-nomScore{
+    /* <T> */
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.S-m-jSect-match-info-Moyen-img1{
+    /* <T> */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.S-m-jSect-match-info-Moyen-img2{
+    /* <T> */
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.S-m-jSect-match-info-Moyen-nb{
+    /* <T> */
+    font-size: 17px;
+    font-family: Impact,sans-serif;
+}
+
+.S-main-joueurSection-match-Stat{
+    /* <T> */
+    background-color: #ffffff;
+    border-top: 1px solid black;
+}
+
+.S-m-jSect-match-Stat-goals-nb{
+    /* <T> */
+    background-color: #c0c0c0af;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 50%;
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+}
+
+.S-m-jSect-match-Stat-CarteRouge-img{
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(255, 111, 111);
+}
+
+.S-m-jSect-match-Stat-CarteRouge-nb{
+    /* <T> */
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+}
+
+.S-m-jSect-match-Stat-Cartejoune-img{
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 111);
+}
+
+.S-m-jSect-match-Stat-Cartejoune-nb{
+    /* <T> */
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+}
+
+.S-m-jSect-match-Stat-Entre-ARimg1 {
+    /* <T> */
+    background-color: rgb(232, 232, 232);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-jSect-match-Stat-Entre-ARimg2 {
+    /* <T> */
+    border-top:    8px solid rgb(232, 232, 232);
+    border-right:  8px solid rgb(232, 232, 232);
+    border-bottom: 8px solid rgba(255, 111, 111, 0);
+    border-left:   8px solid rgba(255, 111, 111, 0);
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.6);   
+}
+
+.S-m-jSect-match-Stat-Entre-ALimg1 {
+    /* <T> */
+    background-color: rgb(180, 253, 128);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-jSect-match-Stat-Entre-ALimg2 {
+    /* <T> */
+    border-top:    8px solid rgb(255, 111, 111, 0);
+    border-right:  8px solid rgb(255, 111, 111, 0);
+    border-bottom: 8px solid rgb(180, 253, 128);
+    border-left:   8px solid rgba(180, 253, 128);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.6); 
+}
+
+.S-m-jSect-match-Stat-Sorte-ARimg1 {
+    /* <T> */
+    background-color: rgb(255, 111, 111);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-jSect-match-Stat-Sorte-ARimg2 {
+    /* <T> */
+    border-top:    8px solid rgb(255, 111, 111);
+    border-right:  8px solid rgb(255, 111, 111);
+    border-bottom: 8px solid rgba(255, 111, 111, 0);
+    border-left:   8px solid rgba(255, 111, 111, 0);
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.6); 
+}
+
+.S-m-jSect-match-Stat-Sorte-ALimg1 {
+    /* <T> */
+    background-color: rgb(232, 232, 232);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-jSect-match-Stat-Sorte-ALimg2 {
+    /* <T> */
+    border-top:    8px solid rgb(255, 111, 111, 0);
+    border-right:  8px solid rgb(255, 111, 111, 0);
+    border-bottom: 8px solid rgb(232, 232, 232);
+    border-left:   8px solid rgba(232, 232, 232);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.6); 
+}
+
+
+/*                     Main                       */
+/*               Afficher un joueur               */
+/*                    :hover                   <H>*/
+
+
+.S-main-from-joueurSection-BtnMatch:hover{
+    /* <T> */
+    /* <C> */
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.577);
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Main                       */
+/*         Nouvelle ou Modifier un joueur         */
+/*            Tailles et organisation          <T>*/
+
+
+.S-main-form-joueurInfoNM{
+    width: 100%;
+}
+
+.S-main-joueurInfoNM{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+    margin: 10px 0px 29px 0px;        
+}
+
+.S-main-joueurInfoNM-joueurImg {
+    display: flex;
+    flex-flow: column;
+    margin: 0px 0px 0px auto;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    /* <C> */
+}
+
+.S-main-joueurInfoNM-joueurImg label{
+    height: 100%;
+    width: 100%;
+}
+
+.S-main-joueurInfoNM-joueurImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain; 
+    margin-bottom: -2px;
+    /* <C> */
+}
+
+.S-main-joueurInfoNM-Input{
+    margin: 0px 7% 0px 3%;
+}
+
+.S-main-joueurInfoNM-InputRow{
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    align-items: baseline;
+    justify-content: start;
+}
+
+.S-main-joueurInfoNM-InputChamp{
+    margin: 10px 4px 0px 4px;
+}
+
+.S-main-joueurInfoNM-InputChamp input, .S-main-joueurInfoNM-InputChamp select{
+    width: 180px;
+    height: 28px;
+    /* <C> */
+    /* <H> */
+}
+
+.S-main-joueurInfoNM-Postes{
+    height: 190px;
+    width: 150px;
+    margin: 0px auto 0px 0px;
+    padding: 16px 10px;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    justify-content: center;
+    justify-content:space-around;
+    /* <C> */
+}
+
+.S-main-joueurInfoNM-PostesP{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 1px;
+}
+
+.S-main-joueurInfoNM-PostesP div{
+    margin: 0px auto 0px auto;
+    height: 1px;
+}
+
+.S-main-joueurInfoNM-BtnValider{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.S-main-joueurInfoNM-BtnValider button{
+    width: 20%;
+    height: 30px;
+    margin: 0px auto 0px auto;
+    /* <C> */
+    /* <H> */
+}
+
+
+/*                     Main                       */
+/*         Nouvelle ou Modifier un joueur         */
+/*               Couleurs et style             <C>*/
+
+
+.S-main-joueurInfoNM-Input input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.S-main-joueurInfoNM-joueurImg {
+    /* <T> */ 
+    border: 2px solid rgba(0, 0, 0, 0.489);
+    border-radius: 10px;
+    background-image: url(./wwwSerImg/img.png)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.S-main-joueurInfoNM-joueurImg img{
+    /* <T> */    
+    font-size: 19px;
+    text-decoration: underline;
+    color: rgb(0, 145, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.S-main-joueurInfoNM-InputLabel{
+    color: var(--color);
+}
+
+.S-main-joueurInfoNM-Postes{
+    /* <T> */
+    border: 1px solid rgba(0, 0, 0, 0.273);
+    border-radius: 2px;
+    background-image: url(./wwwSerImg/TERRAIN_FOOTBALL.png)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.S-main-joueurInfoNM-InputChamp input, .S-main-joueurInfoNM-InputChamp select{
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    /* <H> */
+}
+
+.S-main-joueurInfoNM-InputChamp input[type="date"], .S-main-joueurInfoNM-InputChamp select{
+    /* <T> */
+    cursor:pointer;
+    /* <H> */
+}
+
+.S-main-joueurInfoNM-PostesP input[type="checkbox"]{
+    cursor:pointer;
+}
+
+.S-main-joueurInfoNM-BtnValider button{
+    /* <T> */
+    cursor:pointer;
+    color: var(--color);
+    /* <H> */
+}
+
+
+/*                     Main                       */
+/*         Nouvelle ou Modifier un joueur         */
+/*                    :hover                   <H>*/
+
+
+.S-main-joueurInfoNM-InputChamp input:hover{
+    /* <T> */
+    /*<C>*/
+    background-color: rgba(128, 128, 128, 0.159);
+}
+
+.S-main-joueurInfoNM-InputChamp select:hover{
+    /* <T> */
+    /*<C>*/
+    background-color: rgba(128, 128, 128, 0.416);
+}
+
+.S-main-joueurInfoNM-BtnValider button:hover{
+    /*<T>*/
+    /*<C>*/
+    box-shadow: 0px 1px 3px gray;
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Main                       */
+/*                  les match                     */
+/*            Tailles et organisation          <T>*/
+
+
+.S-main-head-statMatchs{
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    margin-bottom: 0px 0px 0px 30px;
+}
+
+.S-main-head-statMatchs-bar{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.S-main-head-statMatchs-barPerte, .S-main-head-statMatchs-barEgalite,.S-main-head-statMatchs-barVictoire{
+    height: 15px;
+}
+
+.S-main-head-statMatchs-nom{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    text-align: center;
+}
+
+.S-main-head-statMatchs-nomPerte, .S-main-head-statMatchs-nomEgalite,.S-main-head-statMatchs-nomVictoire{
+    height: auto;
+    padding: 2px 5px 1px 5px;
+}
+
+
+.S-main-TableauMatchs{
+    width: 95%;
+    overflow-x:auto;
+    overflow-y: auto;
+}
+
+.S-main-TableauMatchs table, .S-main-TableauMatchs th, .S-main-TableauMatchs td{
+    text-align: center;
+    /* <C> */
+    /* <H> */
+}
+
+.S-main-TableauMatchs table{
+    width:100%;
+    /* <C> */
+}
+
+.S-main-TableauMatchs caption{
+    margin-bottom: 12px;
+}
+
+.S-main-TableauMatchs td:is([headers="action_ht"]) button{
+    padding: 4px 10px;
+    /* <C> */
+    /* <H> */
+}
+
+
+/*                     Main                       */
+/*                  les match                     */
+/*               Couleurs et style             <C>*/
+
+
+.S-main-head-statMatchs-barPerte{
+    background-color: red;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.S-main-head-statMatchs-barEgalite{
+    background-color: orange;
+}
+
+.S-main-head-statMatchs-barVictoire{
+    background-color: greenyellow;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.S-main-head-statMatchs-nomPerte p{
+    border-bottom: 3px solid red;
+}
+
+.S-main-head-statMatchs-nomEgalite p{
+    border-bottom: 3px solid orange;
+}
+
+.S-main-head-statMatchs-nomVictoire p{
+    border-bottom: 3px solid greenyellow;
+}
+
+.S-main-TableauMatchs caption{
+    margin-bottom: 12px;
+}
+
+.S-main-TableauMatchs table, .S-main-TableauMatchs th, .S-main-TableauMatchs td{
+    border: 1px solid rgb(104, 104, 104);
+    border-collapse: collapse;
+}
+
+.S-main-TableauMatchs table{
+    border: solid 2px #082190;
+    background-color: #0c2ec4;
+}
+
+.S-main-TableauMatchs tr {
+    background-color: #f1f1f1;
+}
+
+.S-main-TableauMatchs th, .S-main-TableauMatchs td{
+    border: solid 1px #333a60;padding: 6px;
+}
+
+.S-main-TableauMatchs th {
+    background-color: #0c2ec4;color:#efffff;
+}
+
+.S-main-TableauMatchs tr:nth-child(even) {
+    background-color: #e6fdff;
+}
+
+.S-main-TableauMatchs td:is([headers="action_ht"]) button{
+    /* <T> */
+    color:var(--color);
+    /* <H> */
+}
+
+
+/*                     Main                       */
+/*                  les match                     */
+/*                    :hover                   <H>*/
+
+
+.S-main-TableauMatchs tr:hover {
+    background-color: rgb(179, 255, 173);
+}
+
+.S-main-TableauMatchs tr:hover td:is([headers="N_ht"]){
+    background-color: rgb(214, 251, 66);
+}
+
+.S-main-TableauMatchs td:is([headers="action_ht"]) button:hover{
+    /* <T> */
+    /* <C> */
+    box-shadow: 0px 1px 2px gray;
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Main                       */
+/*                 Nouveau match                  */
+/*            Tailles et organisation          <T>*/
+
+
+.S-main-form-NouveauMatch{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+
+.S-main-NomsVsEquipes{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 10px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.S-main-NomsVsEquipes strong{
+    padding: 0px 15px;
+    /* <C> */
+}
+
+.S-main-NomsVsEquipes input{
+    height: 25px;
+}
+
+.S-main-detailsMatch{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+    margin: 10px 0px 18px 0px;        
+}
+
+.S-main-detailsMatch-InputRow{
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-items: baseline;
+    justify-content: start;
+
+}
+
+.S-main-detailsMatch-Input{
+    margin: 0px 7% 0px 3%;
+}
+
+.S-main-detailsMatch-InputChamp{
+    margin: 6px 4px 0px 4px;
+}
+
+.S-main-detailsMatch-InputChamp input, .S-main-detailsMatch-InputChamp select{
+    width: 130px;
+    height: 23px;
+    text-align: center;
+    /* <C> */
+    /* <H> */
+}
+
+.S-main-choixNotreEquipeAMatch{
+    width: 95%;
+    overflow-x:auto;
+    overflow-y: auto;
+}
+
+.S-main-choixNotreEquipeAMatch table, .S-main-choixNotreEquipeAMatch th, .S-main-choixNotreEquipeAMatch td{
+    text-align: center;
+    /* <C> */
+    /* <H> */
+}
+
+.S-main-choixNotreEquipeAMatch table{
+    width:100%;
+    /* <C> */
+}
+
+.S-main-choixNotreEquipeAMatch th[id="Titulaire_ht"]{
+    max-width: 27px;
+}
+
+.S-main-choixNotreEquipeAMatch th[id="Remplacant_ht"]{
+    max-width: 34px;
+}
+
+.S-main-choixNotreEquipeAMatch input{
+    width: 20px;
+    height: 20px;
+    /* <C> */
+}
+
+.S-main-choixNotreEquipeAMatch select{
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    /* <C> */
+}
+
+.S-main-choixNotreEquipeAMatch td[headers="Photo_ht"]>img{
+    height:60px;
+}
+
+.S-main-BtnNouveauMatch{
+    width:100%; 
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+}
+
+.S-main-BtnNouveauMatch-valide{
+    margin: 0px auto 0px auto;
+}
+
+.S-main-BtnNouveauMatch-valide button{
+    padding: 10px 55px;
+    /* <C> */
+}
+
+.S-main-BtnNouveauMatch-supprimer{
+    margin: 0px 35px 0px -185px;
+}
+
+.S-main-BtnNouveauMatch-supprimer button{
+   padding: 5px 15px;
+   /* <C> */
+}
+
+
+/*                     Main                       */
+/*                 Nouveau match                  */
+/*               Couleurs et style             <C>*/
+
+
+.S-main-NomsVsEquipes p{
+    font-size: 20px;
+}
+
+.S-main-NomsVsEquipes strong{
+    /* <T> */
+    font-size: 25px;
+}
+
+.S-main-detailsMatch-InputLabel{
+    color: var(--color);
+}
+
+.S-main-NomsVsEquipes input, .S-main-detailsMatch-InputChamp input, .S-main-detailsMatch-InputChamp select{
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    /* <H> */
+}
+
+
+.S-main-detailsMatch-InputChamp input[type="date"], .S-main-detailsMatch-InputChamp select, .S-main-detailsMatch-InputChamp input[type="time"]{
+    /* <T> */
+    cursor:pointer;
+    /* <H> */
+}
+
+.S-main-choixNotreEquipeAMatch caption{
+    margin-bottom: 12px;
+    color: var(--color);
+}
+
+.S-main-choixNotreEquipeAMatch table, .S-main-choixNotreEquipeAMatch th, .S-main-choixNotreEquipeAMatch td{
+    border: 1px solid rgb(104, 104, 104);
+    border-collapse: collapse;
+}
+
+.S-main-choixNotreEquipeAMatch table{
+    border: solid 2px #082190;
+    background-color: #0c2ec4;
+}
+
+.S-main-choixNotreEquipeAMatch tr {
+    background-color: #f1f1f1;
+}
+
+.S-main-choixNotreEquipeAMatch th, .S-main-choixNotreEquipeAMatch td{
+    border: solid 1px #333a60;padding: 6px;
+}
+
+.S-main-choixNotreEquipeAMatch th {
+    background-color: #0c2ec4;color:#efffff;
+}
+
+.S-main-choixNotreEquipeAMatch tr:nth-child(even) {
+    background-color: #e6fdff;
+}
+
+.S-main-choixNotreEquipeAMatch input{
+    /* <T> */
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+.S-main-choixNotreEquipeAMatch select{
+    /* <T> */
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(128, 128, 128, 0);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.16);
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+.S-main-BtnNouveauMatch-valide button{
+    /* <T> */
+    color: var(--color);
+    cursor:pointer;
+    background-color: rgba(147, 255, 47, 0.69);
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.S-main-BtnNouveauMatch-supprimer button{
+    /* <T> */
+    color: var(--color);
+    cursor:pointer;
+    cursor:pointer;
+    background-color: rgba(238, 238, 238, 0.844);
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+
+/*                     Main                       */
+/*                 Nouveau match                  */
+/*                    :hover                   <H>*/
+
+
+.S-main-detailsMatch-InputChamp input:hover{
+    /* <T> */
+    /*<C>*/
+    background-color: rgba(128, 128, 128, 0.159);
+}
+
+.S-main-detailsMatch-InputChamp select:hover{
+    /* <T> */
+    /*<C>*/
+    background-color: rgba(128, 128, 128, 0.416);
+}
+
+
+.S-main-choixNotreEquipeAMatch tr:hover {
+    background-color: rgb(179, 255, 173);
+}
+
+.S-main-choixNotreEquipeAMatch tr:hover td:is([headers="N_ht"]){
+    background-color: rgb(214, 251, 66);
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Main                       */
+/*               Mettez le résultat               */
+/*            Tailles et organisation          <T>*/
+
+
+.S-main-head-DateLheureMatch{
+    margin: 0px 30px 0px auto;
+}
+
+.S-main-form-MettezResultat{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+
+.S-main-MettezResultat-NomsVsEquipes{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 10px 0px;
+    justify-content:center;
+    align-items: center;
+}
+
+.S-main-MettezResultat-NomsVsEquipes strong{
+    padding: 0px 15px;
+    /* <C> */
+}
+
+.S-main-RsultatMatch{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.S-main-RsultatMatch p{
+    margin: 0px 25px;
+    /* <C> */
+}
+
+.S-main-RsultatMatch strong{
+    margin: 0px 25px;
+    /* <C> */
+}
+
+.S-main-MettezResultat-InputChamp input{
+    width: 130px;
+    height: 23px;
+    text-align: center;
+    /* <C> */
+    /* <H> */
+}
+
+.S-main-joueurAMatch{
+    width: 95%;
+    overflow-x:auto;
+    overflow-y: auto;
+}
+
+.S-main-joueurAMatch caption{
+    margin-bottom: 12px;
+    /* <C> */
+}
+
+.S-main-joueurAMatch table, .S-main-joueurAMatch th, .S-main-joueurAMatch td{
+    text-align: center;
+    /* <C> */
+    /* <H> */
+}
+
+.S-main-joueurAMatch table{
+    width:100%;
+    /* <C> */
+}
+
+.S-main-joueurAMatch th[id="Titulaire_ht"]{
+    max-width: 27px;
+}
+
+.S-main-joueurAMatch th[id="Remplacant_ht"]{
+    max-width: 34px;
+}
+
+.S-main-joueurAMatch select,.S-main-joueurAMatch input{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    /* <C> */
+    /* <H> */
+}
+
+.S-main-joueurAMatch td[headers="Photo_ht"]>img{
+    height:60px;
+}
+
+.S-main-BtnNouveauMatch{
+    width:100%; 
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+}
+
+.S-main-BtnRsultatMatch-valide{
+    margin: 0px auto 0px auto;
+}
+
+.S-main-BtnRsultatMatch-valide button{
+    padding: 10px 55px;
+    /* <C> */
+}
+
+
+/*                     Main                       */
+/*               Mettez le résultat               */
+/*               Couleurs et style             <C>*/
+
+
+.S-main-MettezResultat-NomsVsEquipes p{
+    font-size: 20px;
+}
+
+.S-main-MettezResultat-NomsVsEquipes strong{
+    /* <T> */
+    color: var(--color);
+    font-size: 25px;
+}
+
+.S-main-RsultatMatch p{
+    /* <T> */
+    color: var(--color);
+}
+
+.S-main-RsultatMatch strong{
+    /* <T> */
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color);
+}
+
+.S-main-MettezResultat-InputChamp input{
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    -moz-appearance: textfield;
+    /* <H> */
+}
+
+.S-main-joueurAMatch caption{
+    /* <T> */
+    color: var(--color);
+}
+
+.S-main-joueurAMatch table, .S-main-joueurAMatch th, .S-main-joueurAMatch td{
+    border: 1px solid rgb(104, 104, 104);
+    border-collapse: collapse;
+}
+
+.S-main-joueurAMatch table{
+    border: solid 2px #082190;
+    background-color: #0c2ec4;
+}
+
+.S-main-joueurAMatch tr {
+    background-color: #f1f1f1;
+}
+
+.S-main-joueurAMatch th, .S-main-joueurAMatch td{
+    border: solid 1px #333a60;padding: 6px;
+}
+
+.S-main-joueurAMatch th {
+    background-color: #0c2ec4;color:#efffff;
+}
+
+.S-main-joueurAMatch tr:nth-child(even) {
+    background-color: #e6fdff;
+}
+
+.S-main-joueurAMatch select,.S-main-joueurAMatch input{
+    /* <T> */
+    background-color: rgba(255, 255, 255, 0.467);
+    border: 1px solid rgba(128, 128, 128, 0.06);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.508);
+    border-radius: 2px;
+    /* <H> */
+}
+.S-main-joueurAMatch select{
+    cursor:pointer;
+    /* <H> */
+}
+
+.S-main-BtnRsultatMatch-valide button{
+    /* <T> */
+    color: var(--color);
+    cursor:pointer;
+    background-color: rgba(147, 255, 47, 0.69);
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+
+/*                     Main                       */
+/*               Mettez le résultat               */
+/*                    :hover                   <H>*/
+
+
+.S-main-MettezResultat-InputChamp input:hover{
+    /* <T> */
+    /*<C>*/
+    background-color: rgba(128, 128, 128, 0.159);
+}
+
+.S-main-joueurAMatch select:hover,.S-main-joueurAMatch input:hover{
+    /* <T> */
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Main                       */
+/*              Afficher le résultat              */
+/*            Tailles et organisation          <T>*/
+
+
+.S-main-AfficherResultat-NomsVsEquipes{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0px  0px 15px 0px ;
+}
+
+.S-main-AfficherResultat-NomsVsEquipes div{
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.S-main-AfficherResultat-NomsVsEquipes p{
+    margin: 20px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-main-AfficherResultat-NomsVsEquipes :nth-child(2) p:nth-child(2){
+    margin: 9px 0px 0px 0px;
+}
+
+.S-main-AfficherResultat-info{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.S-main-AfficherResultat-Statistiques{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.S-main-AfficherResultat-Crgoal {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.S-m-ResStat-Crgoal-CarteRouge {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.S-m-ResStat-Crgoal-CarteRouge-img {
+    height: 70px;
+    width: 40px;
+    /* <C> */
+}
+
+.S-m-ResStat-Crgoal-CarteRouge-nb {
+    position: absolute;
+    /* <C> */
+}
+.S-m-ResStat-Crgoal-goals {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    height: 177px;
+    width: 127px;
+    padding: 2px 2px 2px 2px;
+    margin: 15px 0px 0px 0px;
+}
+
+.S-m-ResStat-goals-Bloc-img img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-ResStat-goals-Bloc-nb {
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-ResStat-goals-Bloc-nb p{
+    text-align: center;
+    height: 32px;
+    width: 50px;
+    margin: 8px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-main-AfficherResultat-CrjRempls {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.S-m-ResStat-CrjRempls-Cartejoune {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.S-m-ResStat-CrjRempls-Cartejoune-img {
+    height: 70px;
+    width: 40px;
+    /* <C> */
+}
+
+.S-m-ResStat-CrjRempls-Cartejoune-nb {
+    position: absolute;
+    /* <C> */
+}
+
+.S-m-ResStat-CrjRempls-Remplse {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 2px 2px 2px;
+    margin: 15px 0px 0px 0px;
+}
+
+.S-m-ResStat-CrjRempls-Remplse-Blocimg {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    padding: 15px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-ResStat-CrjRempls-Remplse-ArrowR{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: 28px 0px 11px 10px;
+}
+
+.S-m-ResStat-CrjRempls-Remplse-ARimg1 {
+    height: 15px;
+    width: 50px;
+    /* <C> */ 
+}
+
+.S-m-ResStat-CrjRempls-Remplse-ARimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 2px 0px 0px 45px;
+    transform: rotate(45deg);
+    /* <C> */  
+}
+
+.S-m-ResStat-CrjRempls-Remplse-ArrowL{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: -5px 10px 0px 0px;
+}
+.S-m-ResStat-CrjRempls-Remplse-ALimg1 {
+    height: 17px;
+    width: 50px;
+    /* <C> */  
+}
+
+.S-m-ResStat-CrjRempls-Remplse-ALimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 4px 40px 0px 0px;
+    transform: rotate(45deg);
+    /* <C> */
+}
+
+.S-m-ResStat-CrjRempls-Remplse-nb p{
+    text-align: center;
+    height: 32px;
+    width: 50px;
+    margin: 8px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-main-AfficherResultat-img {
+    padding: 6px 10px;
+}
+
+.S-main-AfficherResultat-img img{
+    height: 250px;
+    width: 180px;
+    object-fit: contain; 
+    /* <C> */
+}
+
+.S-main-AfficherResultat-BlocPostes{
+    width: 260px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 90px;
+}
+
+.S-main-AfficherResultat-Postes{
+    height: 190px;
+    width: 150px;
+    padding: 16px 10px;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    justify-content: center;
+    justify-content:space-around;
+    /* <C> */
+}
+
+.S-main-AfficherResultat-PostesP{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 1px;
+}
+
+.S-main-AfficherResultat-PostesP div{
+    margin: 0px auto 0px auto;
+    height: 1px;
+}
+
+
+.S-main-JoueurMatch-titre{
+    margin: 10px 0px 20px 0px;
+    /* <C> */
+}
+
+.S-main-JoueurMatch{
+    display: flex;
+    flex-flow: row wrap ;
+    align-items: center;
+    justify-content:left;
+    margin: 0px 0% 10px 7%;
+}
+
+.S-main-from-JoueurMatch-BtnJoueurMatch{
+    margin: 6px;
+    /* <H> */
+}
+
+.S-main-JoueurMatch-Bloc{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 230px;
+    /* <C> */
+}
+
+.S-main-JoueurMatch-Bloc-img{
+       width: 100%;
+       height: 170px;
+}
+
+.S-main-JoueurMatch-Bloc-img img{
+    padding: 1px 0px 0px 0px;
+    height: 200px;
+    width: 99%;
+    object-fit:cover; 
+    margin-bottom: -2px;
+}
+
+.S-main-JoueurMatch-Bloc-info{
+    display: flex;
+    flex-flow: row nowrap ;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: -50px 0px 2px 0px;
+    width: 100%;
+}
+
+.S-m-JoueurMatch-Bloc-info-nomScore{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 0px 10px;
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-info-Moyen{
+    height: 70px;
+    width: 70px;
+    margin: 0px 5px -20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.S-m-JoueurMatch-Bloc-info-Moyen-Blocimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.S-m-JoueurMatch-Bloc-info-Moyen-img1{
+    height: 52px;
+    width: 52px;
+    position: absolute;
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-info-Moyen-img2{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-info-Moyen-nb{
+    z-index: 1;
+    /* <C> */
+}
+
+.S-main-JoueurMatch-Bloc-Stat{
+    display: flex;
+    flex-flow: row nowrap ;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-Stat-goals{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-goals-img img{
+    height: 70px;
+    object-fit: contain;
+    padding: 5px  5px; 
+    margin-bottom: -2px;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-goals-nb{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-Stat-goals-nb p{
+    margin: 7px 1px 0px 0px ;
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-Stat-CarteRouge{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 3px;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-CarteRouge-img{
+    height: 50px;
+    width: 30px;
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-Stat-CarteRouge-nb{
+    position: absolute;
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Cartejoune{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 3px;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Cartejoune-img{
+    height: 50px;
+    width: 30px;
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Cartejoune-nb{
+    position: absolute;
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Entre-Blocimg{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    padding: 11px 0px 0px 0px;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Entre-ArrowR{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 11px 10px;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Entre-ARimg1 {
+    height: 10px;
+    width: 30px;
+    /* <C> */ 
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Entre-ARimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 1px 0px 0px 28px;
+    transform: rotate(45deg);
+    /* <C> */   
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Entre-ArrowL{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: -4px 10px 0px 0px;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Entre-ALimg1 {
+    height: 10px;
+    width: 30px;
+    /* <C> */ 
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Entre-ALimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 3px 28px 0px 0px;
+    transform: rotate(45deg);
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Sorte-Blocimg{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    padding: 11px 0px 0px 0px;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Sorte-ArrowR{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 11px 10px;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Sorte-ARimg1 {
+    height: 10px;
+    width: 30px;
+    /* <C> */ 
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Sorte-ARimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 0px 0px 0px 28px;
+    transform: rotate(45deg);
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Sorte-ArrowL{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    justify-content: center;
+    margin: -5px 10px 0px 0px;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Sorte-ALimg1 {
+    height: 10px;
+    width: 30px;
+    /* <C> */
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Sorte-ALimg2 {            
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: 3px 28px 0px 0px;
+    transform: rotate(45deg);
+    /* <C> */
+}
+
+
+
+/*                     Main                       */
+/*              Afficher le résultat              */
+/*               Couleurs et style             <C>*/
+
+
+.S-main-AfficherResultat-NomsVsEquipes p{
+    /* <T> */
+    color: var(--color);
+    font-size: 20px;
+}
+
+.S-main-AfficherResultat-NomsVsEquipes strong{
+    color: var(--color);
+    font-size: 25px;
+}
+
+.S-m-ResStat-goals-Bloc-img img{
+    /* <T> */
+    background-color: #e6e3e1;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-ResStat-goals-Bloc-nb {
+    /* <T> */
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+    background-color: #e6e3e1;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-ResStat-Crgoal-CarteRouge-img {
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(255, 111, 111);
+}
+
+.S-m-ResStat-Crgoal-CarteRouge-nb {
+    /* <T> */
+    font-size: 20px;
+    font-family: Impact,sans-serif;
+}
+
+.S-m-ResStat-CrjRempls-Cartejoune-img {
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 111);
+}
+
+.S-m-ResStat-CrjRempls-Cartejoune-nb {
+    /* <T> */
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+}
+
+.S-m-ResStat-CrjRempls-Remplse-Blocimg {
+    /* <T> */
+    background-color: #e6e3e1;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-ResStat-CrjRempls-Remplse-ARimg1 {
+    /* <T> */
+    background-color: rgb(255, 111, 111);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-ResStat-CrjRempls-Remplse-ARimg2 {
+    /* <T> */
+    border-top:    13px solid rgb(255, 111, 111);
+    border-right:  13px solid rgb(255, 111, 111);
+    border-bottom: 13px solid rgba(255, 111, 111, 0);
+    border-left:   13px solid rgba(255, 111, 111, 0);
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.6);   
+}
+
+.S-m-ResStat-CrjRempls-Remplse-ALimg1 {
+    /* <T> */
+    background-color: rgb(180, 253, 128);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-ResStat-CrjRempls-Remplse-ALimg2 {
+    /* <T> */
+    border-top:    14px solid rgb(255, 111, 111, 0);
+    border-right:  14px solid rgb(255, 111, 111, 0);
+    border-bottom: 14px solid rgb(180, 253, 128);
+    border-left:   14px solid rgba(180, 253, 128);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.6);   
+}
+
+.S-m-ResStat-CrjRempls-Remplse-nb {
+    /* <T> */
+    border-radius: 0px 0px 12px 12px;
+}
+
+.S-m-ResStat-CrjRempls-Remplse-nb {
+    /* <T> */
+    background-color: #e6e3e1;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-ResStat-CrjRempls-Remplse-nb p{
+    /* <T> */
+    color: var(--color);
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+}
+
+.S-main-AfficherResultat-img img{
+    /* <T> */
+    border: 1px solid rgba(0, 0, 0, 0.489);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.489);
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.067);
+}
+
+.S-main-AfficherResultat-Postes{
+    /* <T> */
+    border: 1px solid rgba(0, 0, 0, 0.273);
+    border-radius: 3px;
+    background-image: url(./wwwSerImg/TERRAIN_FOOTBALL.png)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.S-main-joueurSection-titre{
+    /* <T> */
+    color: var(--color);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.S-main-joueurSection-match{
+    /* <T> */
+    border-radius: 4px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.17);
+}
+
+.S-main-from-JoueurMatch-BtnJoueurMatch{
+    /* <T> */
+    border: 1px solid gray;
+    border-bottom: 2px solid gray;
+    border-radius: 4px;
+    cursor:pointer;
+    /* <H> */
+}
+
+.S-m-JoueurMatch-Bloc-info-nomScore{
+    /* <T> */
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.S-m-JoueurMatch-Bloc-info-Moyen-img1{
+    /* <T> */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.S-m-JoueurMatch-Bloc-info-Moyen-img2{
+    /* <T> */
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.S-m-JoueurMatch-Bloc-info-Moyen-nb{
+    /* <T> */
+    font-size: 17px;
+    font-family: Impact,sans-serif;
+}
+
+.S-main-joueurSection-match-Stat{
+    /* <T> */
+    background-color: #ffffff;
+    border-top: 1px solid black;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-goals-nb{
+    /* <T> */
+    background-color: #c0c0c0af;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 50%;
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-CarteRouge-img{
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(255, 111, 111);
+}
+
+.S-m-JoueurMatch-Bloc-Stat-CarteRouge-nb{
+    /* <T> */
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Cartejoune-img{
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 111);
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Cartejoune-nb{
+    /* <T> */
+    font-size: 18px;
+    font-family: Impact,sans-serif;
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Entre-ARimg1 {
+    /* <T> */
+    background-color: rgb(232, 232, 232);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Entre-ARimg2 {
+    /* <T> */
+    border-top:    8px solid rgb(232, 232, 232);
+    border-right:  8px solid rgb(232, 232, 232);
+    border-bottom: 8px solid rgba(255, 111, 111, 0);
+    border-left:   8px solid rgba(255, 111, 111, 0);
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.6);   
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Entre-ALimg1 {
+    /* <T> */
+    background-color: rgb(180, 253, 128);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Entre-ALimg2 {
+    /* <T> */
+    border-top:    8px solid rgb(255, 111, 111, 0);
+    border-right:  8px solid rgb(255, 111, 111, 0);
+    border-bottom: 8px solid rgb(180, 253, 128);
+    border-left:   8px solid rgba(180, 253, 128);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.6); 
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Sorte-ARimg1 {
+    /* <T> */
+    background-color: rgb(255, 111, 111);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Sorte-ARimg2 {
+    /* <T> */
+    border-top:    8px solid rgb(255, 111, 111);
+    border-right:  8px solid rgb(255, 111, 111);
+    border-bottom: 8px solid rgba(255, 111, 111, 0);
+    border-left:   8px solid rgba(255, 111, 111, 0);
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.6); 
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Sorte-ALimg1 {
+    /* <T> */
+    background-color: rgb(232, 232, 232);
+    box-shadow: 1px 1px 1px #000;   
+}
+
+.S-m-JoueurMatch-Bloc-Stat-Sorte-ALimg2 {
+    /* <T> */
+    border-top:    8px solid rgb(255, 111, 111, 0);
+    border-right:  8px solid rgb(255, 111, 111, 0);
+    border-bottom: 8px solid rgb(232, 232, 232);
+    border-left:   8px solid rgba(232, 232, 232);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.6); 
+}
+
+
+/*                     Main                       */
+/*              Afficher le résultat              */
+/*                    :hover                   <H>*/
+
+
+.S-main-from-JoueurMatch-BtnJoueurMatch:hover{
+    /* <T> */
+    /* <C> */
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.577);
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                     Main                       */
+/*                 Statistiques                   */
+/*            Tailles et organisation          <T>*/
+
+
+.S-main-StatMatchsNoterEquipe {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.S-main-StatMatchsNoterEquipe-goals {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+    margin: 0px auto 0px 5%;
+}
+
+.S-m-StatMatchsNE-goals-Bloc {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.S-m-StatMatchsNE-goals-Bloc-img {
+    width: 90%;
+}
+
+.S-m-StatMatchsNE-goals-Bloc-img img {
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-StatMatchsNE-goals-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-StatMatchsNE-goals-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-StatEtatMatchsNoterEquipe {
+    display: flex;
+    flex-flow: column;
+    padding: 50px 0px 20px 0px;
+    margin: 0px auto 0px auto;
+}
+
+.S-main-StatEtatMatchsNoterEquipeRow1 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.S-main-StatMatchsNoterEquipe-victoire {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+    margin-left: auto;
+}
+
+.S-m-StatMatchsNE-victoire-Bloc {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.S-m-StatMatchsNE-victoire-Bloc-img {
+    width: 90%;
+}
+
+.S-m-StatMatchsNE-victoire-Bloc-img img {
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-StatMatchsNE-victoire-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-StatMatchsNE-victoire-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-StatMatchsNoterEquipe-egalite {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+    margin: 0px auto 0px auto;
+}
+
+
+.S-m-StatMatchsNE-egalite-Bloc {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.S-m-StatMatchsNE-egalite-Bloc-img {
+    width: 90%;
+}
+
+.S-m-StatMatchsNE-egalite-Bloc-img img {
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-StatMatchsNE-egalite-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-StatMatchsNE-egalite-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-StatMatchsNoterEquipe-perte {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+    margin-right: auto;
+}
+
+.S-m-StatMatchsNE-perte-Bloc {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.S-m-StatMatchsNE-perte-Bloc-img {
+    width: 90%;
+}
+
+.S-m-StatMatchsNE-perte-Bloc-img img {
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-StatMatchsNE-perte-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+}
+
+.S-m-StatMatchsNE-perte-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-StatMatchsNoterEquipe-CarteRouge {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 7% 0px auto;
+}
+
+.S-m-StatMatchsNE-CarteRouge-img {
+    height: 100px;
+    width: 60px;
+    /* <C> */
+}
+
+.S-m-StatMatchsNE-CarteRouge-nb {
+    position: absolute;
+    /* <C> */
+}
+
+.S-main-StatMatchsNoterEquipe-Cartejoune {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5% 0px auto;
+}
+
+.S-m-StatMatchsNE-Cartejoune-img {
+    height: 100px;
+    width: 60px;
+    /* <C> */
+}
+
+.S-m-StatMatchsNE-Cartejoune-nb {
+    position: absolute;
+    /* <C> */
+}
+
+
+.S-main-statMatchs100 {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    margin: 0px auto 0px auto;
+}
+
+.S-main-head-statMatchs100-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.S-main-statMatchs100-barPerte,
+.S-main-statMatchs100-barEgalite,
+.S-main-statMatchs100-barVictoire {
+    height: 15px;
+}
+
+.S-main-statMatchs100-nom {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    text-align: center;
+}
+
+.S-main-statMatchs100-nomPerte,
+.S-main-statMatchs100-nomEgalite,
+.S-main-statMatchs100-nomVictoire {
+    height: auto;
+    padding: 2px 5px 1px 5px;
+}
+
+.S-main-tital-StatNoterEquipe{
+    padding: 10px 0px 40px 0px;
+    /* <C> */
+}
+
+.S-main-StatNoterEquipe {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.S-main-StatNoterEquipe-Membres {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    margin-left: 100px;
+}
+
+.S-m-StatNoterEquipe-Membres-Bloc {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Membres-img {
+    width: 90%;
+}
+
+.S-m-StatNoterEquipe-Membres-img img {
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-StatNoterEquipe-Membres-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Membres-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-StatNoterEquipe-Actif {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+}
+
+.S-m-StatNoterEquipe-Actif-Bloc {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Actif-Bloc-img {
+    width: 90%;
+}
+
+.S-m-StatNoterEquipe-Actif-Bloc-img img {
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-StatNoterEquipe-Actif-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Actif-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-StatNoterEquipe-Blesse {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+}
+
+.S-m-StatNoterEquipe-Blesse-Bloc {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Blesse-Bloc-img {
+    width: 90%;
+}
+
+.S-m-StatNoterEquipe-Blesse-Bloc-img img {
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-StatNoterEquipe-Blesse-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Blesse-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-StatNoterEquipe-Absent {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+}
+
+.S-m-StatNoterEquipe-Absent-Bloc {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Absent-Bloc-img {
+    width: 90%;
+}
+
+.S-m-StatNoterEquipe-Absent-Bloc-img img {
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-StatNoterEquipe-Absent-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Absent-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-StatNoterEquipe-Suspendu {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0px 10px 0px 10px;
+    margin-right: 150px;
+}
+
+.S-m-StatNoterEquipe-Suspendu-Bloc {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Suspendu-Bloc-img {
+    width: 90%;
+}
+
+.S-m-StatNoterEquipe-Suspendu-Bloc-img img {
+    width: 100%;
+    object-fit: contain;
+    padding: 5px 0px 5px 0px;
+    /* <C> */
+}
+
+.S-m-StatNoterEquipe-Suspendu-Bloc-nb {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: -4px 0px 0px 0px;
+    /* <C> */
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Suspendu-nom {
+    margin: 10px 0px 10px 0px;
+    /* <C> */
+}
+
+.S-main-TableStatMembresNotreEquipe {
+    width: 95%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.S-main-TableStatMembresNotreEquipe table,
+.S-main-TableStatMembresNotreEquipe th,
+.S-main-TableStatMembresNotreEquipe td {
+    text-align: center;
+    /* <C> */
+    /* <H> */
+}
+
+.S-main-TableStatMembresNotreEquipe table {
+    width: 100%;
+    /* <C> */
+}
+
+.S-main-TableStatMembresNotreEquipe input {
+    width: 20px;
+    height: 20px;
+    /* <C> */
+}
+
+.S-main-TableStatMembresNotreEquipe select {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    /* <C> */
+}
+
+.S-main-TableStatMembresNotreEquipe td[headers="Photo_ht"]>img {
+    height: 60px;
+}
+
+
+/*                     Main                       */
+/*                 Statistiques                   */
+/*               Couleurs et style             <C>*/
+
+
+.S-main-tital-StatMatchsNoterEquipe {
+    color: var(--color);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.S-m-StatMatchsNE-goals-Bloc-img img {
+    /* <T> */
+    background-color: #e6e3e1;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-StatMatchsNE-goals-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact, sans-serif;
+    background-color: #e6e3e1;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-StatMatchsNE-goals-nom {
+    /* <T> */
+    color: var(--color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-StatMatchsNE-victoire-Bloc-img img {
+    /* <T> */
+    background-color: #fff7af;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-StatMatchsNE-victoire-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact, sans-serif;
+    background-color: #fff7af;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-StatMatchsNE-victoire-nom {
+    /* <T> */
+    color: var(--color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-StatMatchsNE-egalite-Bloc-img img {
+    /* <T> */
+    background-color: #affff2;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-StatMatchsNE-egalite-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact, sans-serif;
+    background-color: #affff2;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-StatMatchsNE-egalite-nom {
+    /* <T> */
+    color: var(--color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-StatMatchsNE-perte-Bloc-img img {
+    /* <T> */
+    background-color: #c4a6fd;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-StatMatchsNE-perte-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact, sans-serif;
+    background-color: #c4a6fd;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+}
+
+.S-m-StatMatchsNE-perte-nom {
+    /* <T> */
+    color: var(--color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-StatMatchsNE-CarteRouge-img {
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(255, 111, 111);
+}
+
+.S-m-StatMatchsNE-CarteRouge-nb {
+    /* <T> */
+    font-size: 20px;
+    font-family: Impact, sans-serif;
+}
+
+.S-m-StatMatchsNE-Cartejoune-img {
+    /* <T> */
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 111);
+}
+
+.S-m-StatMatchsNE-Cartejoune-nb {
+    /* <T> */
+    font-size: 20px;
+    font-family: Impact, sans-serif;
+}
+
+.S-main-statMatchs100-barPerte {
+    background-color: red;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.S-main-statMatchs100-barEgalite {
+    background-color: orange;
+}
+
+.S-main-statMatchs100-barVictoire {
+    background-color: greenyellow;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.S-main-statMatchs100-nomPerte p {
+    border-bottom: 3px solid red;
+}
+
+.S-main-statMatchs100-nomEgalite p {
+    border-bottom: 3px solid orange;
+}
+
+.S-main-statMatchs100-nomVictoire p {
+    border-bottom: 3px solid greenyellow;
+}
+
+.S-m-StatNoterEquipe-Membres-Bloc {
+    /* <T> */
+    border: 2px solid #f52447;
+    border-radius: 20px 20px 50% 50%;
+    background-color: #fa4e6a;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(100, 100, 100, 0.7);
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Membres-Bloc button {
+    /* <T> */
+    border: 2px solid #f5244700;
+    background-color: #fa4e6b00;
+    cursor: pointer;
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Membres-img img {
+    /* <T> */
+    background-color: #fa4e6a;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.S-main-tital-StatNoterEquipe {
+    /* <T> */
+    color: var(--color);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.S-m-StatNoterEquipe-Membres-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact, sans-serif;
+    background-color: #fa4e6a;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 25px;
+    font-family: Impact, sans-serif;
+    box-shadow: 0px 3px 2px rgba(100, 100, 100, 0.6);
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Membres-Bloc-nb label {
+    cursor: pointer;
+}
+
+.S-m-StatNoterEquipe-Membres-nom {
+    /* <T> */
+    color: var(--color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-StatNoterEquipe-Actif-Bloc {
+    /* <T> */
+    border: 2px solid #d1d1d1;
+    border-radius: 20px 20px 50% 50%;
+    background-color: #e6e3e1;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(100, 100, 100, 0.7);
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Actif-Bloc-img img {
+    /* <T> */
+    background-color: #e6e3e1;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.S-m-StatNoterEquipe-Actif-Bloc-img button {
+    /* <T> */
+    background-color: #e6e3e100;
+    border: 2px solid #d1d1d100;
+}
+
+.S-m-StatNoterEquipe-Actif-Bloc-nb {
+    /* >T> */
+    font-size: 25px;
+    font-family: Impact, sans-serif;
+    background-color: #e6e3e1;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 2px rgba(100, 100, 100, 0.6);
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Actif-Bloc-nb label {
+    cursor: pointer;
+}
+
+.S-m-StatNoterEquipe-Actif-nom {
+    /* >T> */
+    color: var(--color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-StatNoterEquipe-Blesse-Bloc {
+    /* <T> */
+    border: 2px solid #ffea28;
+    border-radius: 20px 20px 50% 50%;
+    background-color: #fff7af;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(100, 100, 100, 0.7);
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Blesse-Bloc-img img {
+    /* <T> */
+    background-color: #fff7af;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 3px 2px rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.S-m-StatNoterEquipe-Blesse-Bloc-img button {
+    /* <T> */
+    background-color: #fff7af00;
+    border: 2px solid #ffea2800;
+}
+
+.S-m-StatNoterEquipe-Blesse-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact, sans-serif;
+    background-color: #fff7af;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 2px rgba(100, 100, 100, 0.6);
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Blesse-Bloc-nb label {
+    cursor: pointer;
+}
+
+.S-m-StatNoterEquipe-Blesse-nom {
+    /* <T> */
+    color: var(--color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-m-StatNoterEquipe-Absent-Bloc {
+    /* <T> */
+    border: 2px solid #88fdea;
+    border-radius: 20px 20px 50% 50%;
+    background-color: #affff2;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(100, 100, 100, 0.7);
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Absent-Bloc-img img {
+    /* <T> */
+    background-color: #affff2;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 3px 2px rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.S-m-StatNoterEquipe-Absent-Bloc-img button {
+    /* <T> */
+    background-color: #affff200;
+    border: 2px solid #88fde900;
+}
+
+.S-m-StatNoterEquipe-Absent-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact, sans-serif;
+    background-color: #affff2;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 2px rgba(100, 100, 100, 0.6);
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Absent-Bloc-nb label {
+    cursor: pointer;
+}
+
+.S-m-StatNoterEquipe-Absent-nom {
+    /* <T> */
+    color: var(--color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.S-m-StatNoterEquipe-Suspendu-Bloc {
+    /* <T> */
+    border: 2px solid #ab7eff;
+    border-radius: 20px 20px 50% 50%;
+    background-color: #c4a6fd;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(100, 100, 100, 0.7);
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Suspendu-Bloc-img img {
+    /* <T> */
+    background-color: #c4a6fd;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0px 2px 3px rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.S-m-StatNoterEquipe-Suspendu-Bloc-img button {
+    /* <T> */
+    background-color: #c4a6fd00;
+    border: 2px solid #ab7eff00;
+}
+
+.S-m-StatNoterEquipe-Suspendu-Bloc-nb {
+    /* <T> */
+    font-size: 25px;
+    font-family: Impact, sans-serif;
+    background-color: #c4a6fd;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 2px rgba(100, 100, 100, 0.5);
+    /* <H> */
+}
+
+.S-m-StatNoterEquipe-Suspendu-Bloc-nb label {
+    cursor: pointer;
+}
+
+.S-m-StatNoterEquipe-Suspendu-nom {
+    /* <T> */
+    color: var(--color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.S-main-TableStatMembresNotreEquipe caption {
+    margin-bottom: 12px;
+    color: var(--color);
+}
+
+.S-main-TableStatMembresNotreEquipe table,
+.S-main-TableStatMembresNotreEquipe th,
+.S-main-TableStatMembresNotreEquipe td {
+    /* <T> */
+    border: 1px solid rgb(104, 104, 104);
+    border-collapse: collapse;
+    /* <H> */
+}
+
+.S-main-TableStatMembresNotreEquipe table {
+    /* <T> */
+    border: solid 2px #082190;
+    background-color: #0c2ec4;
+}
+
+.S-main-TableStatMembresNotreEquipe tr {
+    background-color: #f1f1f1;
+    /* <H> */
+}
+
+.S-main-TableStatMembresNotreEquipe th,
+.S-main-TableStatMembresNotreEquipe td {
+    /* <T> */
+    border: solid 1px #333a60;
+    padding: 6px;
+    /* <H> */
+}
+
+.S-main-TableStatMembresNotreEquipe th {
+    background-color: #0c2ec4;
+    color: #efffff;
+}
+
+.S-main-TableStatMembresNotreEquipe tr:nth-child(even) {
+    background-color: #e6fdff;
+}
+
+.S-main-TableStatMembresNotreEquipe input {
+    /* <T> */
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.S-main-TableStatMembresNotreEquipe select {
+    /* <T> */
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(128, 128, 128, 0);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.16);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+/*                     Main                       */
+/*                 Statistiques                   */
+/*                    :hover                   <H>*/
+
+
+.S-main-TableStatMembresNotreEquipe tr:hover {
+    background-color: rgb(179, 255, 173);
+}
+
+.S-main-TableStatMembresNotreEquipe tr:hover td:is([headers="N_ht"]) {
+    background-color: rgb(214, 251, 66);
+}
+
+.S-main-TableStatMembresNotreEquipe select:hover {
+    background-color: rgba(255, 255, 255, 0.463);
+}
+
+.S-m-StatNoterEquipe-Membres-Bloc:hover,
+.S-m-StatNoterEquipe-Membres-Bloc:hover .S-m-StatNoterEquipe-Membres-Bloc-nb {
+    /* <T> */
+    /* <C> */
+    box-shadow: 0px 5px 3px rgb(53, 53, 53);
+}
+
+.S-m-StatNoterEquipe-Actif-Bloc:hover,
+.S-m-StatNoterEquipe-Actif-Bloc:hover .S-m-StatNoterEquipe-Actif-Bloc-nb {
+    /* <T> */
+    /* <C> */
+    box-shadow: 0px 5px 3px rgb(53, 53, 53);
+}
+
+.S-m-StatNoterEquipe-Blesse-Bloc:hover,
+.S-m-StatNoterEquipe-Blesse-Bloc:hover .S-m-StatNoterEquipe-Blesse-Bloc-nb {
+    /* <T> */
+    /* <C> */
+    box-shadow: 0px 5px 3px rgb(53, 53, 53);
+}
+
+.S-m-StatNoterEquipe-Absent-Bloc:hover,
+.S-m-StatNoterEquipe-Absent-Bloc:hover .S-m-StatNoterEquipe-Absent-Bloc-nb {
+    /* <T> */
+    /* <C> */
+    box-shadow: 0px 5px 3px rgb(53, 53, 53);
+}
+
+.S-m-StatNoterEquipe-Suspendu-Bloc:hover,
+.S-m-StatNoterEquipe-Suspendu-Bloc:hover .S-m-StatNoterEquipe-Suspendu-Bloc-nb {
+    /* <T> */
+    /* <C> */
+    box-shadow: 0px 5px 3px rgb(53, 53, 53);
+}
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/*                    Footer                       */
+/*            Tailles et organisation           <T>*/
+
+
+.style-footer{
+    display:flex; 
+    flex-flow: row nowrap;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /*<C>*/
+}
+
+.S-footer-listNav{
+    display: table ;
+    width: 150px;
+    padding: 2% 2px 2px 2px;
+    margin: 0px auto 0px 8%;
+    font-size: 16px;
+    font-family:sans-serif;
+    list-style-position: inside;
+}
+
+.S-footer-listNav h5{
+    margin-left: 0px ;
+    font-size: 20px;
+}
+
+.S-footer-listNav li{
+    margin: 5px 0px 0px 10px;
+}
+
+.S-footer-Site{
+    display: block;
+    height: 20px;
+    padding-top:  calc(2% + 200px) ;
+    padding-bottom: 10px;
+    text-align:center;
+    font-size: 14px;
+    list-style-position: inside;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.S-footer-Members{
+    display: block;
+    width: 145px;
+    margin-left: auto;
+    margin-right: 7%;
+    padding-top: 2%;
+} 
+
+.S-footer-Members li{
+    display: block;
+    list-style-position: inside;
+}
+ 
+.S-footer-Members ul{
+    list-style-position: inside;
+}
+
+.S-footer-Members h6{
+    margin: 0px 15px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.S-footer-Members P{
+    width: auto;
+    height: 25px;
+    font-size: 16px;
+}
+
+
+/*                    Footer                       */
+/*               Couleurs et style              <C>*/
+
+
+.style-footer{
+    /*<T>*/
+    background-color: rgba(124, 124, 124, var(--opacity-bacColor));
+    box-shadow: 0px -2px 5px rgb(56, 56, 56);
+    color: var(--color);
+    background-color: aliceblue;
+}
+
+.S-footer-listNav button{
+    background-color: inherit;
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor:pointer;
+    color: var(--color);
+    text-decoration: none;
+    /*<H>*/
+}
+
+.S-footer-Site a{
+    color: var(--color);
+    text-decoration:none;
+    /*<H>*/
+}
+
+.S-footer-icon{
+    display: flex; 
+    flex-flow: row wrap;
+    width: 210px;
+}
+
+.S-footer-icon div{
+    margin: 5px;
+}
+
+.S-footer-icon img{
+    height: 45px; 
+    opacity: 0.5; 
+    filter: grayscale(90%); 
+}
+
+
+
+/*                    Footer                       */
+/*                    :hover                    <H>*/
+
+
+.S-footer-listNav button:hover{
+    transition: 0.3s;
+    color: rgb(247, 12, 12);
+    font-size: 15px;
+    border-left: 10px solid #00000000;
+}
+
+.S-footer-Site a:hover{
+    transition: 0.4s;
+    color: rgb(79, 154, 219);
+    font-size: 17px;
+} 
+
+
+
+/*                 @media screen                   */
+
+
+@media screen and (max-width: 1050px){
+}
+
+@media screen and (max-width: 800px){
+}
+
+@media screen and (max-width: 690px){
+}
+
+@media screen and (max-width: 670px){
+}
+
+@media screen and (max-width: 650px){
+}
+
+@media screen and (max-width: 450px){
+}
+
+@media screen and (max-width: 350px){
+}
+
+
+
+/*  pour tous   */
+
+.S-adroit{
+    margin-left: auto;
+}
+
+.S-gauche{
+    margin-right: auto;
+}
+
+.S-elementCache{
+    display:none;
+}
